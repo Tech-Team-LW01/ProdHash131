@@ -2,7 +2,7 @@ import { Course } from "../../types/courses";
 
 export const specialisationInn8n: Course = {
     _id: "specialisation-in-n8n",
-    title:" [B][R]Specialisation-in-n8n[/R][B] |   No-Code Automation Training with n8n",
+    title:" [B][R]No-Code Automation Training with n8n[/R][B] ",
     
     slug: "specialisation-in-n8n",
     rating: 5,
