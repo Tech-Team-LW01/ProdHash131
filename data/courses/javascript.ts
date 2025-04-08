@@ -15,7 +15,7 @@ export const specialisationjavascript: Course = {
     category: "Web Development",  // Changed from "AI" (misaligned)
     shortDescription: "Become a JavaScript Pro – Build Real-World Apps with Node.js, React & More!",  // Action-oriented
     paymentLink: "https://rzp.io/rzp/JLv8cEhD",
-    backgroundImage: "/assets/javascript-hero-banner.jpg",  // New JS-themed image
+    backgroundImage: "/assets/cources/courseDetails/jjavascript/javascript.jpg",  // New JS-themed image
     learningOutcomes: [
         "Master JavaScript Fundamentals (ES6+, Async, OOP)",  
         "Build Interactive UIs with React (Hooks, State Mgmt)",  
@@ -178,7 +178,7 @@ export const specialisationjavascript: Course = {
         sectionTitle: "Master Core JavaScript",  // Clear focus
         category: "Language Features, Browser APIs & Developer Tools",  // Specific scope
         toolsCount: "12+",  // Still comprehensive
-        displayImage: "/assets/courses/courseDetails/core-js.jpg",  // JS-focused image
+        displayImage: "/assets/cources/courseDetails/jjavascript/javascript1.jpg",  // JS-focused image
         tools: [
             {
                 id: "es6",

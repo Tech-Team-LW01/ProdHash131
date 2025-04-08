@@ -2,6 +2,24 @@ import { Course } from "../../types/courses";
 
 export const specialisationInReactjavascript: Course = {
     _id: "specialisation-in-javascriptandreact",
+<<<<<<< HEAD
+    title:" [B][R]Master JavaScript & React: Build Modern Web Apps[/R][B] ",
+    
+    slug: "specialisation-in-javascriptandreact",
+    rating: 5,
+    totalRatings: 10,
+    duration: "Beginner to Advance",
+    globalStatus: "GLOBALLY RECOGNISED PROGRAM",
+    hours: "8+",
+    //startDate: "Starting On 22nd March (Weekend Batch)",
+    price:2500 ,
+    originalPrice: 900,
+    enrolledStudents: 12000,
+    category: "Artificial Intelligence",
+    shortDescription: "19th - 20th April, 2025 (Sat - Sun)",
+    paymentLink: " https://rzp.io/rzp/JLv8cEhD",
+    backgroundImage: "/assets/n8n (3).jpg",
+=======
   title: "[B][R]Master JavaScript & React: Build Modern Web Apps[/R][B]",
   slug: "specialisation-in-javascriptandreact",
   rating: 5,
@@ -16,6 +34,7 @@ export const specialisationInReactjavascript: Course = {
   shortDescription: "Master JavaScript fundamentals and build dynamic UIs with React. Start your journey as a frontend developer!",
   paymentLink: "https://rzp.io/rzp/JLv8cEhD",
   backgroundImage: "/assets/javascript-react-banner.jpg", // Update image path
+>>>>>>> 7cddbc28426753aab6ec1a186b6f32d5c5b09793
 
   learningOutcomes: [
     "Master JavaScript (ES6+) fundamentals",  
@@ -33,6 +52,19 @@ features: [
     "Certificate of completion (globally recognized)",  
     "Exclusive React job-prep kit (resume templates, interview Q&A)"  
 ],
+<<<<<<< HEAD
+ 
+    skills: [
+        "Visual Programming",
+        "Logic Building",
+        "Webhook Handling",
+        "State Management",
+        "Cron Scheduling",
+        "API Requests",
+        "Data Mapping",
+        "Flow Debugging"
+    ],
+=======
 
 skills: [
     "Modern JavaScript (ES6+)",  
@@ -44,6 +76,7 @@ skills: [
     "Responsive design (CSS-in-JS, Tailwind)",  
     "Debugging with React DevTools"  
 ],
+>>>>>>> 7cddbc28426753aab6ec1a186b6f32d5c5b09793
 
 requirements: [
     "No prior coding experience needed!",  
