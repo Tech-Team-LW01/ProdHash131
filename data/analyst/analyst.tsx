@@ -657,6 +657,33 @@ export const analystData: CourseAnalystData = {
     companiesLabel: "Top Companies Hiring React Devs",  
     jobsLabel: "Global Job Openings",  
     jobsDescription: "Jobs listed on LinkedIn, Naukri, and AngelList for React/JavaScript roles"  
+},
+"specialisation-in-javascriptandreactnode": {
+    title: "Full-Stack JavaScript Developers – 2025 Job Outlook & Salaries",  
+    subtitle: "React + Node.js/Express Demand in Modern Web Development",  
+    salary: {
+      label: "India Salary Range (Annual INR)",  
+      values: [800000, 1500000, 2500000, 4000000] // Fresher → Senior → Architect  
+    }, 
+    companies: [  
+      "Flipkart",  
+      "Swiggy",  
+      "Amazon",  
+      "Netflix",  
+      "Meta",  
+      "PayPal",  
+      "Uber",  
+      "Zomato",  
+      "Hotstar"  
+    ],  
+    demand: 82, // Higher than average tech job growth  
+    jobCount: "42,000+",  
+    description: "Full-stack JavaScript developers (React + Node.js) dominate India's tech hiring. With 75% of startups and enterprises building with this stack, professionals skilled in React hooks, Express APIs, and system design can target roles like:",  
+    yearLabel: "In 2025",  
+    salaryLabel: "Average Annual Salaries (INR)",  
+    companiesLabel: "Top Companies Hiring React Devs",  
+    jobsLabel: "Global Job Openings",  
+    jobsDescription: "Jobs listed on LinkedIn, Naukri, and AngelList for React/JavaScript roles"  
 }
 
  
