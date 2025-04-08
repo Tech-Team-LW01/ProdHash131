@@ -15,7 +15,7 @@ export const specialisationInReactjavascript: Course = {
   category: "Web Development",
   shortDescription: "Master JavaScript fundamentals and build dynamic UIs with React. Start your journey as a frontend developer!",
   paymentLink: "https://rzp.io/rzp/zkBOn8P",
-  backgroundImage: "/assets/javascript-react-banner.jpg", // Update image path
+  backgroundImage: "/assets/cources/courseDetails/jjavascript/javascript.jpg", // Update image path
 
   learningOutcomes: [
     "Master JavaScript (ES6+) fundamentals",  
