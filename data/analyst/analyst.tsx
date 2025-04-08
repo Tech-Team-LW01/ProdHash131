@@ -231,6 +231,30 @@ export const analystData: CourseAnalystData = {
 },
 
 
+"specialisation-in-javascript": {
+  "title": "Exploding Demand",
+  "subtitle": "for JavaScript Developers",  
+  "salary": {
+    "label": "Salary Ranges (2025)",
+    "values": [500000, 1200000, 3000000] // 5L, 12L, 30L
+  },
+  "companies": [
+    "Google", "Microsoft", "Amazon",
+    "Flipkart", "Swiggy", "Zomato",
+    "Paytm", "Razorpay", "Freshworks",
+    "Netflix", "Meta", "Uber"
+  ],
+  "demand": 42, // % growth (Source: Naukri)
+  "jobCount": "58,000+", // Indeed + Naukri (2025)
+  "description": "JavaScript dominates web development, with 98% of websites using it. In 2025, entry-level JS devs earn ₹5–12L/year, while experts in React/Node.js hit ₹30L+. Startups and MNCs alike compete for JS talent due to its role in building scalable apps, AI integrations, and cross-platform tools.",
+  "yearLabel": "2025 Trends",
+  "salaryLabel": "Annual Salaries (₹)",
+  "companiesLabel": "Top Tech Companies Hiring",
+  "jobsLabel": "Open JS Roles",
+  "jobsDescription": "Jobs on Naukri, LinkedIn, AngelList (India)"
+},
+
+
 
 
 "specialisation-in-java": {

@@ -519,5 +519,10 @@ export const faqContent: FAQContent = {
   "specialisation-in-ai-ml": {
     ...sharedSpecializationContent
   },
+  "specialisation-in-javascript": {
+    ...sharedSpecializationContent
+  },
+
+  
  
 };
