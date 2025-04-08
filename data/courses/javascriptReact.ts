@@ -2,7 +2,7 @@ import { Course } from "../../types/courses";
 
 export const specialisationInReactjavascript: Course = {
     _id: "specialisation-in-javascriptandreact",
-    title:" [B][R]No-Code Automation Training with n8n[/R][B] ",
+    title:" [B][R]Master JavaScript & React: Build Modern Web Apps[/R][B] ",
     
     slug: "specialisation-in-javascriptandreact",
     rating: 5,
@@ -12,7 +12,7 @@ export const specialisationInReactjavascript: Course = {
     hours: "8+",
     //startDate: "Starting On 22nd March (Weekend Batch)",
     price:2500 ,
-    originalPrice: 7500,
+    originalPrice: 900,
     enrolledStudents: 12000,
     category: "Artificial Intelligence",
     shortDescription: "19th - 20th April, 2025 (Sat - Sun)",
@@ -34,7 +34,7 @@ features: [
     "Technical Support for 90 Days",
     "Premium #13 AI Community"
 ],
-
+ 
     skills: [
         "Visual Programming",
         "Logic Building",
