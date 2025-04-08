@@ -14,7 +14,7 @@ export const specialisationInReactjavascript: Course = {
   enrolledStudents: 12000,
   category: "Web Development",
   shortDescription: "Master JavaScript fundamentals and build dynamic UIs with React. Start your journey as a frontend developer!",
-  paymentLink: "https://rzp.io/rzp/JLv8cEhD",
+  paymentLink: "https://rzp.io/rzp/zkBOn8P",
   backgroundImage: "/assets/javascript-react-banner.jpg", // Update image path
 
   learningOutcomes: [
@@ -179,7 +179,7 @@ requirements: [
        
     ],
 
-    certificateImage: "/assets/certificate/n8n (1).jpg",
+    certificateImage: "/assets/cources/courseDetails/jjavascript/2.jpg",
 
     project: [
         {
@@ -232,7 +232,7 @@ requirements: [
         sectionTitle: "Complete JavaScript & React Developer Toolkit",
         category: "Modern Frontend Development & Real-World Projects",
         toolsCount: "15+",
-        displayImage: "/assets/courses/courseDetails/javascript-react.jpg", // Updated image path
+        displayImage: "/assets/cources/courseDetails/jjavascript/react-js.jpg", // Updated image path
         tools: [
             {
                 id: "js-fundamentals",

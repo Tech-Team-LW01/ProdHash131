@@ -263,7 +263,7 @@ requirements: [
        
     ],
 
-    certificateImage: "/assets/certificate/n8n (1).jpg",
+    certificateImage: "/assets/cources/courseDetails/jjavascript/3.jpg",
 
     project: [
         {
@@ -316,7 +316,7 @@ requirements: [
       sectionTitle: "Full-Stack JavaScript Developer Toolkit",
       category: "End-to-End Web Development with React & Node.js",
       toolsCount: "15+",
-      displayImage: "/assets/courses/courseDetails/javascript-react.jpg", // Verify image path
+      displayImage: "/assets/cources/courseDetails/jjavascript/last.jpg", // Verify image path
       tools: [
           {
               id: "js-fundamentals",

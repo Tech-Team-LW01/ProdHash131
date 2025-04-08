@@ -9,12 +9,12 @@ export const specialisationjavascript: Course = {
     duration: "Beginner to Advanced",  // More professional than "Advance"
     globalStatus: "GLOBALLY RECOGNIZED CERTIFICATION",  // "Program" → "Certification" (stronger)
     hours: "40+ Hours",  // More realistic for mastery (8+ is too short)
-    price: 2500,
-    originalPrice: 7500,
+    price: 900,
+    originalPrice: 3000,
     enrolledStudents: 12000,
     category: "Web Development",  // Changed from "AI" (misaligned)
     shortDescription: "Become a JavaScript Pro – Build Real-World Apps with Node.js, React & More!",  // Action-oriented
-    paymentLink: "https://rzp.io/rzp/JLv8cEhD",
+    paymentLink: "https://rzp.io/rzp/YA1gwfp",
     backgroundImage: "/assets/cources/courseDetails/jjavascript/javascript.jpg",  // New JS-themed image
     learningOutcomes: [
         "Master JavaScript Fundamentals (ES6+, Async, OOP)",  
@@ -125,7 +125,7 @@ export const specialisationjavascript: Course = {
        
     ],
 
-    certificateImage: "/assets/certificate/n8n (1).jpg",
+    certificateImage: "/assets/cources/courseDetails/jjavascript/1.jpg",
 
     project: [
         {
