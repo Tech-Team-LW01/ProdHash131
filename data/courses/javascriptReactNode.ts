@@ -17,32 +17,32 @@ export const specialisationInReactjavascriptnode: Course = {
   "paymentLink": "https://rzp.io/rzp/JLv8cEhD",
   "backgroundImage": "/assets/javascript-react-banner.jpg", // Ensure this path is correct
 
-  learningOutcomes: [
-    "Master JavaScript (ES6+) fundamentals",  
-    "Build interactive UIs with React.js",  
-    "State management (Context API, Redux)",  
-    "API integration (REST, Fetch, Axios)",  
-    "Debugging & performance optimization",  
-    "Deploy apps to production (Vercel/Netlify)",  
-    "Build full-stack apps with React + Firebase"  
+ learningOutcomes: [
+    "Master JavaScript (ES6+) fundamentals: Async/Await, Modules, OOP",  
+    "Build dynamic UIs with React (Hooks, Components, JSX)",  
+    "State management without Redux (Context API, useReducer)",  
+    "Develop RESTful APIs with Node.js & Express",  
+    "Integrate React frontend with Express backend (Fetch/Axios)",  
+    "Debug full-stack apps (Chrome DevTools, Postman)",  
+    "Deploy React apps (Vercel) & Node.js APIs (Render)"  
 ],
 features: [
-    "5+ real-world projects (e.g., e-commerce UI, task tracker)",  
-    "Lifetime access to updated content & community",  
-    "1:1 code reviews & career guidance",  
-    "Certificate of completion (globally recognized)",  
-    "Exclusive React job-prep kit (resume templates, interview Q&A)"  
+    "5+ hands-on projects (e.g., Weather App, Blog API, Task Manager)",  
+    "Lifetime access to updates & private developer community",  
+    "1:1 code reviews & career mentorship",  
+    "Globally recognized certification",  
+    "Exclusive job-prep kit (API interview Q&A, resume templates)"  
 ],
 
 skills: [
-    "Modern JavaScript (ES6+)",  
-    "React hooks (useState, useEffect, useContext)",  
-    "Component-based architecture",  
-    "Routing with React Router",  
-    "State management (Redux Toolkit)",  
-    "API integration & authentication (JWT)",  
-    "Responsive design (CSS-in-JS, Tailwind)",  
-    "Debugging with React DevTools"  
+    "Modern JavaScript (ES6+ Promises, Destructuring)",  
+    "React Hooks (useState, useEffect, useContext)",  
+    "Component lifecycle & reusable architecture",  
+    "Routing with React Router v6",  
+    "API design with Express (Middleware, Error Handling)",  
+    "Frontend-backend integration (CORS, JWT basics)",  
+    "Responsive UI (CSS Modules, Flexbox)",  
+    "Debugging full-stack apps (Network Tab, Logging)"  
 ],
 
 requirements: [
@@ -229,52 +229,52 @@ requirements: [
     ],
 
     toolsData: {
-        sectionTitle: "Complete JavaScript & React Developer Toolkit",
-        category: "Modern Frontend Development & Real-World Projects",
-        toolsCount: "15+",
-        displayImage: "/assets/courses/courseDetails/javascript-react.jpg", // Updated image path
-        tools: [
-            {
-                id: "js-fundamentals",
-                icon: "TrendingUp", // Use a code-related icon
-                title: "Master JavaScript ES6+ (Variables, Functions, Async/Await)"
-            },
-            {
-                id: "react-core",
-                icon: "Cpu", // Represents React's component-driven architecture
-                title: "Build React components (Props, State, Hooks, JSX)"
-            },
-            {
-                id: "routing",
-                icon: "BarChart", // For React Router
-                title: "Implement client-side routing with React Router"
-            },
-            {
-                id: "state-management",
-                icon: "TrendingUp", // For state management
-                title: "Manage app state with Context API & Redux Toolkit"
-            },
-            {
-                id: "apis",
-                icon: "Cpu", // For API integration
-                title: "Fetch data from REST APIs (Axios, Fetch)"
-            },
-            {
-                id: "authentication",
-                icon: "TrendingUp", // For auth
-                title: "Add user auth (Firebase, JWT, protected routes)"
-            },
-            {
-                id: "styling",
-                icon: "BarChart", // For CSS/UI
-                title: "Style apps with Tailwind CSS & CSS-in-JS"
-            },
-            {
-                id: "deployment",
-                icon: "Cpu", // For deployment
-                title: "Deploy React apps to Vercel/Netlify"
-            }
-        ]
-    },
+      sectionTitle: "Full-Stack JavaScript Developer Toolkit",
+      category: "End-to-End Web Development with React & Node.js",
+      toolsCount: "15+",
+      displayImage: "/assets/courses/courseDetails/javascript-react.jpg", // Verify image path
+      tools: [
+          {
+              id: "js-fundamentals",
+              icon: "BarChart", // Represents core JS
+              title: "Master JavaScript ES6+ (Async/Await, Modules, OOP)"
+          },
+          {
+              id: "react-core",
+              icon: "Cpu", // For React components
+              title: "Build UIs with React (Hooks, JSX, Component Lifecycle)"
+          },
+          {
+              id: "routing",
+              icon: "Cpu", // For routing
+              title: "Client-side routing with React Router v6"
+          },
+          {
+              id: "state-management",
+              icon: "TrendingUp", // For state
+              title: "State management with Context API & useReducer"
+          },
+          {
+              id: "node-express",
+              icon: "BarChart", // For backend
+              title: "Develop REST APIs with Node.js & Express"
+          },
+          {
+              id: "api-integration",
+              icon: "Cpu", // For APIs
+              title: "Connect React to Express APIs (Fetch/Axios)"
+          },
+          {
+              id: "error-handling",
+              icon: "TrendingUp", // For debugging
+              title: "Debug full-stack apps (DevTools, Postman)"
+          },
+          {
+              id: "deployment",
+              icon: "BarChart", // For deployment
+              title: "Deploy React (Vercel) & Node.js (Render)"
+          }
+      ]
+  },
     programBy: "Vimal Daga"
 }
