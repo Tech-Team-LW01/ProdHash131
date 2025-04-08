@@ -299,6 +299,7 @@ export const faqContent: FAQContent = {
     ],
   },
 
+
   // Using shared content for other specializations
   "specialisation-in-prometheus-grafana": {
     ...sharedSpecializationContent
@@ -523,6 +524,9 @@ export const faqContent: FAQContent = {
     ...sharedSpecializationContent
   },
   "specialisation-in-javascriptandreact":{
+    ...sharedSpecializationContent
+  },
+  "specialisation-in-javascriptandreactnode":{
     ...sharedSpecializationContent
   }
 
