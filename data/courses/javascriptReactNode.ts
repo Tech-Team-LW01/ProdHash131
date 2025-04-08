@@ -1,21 +1,21 @@
 import { Course } from "../../types/courses";
 
-export const specialisationInReactjavascript: Course = {
-    _id: "specialisation-in-javascriptandreact",
-  title: "[B][R]Master JavaScript & React: Build Modern Web Apps[/R][B]",
-  slug: "specialisation-in-javascriptandreact",
-  rating: 5,
-  totalRatings: 10,
-  duration: "Beginner to Advanced",
-  globalStatus: "GLOBALLY RECOGNIZED CERTIFICATION",
-  hours: "40+ Hours of Hands-On Training",
-  price: 2500,
-  originalPrice: 7500,
-  enrolledStudents: 12000,
-  category: "Web Development",
-  shortDescription: "Master JavaScript fundamentals and build dynamic UIs with React. Start your journey as a frontend developer!",
-  paymentLink: "https://rzp.io/rzp/JLv8cEhD",
-  backgroundImage: "/assets/javascript-react-banner.jpg", // Update image path
+export const specialisationInReactjavascriptnode: Course = {
+    "_id": "specialisation-in-javascriptandreactnode",
+  "title": "[B][R]Full-Stack JavaScript Mastery: React & Node.js/Express[/R][B]",
+  "slug": "specialisation-in-javascriptandreact",
+  "rating": 5,
+  "totalRatings": 10,
+  "duration": "Beginner to Advanced",
+  "globalStatus": "GLOBALLY RECOGNIZED CERTIFICATION",
+  "hours": "40+ Hours of Hands-On Training",
+  "price": 2500,
+  "originalPrice": 7500,
+  "enrolledStudents": 12000,
+  "category": "Web Development",
+  "shortDescription": "Become a full-stack JavaScript developer! Master React for frontend, Node.js/Express for backend, and build scalable web apps without databases.",
+  "paymentLink": "https://rzp.io/rzp/JLv8cEhD",
+  "backgroundImage": "/assets/javascript-react-banner.jpg", // Ensure this path is correct
 
   learningOutcomes: [
     "Master JavaScript (ES6+) fundamentals",  

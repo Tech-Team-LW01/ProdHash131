@@ -630,7 +630,35 @@ export const analystData: CourseAnalystData = {
     companiesLabel: "Top Companies Hiring Web Scraping Experts",
     jobsLabel: "Job Opportunities",
     jobsDescription: "Total jobs found across Naukri, Glassdoor, Indeed, and LinkedIn"
+},
+"specialisation-in-javascriptandreact": {
+    title: "JavaScript & React Developers – Salaries, Hiring & Job Trends",  
+    subtitle: "Frontend Development Demand in 2025",  
+    salary: {
+      label: "Salaries for React Developers (India)",  
+      values: [600000, 1200000, 1800000, 3000000] // Fresher to Lead/Architect level  
+    },  
+    companies: [  
+      "Flipkart",  
+      "Swiggy",  
+      "Amazon",  
+      "Netflix",  
+      "Meta",  
+      "PayPal",  
+      "Uber",  
+      "Zomato",  
+      "Hotstar"  
+    ],  
+    demand: 82, // Higher than average tech job growth  
+    jobCount: "42,000+",  
+    description: "React and JavaScript remain the backbone of modern web development. With 90% of Fortune 500 companies using React, skilled developers are needed to build scalable, interactive UIs. Mastery of React hooks, state management, and performance optimization can lead to roles like Frontend Engineer, UI Developer, or Fullstack Developer.",  
+    yearLabel: "In 2025",  
+    salaryLabel: "Average Annual Salaries (INR)",  
+    companiesLabel: "Top Companies Hiring React Devs",  
+    jobsLabel: "Global Job Openings",  
+    jobsDescription: "Jobs listed on LinkedIn, Naukri, and AngelList for React/JavaScript roles"  
 }
+
  
 };
 

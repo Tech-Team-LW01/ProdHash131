@@ -18,7 +18,7 @@ import {specialisationInn8n} from "./n8n";
 import {specialisationInnBeautifullsoup} from "./beautifulsoup";
 import {specialisationjavascript} from "./javascript";
 import {specialisationInReactjavascript} from "./javascriptReact"
-
+import {specialisationInReactjavascriptnode} from "./javascriptReactNode"
 export const courseInfo: Course[] = [
  
   specialisationInDevops,
@@ -37,7 +37,8 @@ export const courseInfo: Course[] = [
   specialisationInn8n,
   specialisationInnBeautifullsoup,
   specialisationjavascript,
-  specialisationInReactjavascript
+  specialisationInReactjavascript,
+  specialisationInReactjavascriptnode
 
 
  
