@@ -8,7 +8,7 @@ export const specialisationInReactjavascriptnode: Course = {
   "totalRatings": 10,
   "duration": "Beginner to Advanced",
   "globalStatus": "GLOBALLY RECOGNIZED CERTIFICATION",
-  "hours": "40+ Hours of Hands-On Training",
+  "hours": "30+ Hours of Hands-On Training",
   "price": 3000,
   "originalPrice": 8000,
   "enrolledStudents": 12000,
@@ -248,7 +248,7 @@ requirements: [
 
     highlights: [
         {
-            number: "40+",
+            number: "30+",
             description: "Hours of Hands-on Coding"
         },
         {

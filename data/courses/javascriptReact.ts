@@ -8,7 +8,7 @@ export const specialisationInReactjavascript: Course = {
   totalRatings: 10,
   duration: "Beginner to Advanced",
   globalStatus: "GLOBALLY RECOGNIZED CERTIFICATION",
-  hours: "40+ Hours of Hands-On Training",
+  hours: "20+ Hours of Hands-On Training",
   price: 2000,
   originalPrice: 5000,
   enrolledStudents: 12000,
@@ -113,7 +113,7 @@ requirements: [
     
         // ========== REACT (4 Modules) ==========
         {
-          id: 11,
+          id: 5,
           title: "React Components & JSX",
           description: "Build UIs with component architecture.",
           content: [
@@ -124,7 +124,7 @@ requirements: [
           ]
         },
         {
-          id: 12,
+          id: 6,
           title: "React Hooks & State Management",
           description: "Manage state efficiently with hooks.",
           content: [
@@ -135,7 +135,7 @@ requirements: [
           ]
         },
         {
-          id: 13,
+          id: 7,
           title: "Routing & Performance Optimization",
           description: "Build SPAswith React Router.",
           content: [
@@ -146,7 +146,7 @@ requirements: [
           ]
         },
         {
-          id: 14,
+          id: 8,
           title: "Advanced React Patterns",
           description: "Learn scalable frontend architecture.",
           content: [
@@ -164,7 +164,7 @@ requirements: [
 
     highlights: [
         {
-            number: "40+",
+            number: "20+",
             description: "Hours of Hands-on Coding"
         },
         {
