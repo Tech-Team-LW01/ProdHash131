@@ -522,6 +522,9 @@ export const faqContent: FAQContent = {
   "specialisation-in-javascript": {
     ...sharedSpecializationContent
   },
+  "specialisation-in-javascriptandreact":{
+    ...sharedSpecializationContent
+  }
 
   
  
