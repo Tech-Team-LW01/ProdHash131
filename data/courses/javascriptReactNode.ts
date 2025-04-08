@@ -9,12 +9,12 @@ export const specialisationInReactjavascriptnode: Course = {
   "duration": "Beginner to Advanced",
   "globalStatus": "GLOBALLY RECOGNIZED CERTIFICATION",
   "hours": "40+ Hours of Hands-On Training",
-  "price": 2500,
-  "originalPrice": 7500,
+  "price": 3000,
+  "originalPrice": 8000,
   "enrolledStudents": 12000,
   "category": "Web Development",
   "shortDescription": "Become a full-stack JavaScript developer! Master React for frontend, Node.js/Express for backend, and build scalable web apps without databases.",
-  "paymentLink": "https://rzp.io/rzp/JLv8cEhD",
+  "paymentLink": "https://rzp.io/rzp/6guyqLx2",
   "backgroundImage": "/assets/javascript-react-banner.jpg", // Ensure this path is correct
 
  learningOutcomes: [
