@@ -1,5 +1,6 @@
 // data/faq/faq.ts
 import { FAQContent } from '../../types/faq';
+import { ldapMasterclass } from '../courses/specialisation-in-ldap';
 
 // Shared content template for all specializations except DevOps
 const sharedSpecializationContent = {
@@ -533,7 +534,9 @@ export const faqContent: FAQContent = {
   },
   "haproxy-masterclass":{
     ...sharedSpecializationContent,
+  },
+  "ldap-masterclass":{
+    ...sharedSpecializationContent
   }
-  
  
 };
