@@ -8,12 +8,12 @@ export const specialisationInReactjavascriptnode: Course = {
   "totalRatings": 10,
   "duration": "Beginner to Advanced",
   "globalStatus": "GLOBALLY RECOGNIZED CERTIFICATION",
-  "hours": "40+",
+  "hours": "30+",
   "price": 3000,
   "originalPrice": 8000,
   "enrolledStudents": 12000,
   "category": "Web Development",
-  "shortDescription": "Start Date : 9th April 2025 (Wednesday,Friday)",
+  "shortDescription": "Start Date : 9th April 2025 (Wed, Fri)",
   "paymentLink": "https://rzp.io/rzp/6guyqLx2",
   "backgroundImage": "/assets/cources/courseDetails/jjavascript/javascript (1).jpg", // Ensure this path is correct
 

@@ -13,7 +13,7 @@ export const specialisationInReactjavascript: Course = {
   originalPrice: 5000,
   enrolledStudents: 12000,
   category: "Web Development",
-  shortDescription: "Master JavaScript fundamentals and build dynamic UIs with React. Start your journey as a frontend developer!",
+  shortDescription: "Start Date : 9th April 2025 (Wed, Fri)",
   paymentLink: "https://rzp.io/rzp/zkBOn8P",
   backgroundImage: "/assets/cources/courseDetails/jjavascript/javascript (1).jpg", // Update image path
 

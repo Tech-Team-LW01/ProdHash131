@@ -13,7 +13,7 @@ export const specialisationjavascript: Course = {
     originalPrice: 3000,
     enrolledStudents: 12000,
     category: "Web Development",  // Changed from "AI" (misaligned)
-    shortDescription: "Start Date : 9th April 2025",  // Action-oriented
+    shortDescription: "Start Date : 9th April 2025 (Wed, Fri)",  // Action-oriented
     paymentLink: "https://rzp.io/rzp/YA1gwfp",
     backgroundImage: "/assets/cources/courseDetails/jjavascript/javascript (1).jpg",  // New JS-themed image
     learningOutcomes: [
