@@ -18,7 +18,9 @@ import {specialisationInn8n} from "./n8n";
 import {specialisationInnBeautifullsoup} from "./beautifulsoup";
 import {specialisationjavascript} from "./javascript";
 import {specialisationInReactjavascript} from "./javascriptReact"
-import {specialisationInReactjavascriptnode} from "./javascriptReactNode"
+import {specialisationInReactjavascriptnode} from "./javascriptReactNode";
+import {specialisationInPromptEngineering} from "./specialisation-in-prompt";
+import {specialisationInHAProxy} from "./specialisation-in-HAProxy";
 export const courseInfo: Course[] = [
  
   specialisationInDevops,
@@ -38,7 +40,9 @@ export const courseInfo: Course[] = [
   specialisationInnBeautifullsoup,
   specialisationjavascript,
   specialisationInReactjavascript,
-  specialisationInReactjavascriptnode
+  specialisationInReactjavascriptnode,
+  specialisationInPromptEngineering,
+  specialisationInHAProxy,
 
 
  
