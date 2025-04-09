@@ -531,6 +531,9 @@ export const faqContent: FAQContent = {
   "prompt-engineering-masterclass": {
     ...sharedSpecializationContent
   },
+  "haproxy-masterclass":{
+    ...sharedSpecializationContent,
+  }
   
  
 };
