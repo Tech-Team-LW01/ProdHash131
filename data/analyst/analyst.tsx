@@ -740,6 +740,35 @@ export const analystData: CourseAnalystData = {
     jobsLabel: "Global Job Openings",  
     jobsDescription: "Jobs listed on LinkedIn, Indeed, and Naukri for HAProxy and Load Balancing roles"  
 },
+"ldap-masterclass": {
+    title: "LDAP Specialists – 2025 Job Outlook & Salaries",  
+    subtitle: "Directory Services & Identity Management Expert Demand in Enterprise IT",  
+    salary: {
+      label: "India Salary Range (Annual INR)",  
+      values: [600000, 1200000, 2000000, 3000000] // Junior → Mid → Senior → Architect  
+    }, 
+    companies: [  
+      "Microsoft",  
+      "IBM", 
+      "Oracle",
+      "Red Hat",
+      "Deloitte",
+      "TCS",
+      "Infosys", 
+      "Accenture",
+      "Wipro"
+    ],  
+    demand: 65, // Steady growth in enterprise IT sector  
+    jobCount: "12,000+",  
+    description: "LDAP specialists are essential for enterprise identity management and directory services. With 65% of enterprises implementing centralized authentication solutions, professionals skilled in LDAP, Active Directory, and identity management can secure roles in major IT companies.",  
+    yearLabel: "In 2025",  
+    salaryLabel: "Average Annual Salaries (INR)",  
+    companiesLabel: "Top Companies Hiring LDAP Specialists",  
+    jobsLabel: "Global Job Openings",  
+    jobsDescription: "Jobs listed on LinkedIn, Indeed, and Naukri for LDAP and Directory Services roles"  
+},
+
+
 
  
 };
