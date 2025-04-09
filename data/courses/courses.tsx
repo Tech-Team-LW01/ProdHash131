@@ -19,7 +19,7 @@ import {specialisationInnBeautifullsoup} from "./beautifulsoup";
 import {specialisationjavascript} from "./javascript";
 import {specialisationInReactjavascript} from "./javascriptReact"
 import {specialisationInReactjavascriptnode} from "./javascriptReactNode"
-import { specialisationInAWSCSACourse } from "./specialisation-in-awscsa";
+
 import { promptEngineeringMasterclass } from "./specialisation-in-prompt-engineering";
 
 
