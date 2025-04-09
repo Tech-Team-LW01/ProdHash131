@@ -1,5 +1,6 @@
 // data/faq/faq.ts
 import { FAQContent } from '../../types/faq';
+import { ldapMasterclass } from '../courses/specialisation-in-ldap';
 
 // Shared content template for all specializations except DevOps
 const sharedSpecializationContent = {
@@ -215,7 +216,6 @@ export const faqContent: FAQContent = {
       },
     ],
   },
-  
   "specialisation-in-streamlit": {
     curriculum: [
       {
@@ -528,8 +528,15 @@ export const faqContent: FAQContent = {
   },
   "specialisation-in-javascriptandreactnode":{
     ...sharedSpecializationContent
+  },
+  "prompt-engineering-masterclass": {
+    ...sharedSpecializationContent
+  },
+  "haproxy-masterclass":{
+    ...sharedSpecializationContent,
+  },
+  "ldap-masterclass":{
+    ...sharedSpecializationContent
   }
-
-  
  
 };
