@@ -8,7 +8,7 @@ export const specialisationInReactjavascript: Course = {
   totalRatings: 10,
   duration: "Beginner to Advanced",
   globalStatus: "GLOBALLY RECOGNIZED CERTIFICATION",
-  hours: "20+ Hours of Hands-On Training",
+  hours: "20+",
   price: 2000,
   originalPrice: 5000,
   enrolledStudents: 12000,

@@ -8,7 +8,7 @@ export const specialisationjavascript: Course = {
     totalRatings: 10,
     duration: "Beginner to Advanced",  // More professional than "Advance"
     globalStatus: "GLOBALLY RECOGNIZED CERTIFICATION",  // "Program" → "Certification" (stronger)
-    hours: "14+ Hours",  // More realistic for mastery (8+ is too short)
+    hours: "14+",  // More realistic for mastery (8+ is too short)
     price: 900,
     originalPrice: 3000,
     enrolledStudents: 12000,
