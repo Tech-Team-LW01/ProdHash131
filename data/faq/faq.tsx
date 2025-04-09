@@ -215,7 +215,6 @@ export const faqContent: FAQContent = {
       },
     ],
   },
-  
   "specialisation-in-streamlit": {
     curriculum: [
       {
@@ -528,8 +527,13 @@ export const faqContent: FAQContent = {
   },
   "specialisation-in-javascriptandreactnode":{
     ...sharedSpecializationContent
+  },
+  "prompt-engineering-masterclass": {
+    ...sharedSpecializationContent
+  },
+  "haproxy-masterclass":{
+    ...sharedSpecializationContent,
   }
-
   
  
 };

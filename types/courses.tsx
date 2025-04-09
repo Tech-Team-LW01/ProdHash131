@@ -92,7 +92,7 @@ export interface Course {
   module: Module[];
   highlights: Highlight[];
   certificateImage: string;
-  project: Project[];
+  project?: Project[];
   programFor: ProgramFor[];
   toolsData: ToolData;
   status?: CourseStatus;

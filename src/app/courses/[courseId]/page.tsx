@@ -24,6 +24,7 @@ import { LeftRightAlumniCarousel } from "@/components/customComponents/coursesCo
 import SupportContact from "@/components/customComponents/landingPage/SupportContact";
 import QueryForm from "@/components/customComponents/coursesComponents/courseDetails/ContactAndSupport";
 import CourseStructure from "@/components/customComponents/coursesComponents/courseDetails/subComponents/CourseStructure";
+import EnrollNow from "@/components/customComponents/coursesComponents/EnrollNow";
 
 // Loading Skeleton Component
 const LoadingSkeleton = () => (
@@ -172,6 +173,8 @@ export default function CourseDetailPage() {
         <CertificateDisplay course={course} />
         </section>
         <QueryForm />
+
+        <EnrollNow course={course}  />
       </main>
     </ErrorBoundary>
   );

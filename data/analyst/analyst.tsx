@@ -684,7 +684,62 @@ export const analystData: CourseAnalystData = {
     companiesLabel: "Top Companies Hiring React Devs",  
     jobsLabel: "Global Job Openings",  
     jobsDescription: "Jobs listed on LinkedIn, Naukri, and AngelList for React/JavaScript roles"  
-}
+},
+
+"prompt-engineering-masterclass": {
+    title: "Prompt Engineering Specialists – 2025 Job Outlook & Salaries",  
+    subtitle: "AI/LLM Prompt Engineering Demand in Enterprise AI Development",  
+    salary: {
+      label: "India Salary Range (Annual INR)",  
+      values: [1000000, 2000000, 3500000, 5000000] // Fresher → Senior → AI Architect  
+    }, 
+    companies: [  
+      "OpenAI",  
+      "Google",  
+      "Microsoft",  
+      "Amazon",  
+      "Anthropic",  
+      "Meta",  
+      "IBM",  
+      "Adobe",  
+      "Cohere"  
+    ],  
+    demand: 92, // Higher than average tech job growth  
+    jobCount: "25,000+",  
+    description: "Prompt Engineering specialists are in high demand as AI adoption grows. With 80% of enterprises implementing AI/LLM solutions, professionals skilled in prompt design, LangChain, and AI optimization can target lucrative roles across tech giants and startups.",  
+    yearLabel: "In 2025",  
+    salaryLabel: "Average Annual Salaries (INR)",  
+    companiesLabel: "Top Companies Hiring Prompt Engineers",  
+    jobsLabel: "Global Job Openings",  
+    jobsDescription: "Jobs listed on LinkedIn, Indeed, and specialized AI job boards for Prompt Engineering roles"  
+},
+"haproxy-masterclass": {
+    title: "HAProxy Load Balancer Specialists – 2025 Job Outlook & Salaries",  
+    subtitle: "Load Balancer & High Availability Expert Demand in Enterprise Infrastructure",  
+    salary: {
+      label: "India Salary Range (Annual INR)",  
+      values: [800000, 1500000, 2200000, 3500000] // Junior → Mid → Senior → Architect  
+    }, 
+    companies: [  
+      "Amazon",  
+      "Microsoft",  
+      "Google",  
+      "Netflix",  
+      "Flipkart",  
+      "Walmart",  
+      "IBM",  
+      "Oracle",  
+      "Cisco"  
+    ],  
+    demand: 78, // High growth rate in infrastructure sector  
+    jobCount: "15,000+",  
+    description: "HAProxy and Load Balancing specialists are crucial for modern web infrastructure. With 70% of enterprises requiring high-availability solutions, professionals skilled in HAProxy, load balancing, and security optimization can target roles across major tech companies.",  
+    yearLabel: "In 2025",  
+    salaryLabel: "Average Annual Salaries (INR)",  
+    companiesLabel: "Top Companies Hiring Load Balancer Specialists",  
+    jobsLabel: "Global Job Openings",  
+    jobsDescription: "Jobs listed on LinkedIn, Indeed, and Naukri for HAProxy and Load Balancing roles"  
+},
 
  
 };
