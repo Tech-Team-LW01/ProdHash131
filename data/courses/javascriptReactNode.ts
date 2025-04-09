@@ -8,7 +8,7 @@ export const specialisationInReactjavascriptnode: Course = {
   "totalRatings": 10,
   "duration": "Beginner to Advanced",
   "globalStatus": "GLOBALLY RECOGNIZED CERTIFICATION",
-  "hours": "40+ Hours ",
+  "hours": "40+",
   "price": 3000,
   "originalPrice": 8000,
   "enrolledStudents": 12000,
