@@ -13,9 +13,9 @@ export const specialisationjavascript: Course = {
     originalPrice: 3000,
     enrolledStudents: 12000,
     category: "Web Development",  // Changed from "AI" (misaligned)
-    shortDescription: "Become a JavaScript Pro – Build Real-World Apps with Node.js, React & More!",  // Action-oriented
+    shortDescription: "Start Date : 9th April 2025",  // Action-oriented
     paymentLink: "https://rzp.io/rzp/YA1gwfp",
-    backgroundImage: "/assets/cources/courseDetails/jjavascript/javascript.jpg",  // New JS-themed image
+    backgroundImage: "/assets/cources/courseDetails/jjavascript/javascript (1).jpg",  // New JS-themed image
     learningOutcomes: [
         "Master JavaScript Fundamentals (ES6+, Async, OOP)",  
         "Build Interactive UIs with React (Hooks, State Mgmt)",  

@@ -13,9 +13,9 @@ export const specialisationInReactjavascriptnode: Course = {
   "originalPrice": 8000,
   "enrolledStudents": 12000,
   "category": "Web Development",
-  "shortDescription": "Become a full-stack JavaScript developer! Master React for frontend, Node.js/Express for backend, and build scalable web apps without databases.",
+  "shortDescription": "Start Date : 9th April 2025 (Wednesday,Friday)",
   "paymentLink": "https://rzp.io/rzp/6guyqLx2",
-  "backgroundImage": "/assets/cources/courseDetails/jjavascript/javascript.jpg", // Ensure this path is correct
+  "backgroundImage": "/assets/cources/courseDetails/jjavascript/javascript (1).jpg", // Ensure this path is correct
 
  learningOutcomes: [
     "Master JavaScript (ES6+) fundamentals: Async/Await, Modules, OOP",  
