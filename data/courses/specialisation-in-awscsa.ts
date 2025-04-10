@@ -236,27 +236,27 @@ export const specialisationInAWSCSA: Course = {
         tools: [
             {
                 id: "compute",
-                icon: "Server",
+                icon: "TrendingUp",
                 title: "Compute: EC2, Lambda, ECS"
             },
             {
                 id: "storage",
-                icon: "Database",
+                icon: "BarChart",
                 title: "Storage: S3, EBS, EFS"
             },
             {
                 id: "database",
-                icon: "Storage",
+                icon: "Cpu",
                 title: "Database: RDS, DynamoDB, Aurora"
             },
             {
                 id: "networking",
-                icon: "Network",
+                icon: "TrendingUp",
                 title: "Networking: VPC, Route 53, CloudFront"
             },
             {
                 id: "security",
-                icon: "Shield",
+                icon: "BarChart",
                 title: "Security: IAM, KMS, Shield"
             }
         ]

@@ -18,7 +18,7 @@ interface SectionProps {
   title: string;
 }
 
-const Section: React.FC<SectionProps> = ({ icon, title }) => {
+const Section: React.FC<SectionProps> = ({ icon, title }:any) => {
   return (
     <div className="flex items-start space-x-4">
       <div className="bg-[#ff0000] rounded-full p-2 flex items-center justify-center">
@@ -37,7 +37,7 @@ interface ToolsProps {
   courseId?: string;
 }
 
-const Tools: React.FC<ToolsProps> = ({ courseId }) => {
+const Tools: React.FC<ToolsProps> = ({ courseId }:any) => {
   // Find the specific course or use the first one as default
   const course = courseId 
     ? courseInfo.find(c => c._id === courseId) 
@@ -64,7 +64,7 @@ const Tools: React.FC<ToolsProps> = ({ courseId }) => {
           </h1>
 
           {/* Tool Sections */}
-          {toolsData.tools.map((tool) => (
+          {toolsData.tools.map((tool:any) => (
             <Section 
               key={tool.id}
               icon={IconMap[tool.icon]}
