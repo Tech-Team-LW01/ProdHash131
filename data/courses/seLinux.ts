@@ -1,56 +1,55 @@
 import { Course } from "../../types/courses";
 
-export const specialisationInn8n: Course = {
+export const specialisationInselinux: Course = {
     _id: "specialisation-in-selinux",
-    title:" [B][R]No-Code Automation Training with n8n[/R][B] ",
-    
+    title: "[B][R]Master SELinux: Security Hardening for Linux Systems[/R][B]",
     slug: "specialisation-in-selinux",
     rating: 5,
     totalRatings: 10,
-    duration: "Beginner to Advance",
-    globalStatus: "GLOBALLY RECOGNISED PROGRAM",
-    hours: "8+",
-    //startDate: "Starting On 22nd March (Weekend Batch)",
-    price:2500 ,
+    duration: "Beginner to Advanced",
+    globalStatus: "GLOBALLY RECOGNIZED CERTIFICATION",
+    hours: "12+",
+    price: 2500,
     originalPrice: 7500,
     enrolledStudents: 12000,
-    category: "Artificial Intelligence",
-    shortDescription: "19th - 20th April, 2025 (Sat - Sun)",
-    paymentLink: " https://rzp.io/rzp/JLv8cEhD",
-    backgroundImage: "/assets/n8n (3).jpg",
+    category: "Cybersecurity & Linux",
+    shortDescription: "Learn SELinux policies, enforcement, and troubleshooting to secure enterprise Linux environments.",
+    paymentLink: "https://rzp.io/rzp/JLv8cEhD",
+    backgroundImage: "/assets/selinux-security.jpg", // Update image
 
-learningOutcomes: [
-    "Workflow Automation",
-    "API Integration",
-    "Custom Scripting",
-    "Data Transformation",
-    "Error Handling",
-    "Trigger Configuration",
-    "Node Mastery"
+    learningOutcomes: [
+    "Understand SELinux Architecture & Security Models",
+    "Enforce Mandatory Access Control (MAC) Policies",
+    "Write, Modify, and Debug Custom SELinux Policies",
+    "Troubleshoot SELinux Denials and Audit Logs",
+    "Configure SELinux for Web Servers (Apache/Nginx) and Databases",
+    "Integrate SELinux with Containers (Docker/Podman)",
+    "Apply SELinux in Compliance Frameworks (CIS, HIPAA)"
 ],
 
 features: [
-    "Real-World Projects",
+    "Hands-On Labs with Real Linux Systems",
     "Technical Support for 90 Days",
-    "Premium #13 AI Community"
+    "Access to SELinux Policy Templates & Cheat Sheets",
+    "Exclusive Linux Security Community Access"
 ],
 
-    skills: [
-        "Visual Programming",
-        "Logic Building",
-        "Webhook Handling",
-        "State Management",
-        "Cron Scheduling",
-        "API Requests",
-        "Data Mapping",
-        "Flow Debugging"
-    ],
+skills: [
+    "SELinux Policy Writing",
+    "Security Context Management (Files, Processes, Ports)",
+    "Audit Log Analysis with `ausearch` and `audit2why`",
+    "Boolean Tuning for Application-Specific Rules",
+    "SELinux Modes (Enforcing, Permissive, Disabled)",
+    "Container Security with `container_t` Contexts",
+    "Integration with Linux Auditing System (auditd)"
+],
 
-    requirements: [
-        "Basic understanding of web technologies",
-        "Familiarity with APIs and JSON",
-        "No prior coding experience required"
-    ],
+requirements: [
+    "Basic Linux command-line experience (e.g., file permissions, user management)",
+    "Familiarity with Linux system administration (optional but helpful)",
+    "No prior SELinux knowledge required",
+    "A Linux system (physical or VM) for hands-on labs"
+],
 
     level: "Beginner to Advanced",
     language: "English",
@@ -60,90 +59,90 @@ features: [
     module: [
         {
             id: 1,
-            title: "Introduction to n8n Automation",
-            description: "Understand what n8n is, its use cases, and how it compares to other automation tools.",
+            title: "Linux Security Fundamentals",
+            description: "Master core Linux security mechanisms that underpin SELinux.",
             content: [
-                "What is n8n and why use it?",
-                "No-code vs low-code vs custom code",
-                "n8n vs Zapier vs Make",
-                "Popular use cases across industries"
+                "Understanding Discretionary Access Control (DAC)",
+                "File permissions (chmod, chown, ACLs)",
+                "Process isolation and user privileges",
+                "Introduction to Mandatory Access Control (MAC)"
             ]
         },
         {
             id: 2,
-            title: "Installing and Running n8n",
-            description: "Set up n8n on your local machine and the cloud.",
+            title: "SELinux Architecture & Concepts",
+            description: "Learn how SELinux enforces security policies at the kernel level.",
             content: [
-                "Running n8n with Docker",
-                "Installing on macOS, Windows, Linux",
-                "Using n8n.cloud vs self-hosting",
-                "First look at the editor UI"
+                "DAC vs. MAC: Key differences",
+                "SELinux security contexts (labels, users, roles)",
+                "SELinux modes: Enforcing, Permissive, Disabled",
+                "Policy types (Targeted, MLS, Strict)"
             ]
         },
         {
             id: 3,
-            title: "Core Concepts and Workflow Design",
-            description: "Learn about nodes, triggers, variables, and how to build effective workflows.",
+            title: "SELinux Policy Management",
+            description: "Create and customize policies to secure applications.",
             content: [
-                "Understanding workflows and executions",
-                "Node types: Trigger, Action, Function",
-                "Working with JSON and variables",
-                "Input/output mapping between nodes"
+                "Writing and compiling SELinux policies (.te, .fc files)",
+                "Managing booleans with `setsebool` and `getsebool`",
+                "Labeling files/processes with `chcon` and `restorecon`",
+                "Using `semanage` for persistent context changes"
             ]
         },
         {
             id: 4,
-            title: "Triggers, Nodes, and Data Flow",
-            description: "Explore built-in triggers, popular nodes, and how to pass data through workflows.",
+            title: "Troubleshooting SELinux",
+            description: "Diagnose and resolve common SELinux denials and conflicts.",
             content: [
-                "HTTP Webhook and Cron triggers",
-                "Slack, Email, Telegram nodes",
-                "Data flow between nodes",
-                "Workflow debugging and testing"
+                "Analyzing audit logs with `ausearch` and `audit2why`",
+                "Using `sealert` for human-readable error reports",
+                "Temporarily allowing access with `audit2allow`",
+                "Debugging common Apache/Nginx/Database issues"
             ]
         },
         {
             id: 5,
-            title: "APIs, Webhooks, and External Services",
-            description: "Integrate n8n with external APIs and services using HTTP Request nodes and webhooks.",
+            title: "SELinux for Servers & Containers",
+            description: "Apply SELinux to secure web servers and containerized environments.",
             content: [
-                "Using the HTTP Request node",
-                "Authenticating with APIs (API keys, OAuth)",
-                "Webhook triggers and responses",
-                "Calling OpenAI, Notion, Google Sheets APIs"
+                "Configuring SELinux for Apache/Nginx",
+                "Database security (MySQL/PostgreSQL with SELinux)",
+                "Container isolation with `container_t` and `svirt_lxc_net_t`",
+                "Podman/Docker SELinux integration"
             ]
         },
         {
             id: 6,
-            title: "Advanced Logic and Customization",
-            description: "Build advanced workflows with conditions, loops, error handling, and custom JavaScript code.",
+            title: "Advanced SELinux Features",
+            description: "Explore niche capabilities for enterprise-grade security.",
             content: [
-                "IF, Switch, and Merge nodes",
-                "Using Set and Function nodes",
-                "Custom JavaScript in workflows",
-                "Error handling and retry logic"
+                "Multi-Level Security (MLS) policies",
+                "Role-Based Access Control (RBAC) in SELinux",
+                "Custom policy modules with `checkmodule` and `semodule`",
+                "SELinux and Kubernetes (OpenShift, RKE2)"
             ]
         },
         {
             id: 7,
-            title: "Real-World Projects with n8n",
-            description: "Create practical, hands-on automation projects across business and tech domains.",
+            title: "Real-World SELinux Deployments",
+            description: "Hands-on labs simulating enterprise security scenarios.",
             content: [
-                "Automated email responder with Gmail",
-                "Lead capture with Webflow and Google Sheets",
-                "Telegram bot for daily reports",
-                "AI chatbot using OpenAI + Telegram"
+                "Hardening a web server to meet CIS benchmarks",
+                "Implementing SELinux for PCI-DSS compliance",
+                "Case study: SELinux in government systems",
+                "Migrating from permissive to enforcing mode"
             ]
         },
         {
             id: 8,
-            title: "Deployment, Scaling, and Best Practices",
-            description: "Learn how to host, secure, and scale your n8n instance in production.",
+            title: "SELinux Audit & Compliance",
+            description: "Monitor and validate SELinux policies for regulatory requirements.",
             content: [
-                "n8n in production: Docker + nginx",
-                "Authentication and user management",
-                "Monitoring executions and logs",
-                "Security and backup strategies"
+                "Integrating SELinux with auditd",
+                "Generating compliance reports with `seaudit`",
+                "SELinux and GDPR/HIPAA compliance",
+                "Automating policy audits with OpenSCAP"
             ]
         }
     ]
@@ -151,16 +150,20 @@ features: [
 
     highlights: [
         {
-            number: "8",
-            description: "Modules"
+            number: "12+",
+            description: "Hands-On Labs"
         },
         {
-            number: "8+",
-            description: "Hours of learning"
+            number: "50+",
+            description: "SELinux Policy Templates"
         },
         {
-            number: "3+",
-            description: "Capstone Projects"
+            number: "100%",
+            description: "Real-World Use Cases"
+        },
+        {
+            number: "CIS & HIPAA",
+            description: "Compliance Ready"
         }
     ],
 
@@ -168,25 +171,25 @@ features: [
 
     project: [
         {
-            icon: "",
-            title: "AI-Powered Telegram Chatbot",
-            description: "Build a Telegram bot that uses OpenAI API to generate dynamic responses in real-time.",
-            skills: ["n8n", "Telegram API", "OpenAI Integration"]
+            icon: "",  // Lock icon for security
+            title: "Hardening a Web Server with SELinux",
+            description: "Configure and enforce SELinux policies for Apache/Nginx to block unauthorized access while allowing legitimate traffic.",
+            skills: ["SELinux Policies", "Security Contexts", "Audit Logs"]
         },
         {
-            icon: "",
-            title: "Automated Lead Capture System",
-            description: "Create a workflow that captures leads from Webflow forms and stores them in Google Sheets.",
-            skills: ["Webhooks", "Google Sheets", "Form Automation"]
+            icon: "",  // Whale icon for containers
+            title: "Securing Docker Containers with SELinux",
+            description: "Implement container isolation using SELinux types (container_t) to prevent container breakout attacks.",
+            skills: ["Container Security", "SELinux Booleans", "Podman/Docker"]
         },
         {
-            icon: "",
-            title: "Social Media Auto-Poster",
-            description: "Design a workflow to schedule and auto-post content to Twitter and LinkedIn from a Notion database.",
-            skills: ["n8n", "Notion API", "Social Media Automation"]
+            icon: "",  // Scroll icon for compliance
+            title: "SELinux for HIPAA Compliance",
+            description: "Audit and customize SELinux policies to meet healthcare data protection standards (HIPAA/GDPR).",
+            skills: ["Compliance Frameworks", "Policy Modules", "OpenSCAP"]
         }
-    ]
-,    
+    ],
+    
 
     programFor: [
         { src: "/assets/cources/courseDetails/shell-scripting/DevOps Engineers.jpg", alt: "DevOps Engineers", text: "Digital Marketers" },
@@ -202,37 +205,41 @@ features: [
     ],
 
     toolsData: {
-        sectionTitle: "Complete n8n Automation Program",
-        category: " Workflow Automation & Real-World Integrations",
-        toolsCount: "10+",
-        displayImage: "/assets/cources/courseDetails/n8n/n8n.jpg",
+        sectionTitle: "Master SELinux: Security Hardening for Linux Systems",
+        category: "Linux Security & Mandatory Access Control",
+        toolsCount: "15+",
+        displayImage: "/assets/cources/courseDetails/selinux/selinux-lab.jpg", // Update image path
         tools: [
             {
-                id: "basics",
-                icon: "TrendingUp",
-                title: "Learn the basics of workflows, triggers, and nodes."
+                id: "policies",
+                icon: "TrendingUp", // Security shield icon
+                title: "Write and enforce custom SELinux policies (.te, .fc files)."
             },
             {
-                id: "aws",
-                icon: "BarChart",
-                title: "Create workflows using HTTP Webhooks and API endpoints."
-            },
-            
-            {
-                id: "modules",
-                icon: "TrendingUp",
-                title: "Connect and automate apps like Notion, Telegram, and Gmail."
+                id: "troubleshooting",
+                icon: "BarChart", // Magnifying glass icon
+                title: "Analyze and resolve denials with `audit2why` and `sealert`."
             },
             {
-                id: "automation",
-                icon: "BarChart",
-                title: "Use IF, Switch, and Merge nodes to control flow logic."
+                id: "contexts",
+                icon: "TrendingUp", // Tag/label icon
+                title: "Manage security contexts for files, processes, and ports."
             },
-            {       
-                id: "state",
-                icon: "Cpu",
-                title: "Use API authentication methods like API keys and OAuth2."
+            {
+                id: "booleans",
+                icon: "BarChart", // Toggle icon
+                title: "Configure SELinux booleans for application-specific rules."
             },
+            {
+                id: "containers",
+                icon: "BarChart", // Server/container icon
+                title: "Secure Docker/Podman containers with SELinux types."
+            },
+            {
+                id: "compliance",
+                icon: "Cpu", // Document icon
+                title: "Generate compliance reports for HIPAA/CIS benchmarks."
+            }
         ]
     },
     programBy: "Vimal Daga"
