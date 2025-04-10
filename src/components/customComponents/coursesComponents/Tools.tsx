@@ -2,14 +2,18 @@
 // components/customComponents/coursesComponents/Tools.tsx
 
 import React from "react";
-import { TrendingUp, BarChart, Cpu } from "lucide-react";
+import { TrendingUp, BarChart, Cpu,Server,Database   } from "lucide-react";
 import { courseInfo } from "../../../../data/courses/courses";
 
 // Icon mapping
 const IconMap = {
   TrendingUp: <TrendingUp size={18} color="white" />,
   BarChart: <BarChart size={18} color="white" />,
-  Cpu: <Cpu size={18} color="white" />
+  Cpu: <Cpu size={18} color="white" />,
+  Server: <Server size={18} color="white" />,
+  Database: <Database size={18} color="white" />,
+  Storage: <Server size={18} color="white" />,
+  Network: <Database size={18} color="white" />,
 };
 
 // Section Component
@@ -18,7 +22,16 @@ interface SectionProps {
   title: string;
 }
 
-const Section: React.FC<SectionProps> = ({ icon, title }:any) => {
+
+type IconType = keyof typeof IconMap;
+
+interface Tool {
+  id: string | number;
+  icon: string; // Changed from IconType to string since tool.icon might not match IconMap keys
+  title: string;
+}
+
+const Section: React.FC<SectionProps> = ({ icon, title }) => {
   return (
     <div className="flex items-start space-x-4">
       <div className="bg-[#ff0000] rounded-full p-2 flex items-center justify-center">
@@ -37,7 +50,7 @@ interface ToolsProps {
   courseId?: string;
 }
 
-const Tools: React.FC<ToolsProps> = ({ courseId }:any) => {
+const Tools: React.FC<ToolsProps> = ({ courseId }) => {
   // Find the specific course or use the first one as default
   const course = courseId 
     ? courseInfo.find(c => c._id === courseId) 
@@ -48,6 +61,15 @@ const Tools: React.FC<ToolsProps> = ({ courseId }:any) => {
   }
 
   const { toolsData } = course;
+
+  const getIcon = (iconName: string) => {
+    // Type assertion to IconType is safe here because we check if it exists
+    if (iconName in IconMap) {
+      return IconMap[iconName as IconType];
+    }
+    // Return a default icon if the requested icon doesn't exist
+    return IconMap.TrendingUp; // Using TrendingUp as default
+  };
 
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
@@ -64,13 +86,13 @@ const Tools: React.FC<ToolsProps> = ({ courseId }:any) => {
           </h1>
 
           {/* Tool Sections */}
-          {toolsData.tools.map((tool:any) => (
-            <Section 
-              key={tool.id}
-              icon={IconMap[tool.icon]}
-              title={tool.title}
-            />
-          ))}
+          {toolsData.tools.map((tool: Tool) => (
+  <Section 
+    key={tool.id}
+    icon={getIcon(tool.icon)}
+    title={tool.title}
+  />
+))}
         </div>
 
         {/* Right Image Section */}
