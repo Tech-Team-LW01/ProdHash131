@@ -23,6 +23,7 @@ import {specialisationInReactjavascriptnode} from "./javascriptReactNode"
 import { promptEngineeringMasterclass } from "./specialisation-in-prompt-engineering";
 import { specialisationInHAproxyMasterclass } from "./specialisation-in-haproxy";
 import { ldapMasterclass } from "./specialisation-in-ldap";
+import { specialisationInAWSCSA } from "./specialisation-in-awscsa";
 
 
 
@@ -50,6 +51,7 @@ export const courseInfo: Course[] = [
   promptEngineeringMasterclass,
   specialisationInHAproxyMasterclass,
   ldapMasterclass,
+  specialisationInAWSCSA,
  
 
 ]

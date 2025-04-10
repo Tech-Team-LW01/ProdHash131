@@ -105,7 +105,7 @@ export type NewCourse = Omit<Course, '_id' | 'createdAt' | 'updatedAt'>;
 
 // 🔖 Enums & Utility Types
 export type CourseStatus = 'draft' | 'published';
-export type IconType = "TrendingUp" | "BarChart" | "Cpu";
+export type IconType = "TrendingUp" | "BarChart" | "Cpu" | "Server" | "Database" | "Storage" | "Network" | "Shield" ;
 
 // ✅ Course validation interface
 export interface CourseValidation {

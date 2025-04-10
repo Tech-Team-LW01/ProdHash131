@@ -740,7 +740,7 @@ export const analystData: CourseAnalystData = {
     jobsLabel: "Global Job Openings",  
     jobsDescription: "Jobs listed on LinkedIn, Indeed, and Naukri for HAProxy and Load Balancing roles"  
 },
-"ldap-masterclass": {
+  "ldap-masterclass": {
     title: "LDAP Specialists – 2025 Job Outlook & Salaries",  
     subtitle: "Directory Services & Identity Management Expert Demand in Enterprise IT",  
     salary: {
@@ -767,7 +767,36 @@ export const analystData: CourseAnalystData = {
     jobsLabel: "Global Job Openings",  
     jobsDescription: "Jobs listed on LinkedIn, Indeed, and Naukri for LDAP and Directory Services roles"  
 },
-
+"aws-certified-solutions-architect-associate": {
+    title: "AWS Solutions Architects – 2025 Job Outlook & Salaries",
+    subtitle: "Cloud Architecture & AWS Expert Demand in Global Tech Industry",
+    salary: {
+        label: "India Salary Range (Annual INR)",
+        values: [800000, 1800000, 3500000, 6000000] // Junior → Mid → Senior → Principal Architect
+    },
+    companies: [
+        "Amazon Web Services",
+        "Accenture",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "IBM",
+        "Cognizant",
+        "Deloitte",
+        "Microsoft",
+        "JPMorgan Chase"
+    ],
+    demand: 85, // High growth in cloud adoption across industries
+    jobCount: "50,000+",
+    description: "AWS Solutions Architects are in high demand as 85% of enterprises accelerate their cloud adoption. With AWS maintaining 32% of global cloud market share, certified Solutions Architects can secure high-paying roles across Fortune 500 companies, startups, and consulting firms. The role combines cloud expertise with architecture design, making it one of tech's most sought-after positions.",
+    yearLabel: "In 2025",
+    salaryLabel: "Average Annual Salaries (INR)",
+    companiesLabel: "Top Companies Hiring AWS Solutions Architects",
+    jobsLabel: "Global Job Openings",
+    jobsDescription: "Active job listings on LinkedIn, Naukri, Indeed, and AWS Jobs portal for AWS Solutions Architect roles",
+    
+  
+}
 
 
  
