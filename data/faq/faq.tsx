@@ -537,6 +537,9 @@ export const faqContent: FAQContent = {
   },
   "ldap-masterclass":{
     ...sharedSpecializationContent
+  },
+  "aws-certified-solutions-architect-associate":{
+    ...sharedSpecializationContent
   }
  
 };
