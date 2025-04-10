@@ -16,7 +16,7 @@ export const promptEngineeringMasterclass: Course = {
     category: "Artificial Intelligence",
     shortDescription: "Explore the technologies behind ChatGPT, GPT4, LLMs & much more",
     paymentLink: "https://rzp.io/rzp/promptEngineering",
-    backgroundImage: "/assets/courses/courseDetails/Hero.jpeg",
+    backgroundImage: "/assets/cources/courseDetails/6course/prompt1-ezgif.com-webp-to-jpg-converter.jpg",
 
     learningOutcomes: [
         "Master Prompt Engineering fundamentals",

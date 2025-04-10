@@ -15,7 +15,7 @@ export const specialisationInawssysops: Course = {
   category: "Cloud Computing",
   shortDescription: "Next Batch: 19th - 20th April, 2025 (Sat - Sun)",
   paymentLink: "https://rzp.io/rzp/JLv8cEhD",
-  backgroundImage: "/assets/aws-sysops-banner.jpg",
+  backgroundImage: "/assets/cources/courseDetails/6course/aws-sysops3 (1).jpg",
 
   learningOutcomes: [
     "Automate deployments with AWS CloudFormation",

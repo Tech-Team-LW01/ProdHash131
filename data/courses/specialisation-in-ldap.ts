@@ -16,7 +16,7 @@ export const ldapMasterclass: Course = {
     category: "System Administration",
     shortDescription: "Master Directory Services with LDAP - From Basics to Enterprise Implementation",
     paymentLink: "https://rzp.io/rzp/ldap",
-    backgroundImage: "/assets/courses/courseDetails/Hero.jpeg",
+    backgroundImage: "/assets/cources/courseDetails/6course/LDAP (1).jpg",
 
     learningOutcomes: [
         "Understand LDAP architecture and protocols",

@@ -16,7 +16,7 @@ export const specialisationInHAproxyMasterclass: Course = {
     category: "DevOps",
     shortDescription: "Industry Relevant Content with Use Cases under the guidance of Mr. Vimal Daga",
     paymentLink: "https://rzp.io/rzp/haproxy",
-    backgroundImage: "/assets/courses/courseDetails/Hero.jpeg",
+    backgroundImage: "/assets/cources/courseDetails/6course/haproxy2.jpg",
 
     learningOutcomes: [
         "Master HAProxy Configuration and Setup",

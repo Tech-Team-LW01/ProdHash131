@@ -16,7 +16,7 @@ export const specialisationInAWSCSA: Course = {
     category: "Cloud Computing",
     shortDescription: "Industry-Leading AWS Solutions Architect Training | Hands-On Labs | Real-World Projects | AWS Certification Preparation",
     paymentLink: "your-payment-link",
-    backgroundImage: "/assets/cources/courseDetails/Hero.jpeg",
+    backgroundImage: "/assets/cources/courseDetails/6course/aws-csa1 (1).jpg",
 
     learningOutcomes: [
         "AWS Core Services & Architecture Principles",

@@ -15,7 +15,7 @@ export const specialisationInselinux: Course = {
     category: "Cybersecurity & Linux",
     shortDescription: "Learn SELinux policies, enforcement, and troubleshooting to secure enterprise Linux environments.",
     paymentLink: "https://rzp.io/rzp/JLv8cEhD",
-    backgroundImage: "/assets/selinux-security.jpg", // Update image
+    backgroundImage: "/assets/cources/courseDetails/6course/linux-mascot-sitting-on-a-chip-with-blurred-code-in-the-background.jpg", // Update image
 
     learningOutcomes: [
     "Understand SELinux Architecture & Security Models",
