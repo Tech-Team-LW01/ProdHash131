@@ -28,7 +28,7 @@ import {specialisationInselinux} from "./seLinux";
 import {specialisationInawssysops} from "./awsSysOps";
 import { advanceLinuxTraining } from "./industry-relevant-linux";
 import {awsEksMastery} from "./awsEks";
-
+import {awsDevOpsMastery} from "./awsDevops";
 
 export const courseInfo: Course[] = [
  
@@ -59,6 +59,7 @@ export const courseInfo: Course[] = [
   specialisationInawssysops,
   advanceLinuxTraining,
   awsEksMastery,
+  awsDevOpsMastery,
   
  
 
