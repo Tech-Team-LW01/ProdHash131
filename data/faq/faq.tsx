@@ -543,5 +543,11 @@ export const faqContent: FAQContent = {
   },
  "advance-linux-training":{
   ...sharedSpecializationContent,
+ },
+ "master-aws-eks":{
+    ...sharedSpecializationContent
+ },
+ "aws-devops-pro":{
+  ...sharedSpecializationContent
  }
 };

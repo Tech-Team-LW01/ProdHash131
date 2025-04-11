@@ -351,6 +351,62 @@ export const analystData: CourseAnalystData = {
 },
 
 
+"master-aws-eks": {
+  "title": "High Growth",
+  "subtitle": "in Kubernetes & DevOps",
+  "salary": {
+    "label": "EKS Salary Ranges (India)",
+    "values": [700000, 1200000, 1800000]  // 7L, 12L, 18L
+  },
+  "companies": [
+    "Amazon (AWS)",
+    "Microsoft",
+    "Accenture",
+    "TCS",
+    "Infosys",
+    "Capgemini",
+    "Deloitte",
+    "IBM",
+    "Google"
+  ] as CompanyName[],
+  "demand": 45, // Higher due to cloud adoption
+  "jobCount": "20,000+", 
+  "description": "AWS EKS professionals are in high demand as companies migrate to Kubernetes for container orchestration. In 2025, entry-level salaries range from ₹7–12 lakh, while experts with certifications (e.g., AWS Certified Kubernetes) earn ₹18 lakh or more. Skills in Terraform, Helm, and CI/CD pipelines further boost earnings.",
+  "yearLabel": "In 2025",
+  "salaryLabel": "Average Salaries",
+  "companiesLabel": "Top Employers",
+  "jobsLabel": "Job Openings",
+  "jobsDescription": "Total EKS-related jobs across Naukri, LinkedIn, and Indeed"
+},
+
+"aws-devops-pro": {
+  "title": "Skyrocketing Demand",
+  "subtitle": "for Cloud Automation",
+  "salary": {
+    "label": "DevOps Salary Ranges (India)",
+    "values": [800000, 1500000, 2500000]  // 8L (entry), 15L (mid), 25L (senior)
+  },
+  "companies": [
+    "Amazon (AWS)",
+    "Microsoft",
+    "Accenture",
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Deloitte",
+    "IBM",
+    "JPMorgan Chase"  // Finance firms heavily hire DevOps
+  ] as CompanyName[],
+  "demand": 50,  // Higher than EKS (broader applicability)
+  "jobCount": "30,000+",  // More roles (CI/CD + IaC + CloudOps)
+  "description": "AWS DevOps engineers are critical for automating cloud infrastructure and CI/CD pipelines. In 2025, entry-level salaries start at ₹8–15 lakh, while experts with AWS DevOps certifications earn ₹20–25 lakh+. Proficiency in Terraform, Jenkins, Docker, and AWS CodeSuite significantly increases market value.",
+  "yearLabel": "In 2025",
+  "salaryLabel": "Average Salaries",
+  "companiesLabel": "Top Employers",
+  "jobsLabel": "Job Openings",
+  "jobsDescription": "Total DevOps jobs across Naukri, LinkedIn, and Indeed"
+},
+
 
 
 
