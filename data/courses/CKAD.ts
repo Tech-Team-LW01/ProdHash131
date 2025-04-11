@@ -206,17 +206,17 @@ highlights: [
             },
             {
                 id: "minikube",
-                icon: "Shield",
+                icon: "Layers",
                 title: "Local Kubernetes Cluster (Minikube)"
             },
             {
                 id: "yaml",
-                icon: "Cpu",
+                icon: "FileText",
                 title: "YAML Configuration for Resources"
             },
             {
                 id: "kustomize",
-                icon: "BarChart",
+                icon: "LayoutGrid",
                 title: "Customize Manifests with Kustomize"
             },
             {
@@ -226,37 +226,37 @@ highlights: [
             },
             {
                 id: "docker",
-                icon: "Cpu",
+                icon: "Box",
                 title: "Containerization with Docker"
             },
             {
                 id: "curl",
-                icon: "BarChart",
+                icon: "Send",
                 title: "HTTP Requests and Testing with cURL"
             },
             {
                 id: "httpd",
-                icon: "Terminal",
+                icon: "Globe",
                 title: "Web Server (Apache HTTPD)"
             },
             {
                 id: "ingress-nginx",
-                icon: "BarChart",
+                icon: "Shuffle",
                 title: "Ingress Controller (NGINX)"
             },
             {
                 id: "vscode",
-                icon: "Terminal",
+                icon: "Code",
                 title: "Code Editing with VS Code"
             },
             {
                 id: "git",
-                icon: "BarChart",
+                icon: "GitBranch",
                 title: "Version Control with Git"
             },
             {
                 id: "mocktest",
-                icon: "Cpu",
+                icon: "ClipboardList",
                 title: "CKAD Mock Test Environment"
             }
         ]
