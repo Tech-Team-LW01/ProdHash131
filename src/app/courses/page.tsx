@@ -146,6 +146,7 @@ const CoursePage: React.FC = () => {
       { name: "Databases", highlight: false },
       { name: "System Administration", highlight: false },
       { name: "Artificial Intelligence", highlight: false },
+      { name: "Web Development", highlight: false },
       
       
       { name: "MLOPS", highlight: false },
