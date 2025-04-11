@@ -192,7 +192,7 @@ export const specialisationInawssysops: Course = {
             description: "AWS Sandbox Access"
         }
     ],
-    certificateImage: "/assets/certificate/n8n (1).jpg",
+    certificateImage: "/assets/certificate/AWS-Sysops.jpg",
 
     project: [
         {

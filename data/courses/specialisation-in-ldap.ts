@@ -165,7 +165,7 @@ export const ldapMasterclass: Course = {
         { src: "/assets/courses/programFor/consultant.jpg", alt: "IT Consultants", text: "IT Consultants" }
     ],
 
-    certificateImage: "/assets/ldap.jpg",
+    certificateImage: "/assets/certificate/LDAP1.jpg",
 
     toolsData: {
         sectionTitle: "Comprehensive LDAP Implementation Program",

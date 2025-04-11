@@ -175,7 +175,7 @@ export const specialisationInHAproxyMasterclass: Course = {
         { src: "/assets/courses/programFor/devops.jpg", alt: "DevOps Engineer", text: "DevOps Engineer" }
     ],
 
-    certificateImage: "/assets/haproxy.jpg",
+    certificateImage: "/assets/certificate/HAproxy1.jpg",
 
     toolsData: {
         sectionTitle: "Comprehensive HAProxy Program",

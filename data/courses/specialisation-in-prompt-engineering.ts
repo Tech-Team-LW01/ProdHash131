@@ -177,7 +177,7 @@ export const promptEngineeringMasterclass: Course = {
         { src: "/assets/courses/programFor/professor.jpg", alt: "Professors", text: "College HOD & Professors" }
     ],
 
-    certificateImage: "/assets/prompteng.jpg",
+    certificateImage: "/assets/certificate/prompt.jpg",
 
     toolsData: {
         sectionTitle: "Comprehensive Prompt Engineering Program",

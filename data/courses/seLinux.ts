@@ -167,7 +167,7 @@ requirements: [
         }
     ],
 
-    certificateImage: "/assets/certificate/n8n (1).jpg",
+    certificateImage: "/assets/certificate/mojo-certificate.jpg",
 
     project: [
         {
