@@ -26,6 +26,7 @@ import { ldapMasterclass } from "./specialisation-in-ldap";
 import { specialisationInAWSCSA } from "./specialisation-in-awscsa";
 import {specialisationInselinux} from "./seLinux";
 import {specialisationInawssysops} from "./awsSysOps";
+import { advanceLinuxTraining } from "./industry-relevant-linux";
 
 
 
@@ -56,6 +57,7 @@ export const courseInfo: Course[] = [
   specialisationInAWSCSA,
   specialisationInselinux,
   specialisationInawssysops,
+  advanceLinuxTraining,
   
  
 

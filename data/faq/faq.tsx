@@ -540,6 +540,8 @@ export const faqContent: FAQContent = {
   },
   "aws-certified-solutions-architect-associate":{
     ...sharedSpecializationContent
-  }
- 
+  },
+ "advance-linux-training":{
+  ...sharedSpecializationContent,
+ }
 };

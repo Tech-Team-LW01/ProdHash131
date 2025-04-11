@@ -796,7 +796,39 @@ export const analystData: CourseAnalystData = {
     jobsDescription: "Active job listings on LinkedIn, Naukri, Indeed, and AWS Jobs portal for AWS Solutions Architect roles",
     
   
-}
+},
+"advance-linux-training": {
+    title: "Linux System Administrators – 2025 Job Outlook & Salaries",
+    subtitle: "Linux Administration & DevOps Expert Demand in Global Tech Industry",
+    salary: {
+        label: "India Salary Range (Annual INR)",
+        values: [500000, 1200000, 2500000, 4500000] // Junior → Mid → Senior → Principal Linux Admin
+    },
+    companies: [
+        "Red Hat",
+        "IBM",
+        "Oracle",
+        "Google",
+        "Amazon",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL Technologies",
+        "Tech Mahindra"
+    ],
+    demand: 78, // High growth in Linux adoption across industries
+    jobCount: "45,000+",
+    description: "Linux System Administrators are experiencing increased demand as 78% of enterprises rely on Linux for their critical infrastructure. With Linux powering 96.3% of the world's top web servers and being the preferred OS for cloud infrastructure, certified Linux administrators are essential across industries. The role combines system administration expertise with automation skills, making it crucial for modern IT operations. The emergence of DevOps has further elevated the importance of Linux expertise, as it's fundamental to containerization, CI/CD, and cloud operations.",
+    yearLabel: "In 2025",
+    salaryLabel: "Average Annual Salaries (INR)",
+    companiesLabel: "Top Companies Hiring Linux System Administrators",
+    jobsLabel: "Global Job Openings",
+    jobsDescription: "Active job listings on LinkedIn, Naukri, Indeed, and company career portals for Linux System Administrator and related DevOps roles",
+
+    
+ 
+   
+},
 
 
  
