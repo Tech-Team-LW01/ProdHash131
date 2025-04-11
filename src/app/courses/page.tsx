@@ -147,6 +147,10 @@ const CoursePage: React.FC = () => {
       { name: "System Administration", highlight: false },
       { name: "Artificial Intelligence", highlight: false },
       { name: "Web Development", highlight: false },
+      { name: "Data Applications", highlight: false },
+      { name: "Web Scraping & Data Extraction", highlight: false },
+      { name: "Cybersecurity & Linux", highlight: false },
+      { name: "Cloud Computing", highlight: false },
       
       
       { name: "MLOPS", highlight: false },
