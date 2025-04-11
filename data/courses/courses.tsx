@@ -24,11 +24,10 @@ import { promptEngineeringMasterclass } from "./specialisation-in-prompt-enginee
 import { specialisationInHAproxyMasterclass } from "./specialisation-in-haproxy";
 import { ldapMasterclass } from "./specialisation-in-ldap";
 import { specialisationInAWSCSA } from "./specialisation-in-awscsa";
-import {specialisationInselinux} from "./seLinux";
-import {specialisationInawssysops} from "./awsSysOps";
-import { advanceLinuxTraining } from "./industry-relevant-linux";
-import {awsEksMastery} from "./awsEks";
-import {awsDevOpsMastery} from "./awsDevops";
+import {specialisationInselinux} from "./seLinux"
+import { specialisationInCKAD } from "./CKAD";
+
+
 
 export const courseInfo: Course[] = [
  
@@ -56,11 +55,8 @@ export const courseInfo: Course[] = [
   ldapMasterclass,
   specialisationInAWSCSA,
   specialisationInselinux,
-  specialisationInawssysops,
-  advanceLinuxTraining,
-  awsEksMastery,
-  awsDevOpsMastery,
-  
+  specialisationInCKAD,
+
  
 
 ]
