@@ -1,9 +1,9 @@
 import { Course } from "../../types/courses";
 
 export const specialisationInCKAD: Course = {
-    _id: "master-CKAD",
+    _id: "master-ckad",
     title: "[B][R]Certified Kubernetes Application Developer (CKAD)[/R][/B]",
-    slug: "master-CKAD",
+    slug: "master-ckad",
     rating: 4.9,
     totalRatings: 342,
     duration: "Intermediate to Advanced",

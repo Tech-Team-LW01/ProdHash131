@@ -30,6 +30,7 @@ import { advanceLinuxTraining } from "./industry-relevant-linux";
 import {awsEksMastery} from "./awsEks";
 import {awsDevOpsMastery} from "./awsDevops";
 import {specialisationInCKAD} from "./ckad";
+
 export const courseInfo: Course[] = [
  
   specialisationInDevops,
