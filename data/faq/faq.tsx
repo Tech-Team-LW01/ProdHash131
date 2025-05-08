@@ -488,6 +488,261 @@ export const faqContent: FAQContent = {
     },
   ],
 },
+"automation-with-selenium": {
+  Program: [
+    {
+      question: "What is the Selenium Training Program?",
+      answer:
+        "The Selenium Training Program is an industry-focused course designed to teach Selenium, the most popular open-source automation tool for web applications. The program covers Selenium WebDriver, TestNG, frameworks, real-time project integration, and more."
+    },
+    {
+      question: "Why should I learn Selenium?",
+      answer:
+        "Selenium is widely used in the software testing industry for automating web-based applications. Learning Selenium helps you become a professional QA automation engineer, boosts your testing skills, and increases your job opportunities in automation testing."
+    }
+  ],
+  selectionCriteria: [
+    {
+      question: "Who can join this Selenium course?",
+      answer:
+        "Anyone interested in software testing, automation, or quality assurance can join. It is ideal for manual testers, QA engineers, developers transitioning to testing, and students with a basic understanding of software systems."
+    },
+    {
+      question: "Is prior programming knowledge required?",
+      answer:
+        "No, prior programming experience is not mandatory. The course starts from the basics and gradually progresses to advanced topics. A willingness to learn and basic computer skills are all you need!"
+    }
+  ],
+  curriculum: [
+    {
+      question: "What topics are covered in this Selenium training?",
+      answer: (
+        <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Selenium WebDriver fundamentals</li>
+          <li>Locators and XPath strategies</li>
+          <li>TestNG framework and assertions</li>
+          <li>Data-driven and keyword-driven testing</li>
+          <li>Page Object Model (POM)</li>
+          <li>Integration with Maven, Jenkins, and Git</li>
+          <li>Automation frameworks and best practices</li>
+        </ul>
+      )
+    },
+    {
+      question: "Will there be practical sessions?",
+      answer:
+        "Yes. The course includes hands-on exercises, live coding, project implementation, and real-time testing scenarios to ensure job-readiness."
+    }
+  ],
+  timeCommitment: [
+    {
+      question: "How long is the Selenium training program?",
+      answer:
+        "The complete program is structured into multiple sessions. Each session runs for 2.5 to 3 hours. The overall duration may vary depending on the learner’s pace and class depth."
+    },
+    {
+      question: "Is the program online or offline?",
+      answer:
+        "The training is conducted in live online mode with interactive classes and direct mentorship."
+    }
+  ],
+  Duration: [
+    {
+      question: "What is the duration of the Selenium course?",
+      answer: "The course spans approximately 6 weeks, with flexible schedules to accommodate learners."
+    },
+    {
+      question: "Are there any breaks during the course?",
+      answer: "Yes, the course includes short breaks between sessions to ensure effective learning."
+    }
+  ],
+  Certification: [
+    {
+      question: "Will I receive a certificate after the course?",
+      answer:
+        "Yes. You will be awarded an industry-recognized certificate upon successfully completing the training."
+    }
+  ],
+  accessAndFees: [
+    {
+      question: "What is the course fee?",
+      answer:
+        "Fee details will be provided upon registration or inquiry. Early applicants may be eligible for discounts or scholarships."
+    },
+    {
+      question: "Will I get lifetime access to the course content?",
+      answer:
+        "Yes. Post-enrollment, you will receive lifetime access to session recordings, test scripts, and all shared resources."
+    }
+  ]
+},
+"specialisation-in-mojo": {
+
+    Program: [
+      {
+        question: "What is the Mojo Training Program?",
+        answer:
+          "The Mojo Training Program is an industry-focused course designed to teach Mojo—a new programming language built for AI developers that combines Python’s simplicity with C-level performance. The program covers fundamentals, system-level programming, matrix math, LLVM, MLIR, and more."
+      },
+      {
+        question: "Why should I learn Mojo?",
+        answer:
+          "Mojo offers the power of systems programming with the readability of Python. It’s built to overcome Python’s limitations in AI/ML workloads, making it ideal for next-gen AI engineers, compiler designers, and performance-focused developers."
+      }
+    ],
+    selectionCriteria: [
+      {
+        question: "Who can join this Mojo course?",
+        answer:
+          "Anyone interested in AI, systems programming, or high-performance computing can join. It is ideal for Python developers, ML engineers, AI researchers, and students with a programming background."
+      },
+      {
+        question: "Is prior programming knowledge required?",
+        answer:
+          "No, prior programming experience is not required. We start from the basics, and the course is designed to help beginners grasp programming concepts. A passion for learning and interest is all you need!"
+      }
+    ],
+    curriculum: [
+      {
+        question: "What topics are covered in this Mojo training?",
+        answer:
+          "Key topics include Mojo syntax, variables, memory handling, LLVM & MLIR, matrix optimization, OOP, and Python interoperability."
+      },
+      {
+        question: "Will there be practical sessions?",
+        answer:
+          "Yes. The course includes hands-on sessions, code walkthroughs, and use-case implementations to ensure industry-readiness."
+      }
+    ],
+    timeCommitment: [
+      {
+        question: "How much time should I dedicate weekly to complete this course successfully?",
+        answer: "The recommended time commitment is 5-7 hours per week, but learners can adjust based on their pace."
+      },
+      {
+        question: "Is the program flexible for working professionals?",
+        answer: "Yes, the program is designed to accommodate working professionals with flexible schedules."
+      }
+    ],
+    Duration: [
+      {
+        question: "How long is the Mojo training program?",
+        answer:
+          "Each session is around 2.5 to 3 hours. The complete program is structured into multiple sessions, and the duration may vary depending on pace and depth."
+      },
+      {
+        question: "Is the program online or offline?",
+        answer:
+          "The training is delivered in live online mode with interactive classes and real-time mentorship."
+      }
+    ],
+    Certification: [
+      {
+        question: "Will I receive a certificate after the course?",
+        answer:
+          "Yes. You will receive an industry-recognized certificate upon successful completion of the program."
+      }
+    ],
+    accessAndFees: [
+      {
+        question: "What is the course fee?",
+        answer:
+          "Fee details will be shared upon registration or inquiry. Scholarships or discounts may be available for early applicants."
+      },
+      {
+        question: "Will I get lifetime access to the course content?",
+        answer:
+          "Yes. You will have lifetime access to recordings, code files, and resources post-enrollment."
+      }
+    ]
+  },
+  
+  "gitops-with-argo ": {
+    Program: [
+      {
+        question: "What is the Argo CD Training Program?",
+        answer:
+          "The Argo CD Training Program is an industry-relevant course designed to teach GitOps and modern CI/CD practices using Argo CD. It covers everything from the basics of GitOps to deploying, managing, and automating Kubernetes workloads using Argo CD, with a hands-on and beginner-friendly approach."
+      },
+      {
+        question: "Why should I learn Argo CD?",
+        answer:
+          "Argo CD is one of the most in-demand GitOps tools in DevOps and Cloud Native Engineering. It automates Kubernetes application deployment and management directly from Git, enabling scalable, reliable, and auditable workflows. Mastering Argo CD helps you become job-ready for modern cloud-native DevOps roles."
+      }
+    ],
+    timeCommitment: [
+      {
+        question: "How much time should I dedicate weekly to complete this course successfully?",
+        answer: "The recommended time commitment is 5-7 hours per week, but learners can adjust based on their pace."
+      },
+      {
+        question: "Is the program flexible for working professionals?",
+        answer: "Yes, the program is designed to accommodate working professionals with flexible schedules."
+      }
+    ],
+    selectionCriteria: [
+      {
+        question: "Who can join this Argo CD course?",
+        answer:
+          "Anyone interested in DevOps, Cloud Computing, or Kubernetes can join. It is ideal for students, developers, system administrators, QA professionals, DevOps engineers, and IT professionals looking to transition into GitOps practices."
+      },
+      {
+        question: "Is prior programming or DevOps knowledge required?",
+        answer:
+          "No. The course is designed for absolute beginners. Everything is taught from scratch including Git basics, YAML, Kubernetes concepts, and step-by-step Argo CD implementation."
+      }
+    ],
+    curriculum: [
+      {
+        question: "What topics are covered in this Argo CD training?",
+        answer:
+          "Key topics include GitOps principles, Argo CD installation, application syncing, manifest structuring, auto/manual sync, rollback strategies, multi-cluster delivery, secrets handling, RBAC, Helm/Kustomize integration, monitoring, and debugging."
+      },
+      {
+        question: "Will there be practical sessions?",
+        answer:
+          "Yes. Every session includes hands-on lab exercises with real-time Kubernetes clusters. You will deploy actual applications using GitOps and simulate real-world workflows."
+      }
+    ],
+    Duration: [
+      {
+        question: "How long is the Argo CD training program?",
+        answer:
+          "The complete program is structured into 8 core modules with additional revision and project sessions. Each session is around 1.5 to 2 hours, depending on the depth of the topic."
+      },
+      {
+        question: "Is the program online or offline?",
+        answer:
+          "The training is conducted in live online mode with interactive mentoring, real-time doubt clearing, and hands-on support."
+      }
+    ],
+    Certification: [
+      {
+        question: "Will I receive a certificate after the course?",
+        answer:
+          "Yes. You will receive an industry-recognized certificate after successful completion of the Argo CD training program."
+      },
+      {
+        question: "Does the program offer placement assistance?",
+        answer:
+          "Yes. Resume building, interview preparation, and GitOps role guidance will be provided. Select learners may also receive referrals to hiring partners."
+      }
+    ],
+    accessAndFees: [
+      {
+        question: "What is the course fee?",
+        answer:
+          "Fee details will be shared upon registration or inquiry. Early-bird discounts and student scholarships may be available."
+      },
+      {
+        question: "Will I get lifetime access to the course content?",
+        answer:
+          "Yes. You will have access to recorded sessions, practice labs, manifests, GitHub repositories, and documentation for up to 1 year after enrollment."
+      }
+    ]
+  },
+  
+
 
 
   "specialisation-in-docker": {

@@ -30,6 +30,10 @@ import { advanceLinuxTraining } from "./industry-relevant-linux";
 import {awsEksMastery} from "./awsEks";
 import {awsDevOpsMastery} from "./awsDevops";
 import {specialisationInCKAD} from "./ckadnew";
+import { AutomationWithSelenium } from "./automation-with-selenium";
+import { specialisationInmojo } from "./specialisation-in-mojo";
+import { gitOpswithArgo } from "./gitOpswithArgo";
+import { specialisationInnlp } from "./specialisation-in-nlp";
 
 export const courseInfo: Course[] = [
  
@@ -61,7 +65,12 @@ export const courseInfo: Course[] = [
   advanceLinuxTraining,
   awsEksMastery,
   awsDevOpsMastery,
+  
   specialisationInCKAD,
+  AutomationWithSelenium,
+  specialisationInmojo,
+  gitOpswithArgo,
+  specialisationInnlp,
  
 
 ]
