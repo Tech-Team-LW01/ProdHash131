@@ -60,7 +60,7 @@ features: [
                 "Understanding Web Automation",
                 "Benefits of automated testing (speed, reliability, efficiency)",
                 "Tools overview: Selenium, TestComplete, QTP",
-                "Introduction to Selenium’s history and components",
+                "Introduction to Seleniums history and components",
                 "Setting up Python, pip, Selenium, and IDEs",
                 "Configuring browser drivers (Chrome, Firefox)"
               ]
