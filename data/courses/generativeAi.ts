@@ -14,8 +14,8 @@ export const generativeAi: Course = {
     enrolledStudents: 18200,
     category: "Artificial Intelligence",
     shortDescription: "Industry Relevant & Recognized Training | Gain Hands-On Experience | Best-In-Class Content | Real-World Use Cases",
-    paymentLink: "https://rzp.io/l/aws-devops-july2025",
-    backgroundImage: "/assets/aws-devops-banner.jpg",
+    paymentLink: "https://rzp.io/rzp/1vdzrsR",
+    backgroundImage: "/assets/cources/courseDetails/6course/Generative-AI-with-AWS-Bedrock.jpg",
 
 learningOutcomes: [
 "AWS Bedrock Console: Master AWS Bedrock for AI workflows.",

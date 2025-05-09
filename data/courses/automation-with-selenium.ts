@@ -15,8 +15,8 @@ export const AutomationWithSelenium:Course = {
     enrolledStudents: 12000,
     category: "Web Scraping & Data Extraction",
     shortDescription: "Master end-to-end web testing with Selenium and Python through real-world use cases and 100% hands-on practice ",
-   paymentLink:"https://rzp.io/rzp/2asghU9u",
-    backgroundImage: "/assets/cources/courseDetails/Hero.jpeg",
+   paymentLink:"https://rzp.io/rzp/BjI5h12",
+    backgroundImage: "/assets/cources/courseDetails/6course/Automation-With-Selenium-&-Python.jpg",
  
 learningOutcomes: [
   "Test Automation",

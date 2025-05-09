@@ -15,8 +15,8 @@ export const specialisationInmojo:Course = {
     enrolledStudents: 12000,
     category: "Programming",
     shortDescription: "Industry Relevant & Recognized Training | Gain Hands-On Experience | Best-In-Class Content | Real-World Use Cases | 100% Practical Training",
-   paymentLink:"https://rzp.io/rzp/2asghU9u",
-    backgroundImage: "/assets/cources/courseDetails/Hero.jpeg",
+   paymentLink:"https://rzp.io/rzp/Gbdl5oG",
+    backgroundImage: "/assets/cources/courseDetails/6course/Mojo-for-High-Performance-Computing.jpg",
  
     learningOutcomes: [
         "Why Mojo Mojo Playground",
@@ -208,7 +208,7 @@ export const specialisationInmojo:Course = {
     sectionTitle: "Master Mojo Programming",
     category: "",
     toolsCount: "15+",
-    displayImage: "/assets/cources/tools.jpg",
+    displayImage: "/assets/cources/courseDetails/6course/Mojo.jpg",
     tools: [
 
   {

@@ -14,8 +14,8 @@ export const cybersecuritycryptography: Course = {
     enrolledStudents: 18200,
     category: "Cybersecurity & Linux",
     shortDescription: "Industry Relevant & Recognized Training | Gain Hands-On Experience | Best-In-Class Content | Real-World Use Cases",
-    paymentLink: "https://rzp.io/l/aws-devops-july2025",
-    backgroundImage: "/assets/aws-devops-banner.jpg",
+    paymentLink: "https://rzp.io/rzp/21jGQhnn",
+    backgroundImage: "/assets/cources/courseDetails/6course/Cybersecurity-and-Cryptography.jpg",
 
 learningOutcomes: [
     "SSL and TLS",
@@ -197,7 +197,7 @@ features: [
         sectionTitle: "hands-on with program",
         category: "",
         toolsCount: "",
-        displayImage: "/assets/courses/tools/aws-devops-tools.jpg",
+        displayImage: "/assets/cources/courseDetails/6course/Cryptography.jpg",
         tools: [
             
                 {

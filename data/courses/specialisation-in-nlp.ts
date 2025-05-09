@@ -15,7 +15,7 @@ export const specialisationInnlp: Course = {
     category: "Artificial Intelligence",
     shortDescription: "Industry Relevant & Recognized Training | Gain Hands-On Experience | Best-In-Class Content | Real-World Use Cases.",
     paymentLink: "https://rzp.io/l/aws-devops-july2025",
-    backgroundImage: "/assets/aws-devops-banner.jpg",
+    backgroundImage: "/assets/cources/courseDetails/6course/Natural-Language-Processing-(NLP)-Training.jpg",
 
 learningOutcomes: [
     "Sentiment Analysis with TextBlob & Real-World Datasets",
@@ -209,7 +209,7 @@ features: [
         sectionTitle: "Master NLP Concepts & Language Understanding",
         category: "",
         toolsCount: "",
-        displayImage: "/assets/courses/tools/aws-devops-tools.jpg",
+        displayImage: "/assets/cources/courseDetails/6course/NLP.jpg",
         tools: [
                 {
                   id: "python-libraries",
