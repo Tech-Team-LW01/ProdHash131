@@ -1,4 +1,5 @@
 // data/analyst/analyst.ts
+// data/analyst/analyst.ts
 import { ReactNode } from 'react';
 
 // Import company logos
@@ -17,7 +18,8 @@ import capgemini from "../../public/assets/landingPage/companyLogo/capgemini.png
 import cognizant from "../../public/assets/landingPage/companyLogo/cognizant.png";
 import hcl from "../../public/assets/landingPage/companyLogo/HCL.png";
 import Oracle from "../../public/assets/landingPage/companyLogo/Oracle.jpg";
-import tcs from "../../public/assets/landingPage/companyLogo/Tcs.png";
+// Fix the TCS logo import path - ensure correct capitalization and file extension
+import tcs from "../../public/assets/landingPage/companyLogo/tcs.png";
 import wipro from "../../public/assets/landingPage/companyLogo/Wipro.svg";
 import techmahindra from "../../public/assets/landingPage/companyLogo/TechMahindra.png";
 import amazon from "../../public/assets/landingPage/companyLogo/Amazon.png";
@@ -37,10 +39,6 @@ import Paypal from "../../public/assets/landingPage/companyLogo/PayPal.png";
 import VMware from  "../../public/assets/landingPage/companyLogo/VMware.png"
 import {SalaryData, AnalystData, CourseAnalystData} from "../../types/analyst"
 import { specialisationInStreamlit } from '../courses/specialisation-in-streamlit';
-
-
-
-
 
 // Define company names type
 export type CompanyName = 
@@ -77,10 +75,6 @@ export type CompanyName =
   | "PayPal"
   | "VMware"
 
- 
-
-
-
 // Company logos mapping
 export const companyLogos: Record<CompanyName, string> = {
   Citibank: citibank.src,
@@ -114,21 +108,8 @@ export const companyLogos: Record<CompanyName, string> = {
   zoho: zoho.src,
   gcp: gcp.src,
   PayPal: Paypal.src,
-  VMware:VMware.src
+  VMware: VMware.src
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Analyst data for all courses
 export const analystData: CourseAnalystData = {
@@ -159,6 +140,7 @@ export const analystData: CourseAnalystData = {
     jobsLabel: "Available Jobs",
     jobsDescription: "Total jobs found online for DevOps"
   },
+  // Add other course data here as needed
 
 
 
