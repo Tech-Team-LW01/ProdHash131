@@ -34,6 +34,7 @@ import { AutomationWithSelenium } from "./automation-with-selenium";
 import { specialisationInmojo } from "./specialisation-in-mojo";
 import { gitOpswithArgo } from "./gitOpswithArgo";
 import { specialisationInnlp } from "./specialisation-in-nlp";
+import { generativeAi } from "./generativeAi";
 
 export const courseInfo: Course[] = [
  
@@ -71,6 +72,7 @@ export const courseInfo: Course[] = [
   specialisationInmojo,
   gitOpswithArgo,
   specialisationInnlp,
+  generativeAi,
  
 
 ]

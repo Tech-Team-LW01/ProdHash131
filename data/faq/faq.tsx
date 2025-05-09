@@ -741,7 +741,103 @@ export const faqContent: FAQContent = {
       }
     ]
   },
-  
+"generative-ai-with-aws-bedrock": {
+  Program: [
+    {
+      question: "What is the AWS Bedrock Training Program?",
+      answer:
+        "The AWS Bedrock Training Program is an industry-focused course designed to teach how to leverage Amazon Bedrock for building and scaling generative AI applications. The course covers key topics such as understanding foundation models (FMs), implementing Retrieval Augmented Generation (RAG), deploying agents with AWS services, and using AWS Bedrock’s powerful capabilities for AI model integration.",
+    },
+    {
+      question: "Why should I learn AWS Bedrock?",
+      answer:
+        "AWS Bedrock is a cutting-edge service that helps businesses scale generative AI applications easily. Learning AWS Bedrock will enable you to integrate advanced AI models from leading providers, work with high-performance foundation models (FMs), and deploy AI agents to automate enterprise tasks using your own data sources and systems.",
+    },
+  ],
+  timeCommitment: [
+    {
+      question: "Who can join this AWS Bedrock course?",
+      answer:
+        "Anyone with an interest in AI, machine learning, or cloud computing can join. It’s ideal for cloud engineers, AI practitioners, machine learning engineers, data scientists, and anyone looking to implement generative AI capabilities in their applications.",
+    },
+    {
+      question: "Is prior programming knowledge required?",
+      answer:
+        "A basic understanding of cloud computing and AWS services will be beneficial. No advanced programming skills are necessary, though knowledge of Python, AWS CLI, and APIs would be helpful. The course is designed to be beginner-friendly, and all core concepts will be covered in detail.",
+    },
+  ],
+  curriculum: [
+    {
+      question: "What topics are covered in this AWS Bedrock training?",
+      answer: (
+        <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Introduction to AWS Bedrock and Generative AI concepts</li>
+          <li>Amazon Bedrock Architecture and Setup</li>
+          <li>Working with foundation models (FMs) from AI21 Labs, Anthropic, Cohere, Meta, etc.</li>
+          <li>Integration of Python, Boto3, and AWS CLI with Bedrock</li>
+          <li>Using Retrieval Augmented Generation (RAG) for improved AI results</li>
+          <li>Building and deploying agents using AWS services</li>
+          <li>Managing AI agents and evaluating model performance</li>
+          <li>Implementing security features and IAM roles in Bedrock</li>
+        </ul>
+      ),
+    },
+    {
+      question: "Will there be practical sessions?",
+      answer:
+        "Yes. Each session includes hands-on exercises, real-world projects, and practical tasks, such as integrating Bedrock with other AWS services, setting up agents, and deploying generative AI models.",
+    },
+  ],
+  Duration: [
+    {
+      question: "How long is the AWS Bedrock training program?",
+      answer:
+        "The complete program is structured into 6 core sessions. Each session lasts from 1 to 2 hours, covering both theoretical concepts and practical applications.",
+    },
+    {
+      question: "Is the program online or offline?",
+      answer:
+        "The training is delivered in a live online format, featuring interactive sessions, real-time Q&A, and hands-on demonstrations.",
+    },
+  ],
+  Certification: [
+    {
+      question: "Will I receive a certificate after the course?",
+      answer:
+        "Yes, you will receive a globally recognized certificate upon successful completion of the AWS Bedrock Training program.",
+    },
+    {
+      question: "Does the program offer placement assistance?",
+      answer:
+        "Yes, the course offers placement guidance, resume-building assistance, and interview preparation. Referrals to relevant job opportunities in companies using AWS Bedrock may also be provided to eligible participants.",
+    },
+  ],
+  selectionCriteria: [
+    {
+      question: "What are the prerequisites for this course?",
+      answer:
+        "Participants should have a basic understanding of cloud computing and AI concepts. Familiarity with AWS services is recommended but not mandatory.",
+    },
+    {
+      question: "How can I enroll in this program?",
+      answer:
+        "You can enroll by visiting our website and completing the registration process. Early registrations may be eligible for discounts.",
+    },
+  ],
+  accessAndFees: [
+    {
+      question: "What is the course fee?",
+      answer:
+        "Fee details are available upon registration or inquiry. Discounts or scholarships may be available for early applicants or students.",
+    },
+    {
+      question: "Will I get lifetime access to the course content?",
+      answer:
+        "Yes. You will have access to all recorded sessions, course materials, and related resources for 1 year after enrollment.",
+    },
+  ],
+},
+
 
 
 

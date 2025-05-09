@@ -988,6 +988,34 @@ export const analystData: CourseAnalystData = {
   
 
 },
+"generative-ai-with-aws-bedrock": {
+    title: "Prompt Engineering Specialists – 2025 Job Outlook & Salaries",  
+    subtitle: "AI/LLM Prompt Engineering Demand in Enterprise AI Development",  
+    salary: {
+      label: "India Salary Range (Annual INR)",
+      values: [1000000, 2000000, 3500000, 5000000] // Fresher → Senior → AI Architect
+    },
+    companies: [  
+      "Samsung ",  
+      "Google",  
+      "Microsoft",  
+      "Amazon",  
+      "Apple",  
+      "Meta",  
+      "IBM",  
+      "Adobe",  
+      "Intel" ,
+      "Paytm" 
+    ],  
+    demand: 92, // Higher than average tech job growth  
+    jobCount: "500+",  
+    description: "Prompt Engineering specialists are in high demand as AI adoption grows. With 80% of enterprises implementing AI/LLM solutions, professionals skilled in prompt design, LangChain, and AI optimization can target lucrative roles across tech giants and startups.",  
+    yearLabel: "In 2025",  
+    salaryLabel: "Average Annual Salaries (INR)",  
+    companiesLabel: "Top Companies Hiring Prompt Engineers",  
+    jobsLabel: "Global Job Openings",  
+    jobsDescription: "Jobs listed on LinkedIn, Indeed, and specialized AI job boards for Prompt Engineering roles"  
+},
 
  
 };
