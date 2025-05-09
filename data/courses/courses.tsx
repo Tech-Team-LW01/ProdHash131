@@ -35,6 +35,7 @@ import { specialisationInmojo } from "./specialisation-in-mojo";
 import { gitOpswithArgo } from "./gitOpswithArgo";
 import { specialisationInnlp } from "./specialisation-in-nlp";
 import { generativeAi } from "./generativeAi";
+import { cybersecuritycryptography } from "./cybersecurity-cryptography";
 
 export const courseInfo: Course[] = [
  
@@ -73,6 +74,7 @@ export const courseInfo: Course[] = [
   gitOpswithArgo,
   specialisationInnlp,
   generativeAi,
+  cybersecuritycryptography,
  
 
 ]

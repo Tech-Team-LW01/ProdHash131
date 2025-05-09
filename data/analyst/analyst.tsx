@@ -1078,9 +1078,10 @@ companies: [
       "nvidia",  
       "Qualcomm",  
       "IBM",  
-      "McAfee",  
+      "samsung",
+      "Intel",  
       "Capgemini" ,
-      "PwC" ,
+      "meesho" ,
       "Zscaler"
     ],  
     demand: 92, // Higher than average tech job growth  
