@@ -1,20 +1,20 @@
 import { Course } from "../../types/courses";
 
 export const specialisationInAWSCSA: Course = {
-    _id: "aws-certified-solutions-architect-associate",
-    title: "[B][R] AWS Certified Solutions Architect Associate [/R][/B] | Master Cloud Architecture with AWS",
-    slug: "aws-certified-solutions-architect-associate",
+    _id: "aws-certified-solutions-architect",
+    title: "[B][R] AWS Certified Solutions Architect (CSA) - Associate Training[/R][/B] ",
+    slug: "aws-certified-solutions-architect",
     rating: 5,
     totalRatings: 15,
     duration: "Beginner to Advance",
     globalStatus: "GLOBALLY RECOGNISED PROGRAM",
     programBy: "Your Name",
-    hours: "40+",
+    hours: "28+",
     price: 1999,
     originalPrice: 8000,
     enrolledStudents: 15000,
-    category: "Cloud Computing",
-    shortDescription: "Industry-Leading AWS Solutions Architect Training | Hands-On Labs | Real-World Projects | AWS Certification Preparation",
+    category: "Cloud",
+    shortDescription: "End-to-End, Hands-On AWS Training Designed for Real-World Cloud Architects Covers 25+ Core AWS Services Including EC2, VPC, Lambda, CloudFormation, and RDS With Production-Grade Deployments, Security, and Cost Optimization Strategies",
     paymentLink: "your-payment-link",
     backgroundImage: "/assets/cources/courseDetails/6course/aws-csa1 (1).jpg",
 
@@ -59,125 +59,188 @@ export const specialisationInAWSCSA: Course = {
 
    
     module: [
-        {
-            id: 1,
-            title: "Introduction to AWS and Cloud Concepts",
-            description: "Foundation of AWS and cloud computing principles",
-            content: [
-                "AWS Global Infrastructure",
-                "AWS Shared Responsibility Model",
-                "AWS Pricing and Account Management",
-                "Identity and Access Management (IAM)"
-            ]
-        },
-        {
-            id: 2,
-            title: "Compute Services",
-            description: "Understanding AWS compute solutions",
-            content: [
-                "Amazon EC2 and Instance Types",
-                "Auto Scaling and Launch Templates",
-                "Elastic Load Balancing",
-                "AWS Lambda and Serverless Computing"
-            ]
-        },
-        {
-            id: 3,
-            title: "Storage Services",
-            description: "Managing data storage in AWS",
-            content: [
-                "Amazon S3 and Storage Classes",
-                "EBS Volumes and Instance Store",
-                "Amazon EFS and FSx",
-                "Storage Gateway and Snow Family"
-            ]
-        },
-        {
-            id: 4,
-            title: "Database Services",
-            description: "Working with AWS database solutions",
-            content: [
-                "Amazon RDS and Aurora",
-                "DynamoDB and DAX",
-                "ElastiCache and Redshift",
-                "Database Migration Services"
-            ]
-        },
-        {
-            id: 5,
-            title: "Networking & Content Delivery",
-            description: "Implementing AWS networking solutions",
-            content: [
-                "VPC Architecture and Design",
-                "Subnets and Route Tables",
-                "Security Groups and NACLs",
-                "CloudFront and Route 53"
-            ]
-        },
-        {
-            id: 6,
-            title: "Security and Identity Services",
-            description: "Securing AWS infrastructure",
-            content: [
-                "AWS Organizations and Control Tower",
-                "AWS Shield and WAF",
-                "KMS and CloudHSM",
-                "Security Hub and GuardDuty"
-            ]
-        },
-        {
-            id: 7,
-            title: "Monitoring and Management",
-            description: "Managing AWS resources effectively",
-            content: [
-                "CloudWatch Metrics and Logs",
-                "AWS CloudTrail",
-                "AWS Config and Systems Manager",
-                "AWS Trusted Advisor"
-            ]
-        },
-        {
-            id: 8,
-            title: "Application Integration",
-            description: "Connecting applications and services",
-            content: [
-                "Simple Queue Service (SQS)",
-                "Simple Notification Service (SNS)",
-                "API Gateway",
-                "AWS Step Functions"
-            ]
-        },
-        {
-            id: 9,
-            title: "High Availability and Disaster Recovery",
-            description: "Building resilient architectures",
-            content: [
-                "High Availability Design Patterns",
-                "Backup and Restore Strategies",
-                "Pilot Light and Warm Standby",
-                "Multi-Region Architecture"
-            ]
-        },
-        {
-            id: 10,
-            title: "Cost Optimization",
-            description: "Optimizing AWS infrastructure costs",
-            content: [
-                "Cost Explorer and Budgets",
-                "Reserved Instances and Savings Plans",
-                "Resource Tagging Strategies",
-                "Cost Optimization Best Practices"
-            ]
-        }
+       
+            {
+              id: 1,
+              title: "AWS Cloud Introduction",
+              description: "Understanding the fundamentals of AWS and cloud adoption",
+              content: [
+                "AWS Regions & Availability Zones",
+                "EC2 Overview & Instance Types",
+                "Introduction to AWS CLI"
+              ]
+            },
+            {
+              id: 2,
+              title: "EC2 & Networking",
+              description: "Set up and manage EC2 instances, VPC & Networking",
+              content: [
+                "EC2 Setup & Key Pair Management",
+                "VPC Configuration & Subnetting",
+                "Security Groups, NACLs, and Route Tables"
+              ]
+            },
+            {
+              id: 3,
+              title: "Elastic Load Balancing (ELB)",
+              description: "Distribute traffic efficiently using ELB",
+              content: [
+                "Classic Load Balancer, ALB, and NLB Setup",
+                "Auto Scaling Integration with ELB",
+                "Health Checks & Security"
+              ]
+            },
+            {
+              id: 4,
+              title: "Storage & Databases",
+              description: "Leverage AWS storage solutions",
+              content: [
+                "EBS, S3, Glacier & their use cases",
+                "S3 Versioning, Encryption, and Access Control",
+                "RDS, DynamoDB, and Database Replication"
+              ]
+            },
+            {
+              id: 5,
+              title: "AWS Identity and Access Management (IAM)",
+              description: "Secure access control for AWS resources",
+              content: [
+                "IAM Roles, Users, and Policies",
+                "MFA Setup & Best Practices",
+                "Temporary Security Credentials with STS"
+              ]
+            },
+            {
+              id: 6,
+              title: "Serverless Architecture with AWS Lambda",
+              description: "Build scalable serverless applications",
+              content: [
+                "Lambda Functions and Triggers",
+                "API Gateway Integration",
+                "DynamoDB Integration with Lambda"
+              ]
+            },
+            {
+              id: 7,
+              title: "CloudFormation & Infrastructure as Code (IaC)",
+              description: "Automate infrastructure provisioning",
+              content: [
+                "CloudFormation Templates",
+                "Stacks & Change Sets",
+                "CloudFormation and AWS CLI Integration"
+              ]
+            },
+            {
+              id: 8,
+              title: "Monitoring & Security",
+              description: "Track resources and monitor system health",
+              content: [
+                "AWS CloudWatch & Alarms",
+                "CloudTrail for auditing and security",
+                "AWS Shield & WAF for enhanced security"
+              ]
+            },
+            {
+              id: 9,
+              title: "Networking in AWS",
+              description: "Set up VPC and configure network services",
+              content: [
+                "Creating Private & Public Subnets",
+                "VPN, Direct Connect, and Peering Connections",
+                "Route 53 DNS Configuration"
+              ]
+            },
+            {
+              id: 10,
+              title: "High Availability & Fault Tolerance",
+              description: "Design for high availability in AWS",
+              content: [
+                "Multi-AZ and Multi-Region Deployments",
+                "Elastic Load Balancing & Auto Scaling",
+                "S3 Cross-Region Replication"
+              ]
+            },
+            {
+              id: 11,
+              title: "AWS Elastic Beanstalk",
+              description: "Deploy and manage web applications easily",
+              content: [
+                "Beanstalk Environment Setup",
+                "Version Management & Rolling Updates",
+                "Integrating with RDS and DynamoDB"
+              ]
+            },
+            {
+              id: 12,
+              title: "Content Delivery & CDN with CloudFront",
+              description: "Deliver content globally with CloudFront",
+              content: [
+                "Setting Up CloudFront Distributions",
+                "Caching, Security, and Custom Domains",
+                "Performance Optimization with Edge Locations"
+              ]
+            },
+            {
+              id: 13,
+              title: "AWS Lambda & Step Functions",
+              description: "Orchestrate serverless workflows",
+              content: [
+                "Integrating AWS Step Functions with Lambda",
+                "Event-Driven Architectures",
+                "Step Functions Workflow Design"
+              ]
+            },
+            {
+              id: 14,
+              title: "Database Solutions in AWS",
+              description: "Understand AWS database services",
+              content: [
+                "RDS, Aurora, and DynamoDB",
+                "Database Migration Services (DMS)",
+                "Redundancy and Backup Options"
+              ]
+            },
+            {
+              id: 15,
+              title: "Security Best Practices",
+              description: "Secure AWS resources and data",
+              content: [
+                "Implementing IAM Best Practices",
+                "Encryption with KMS & CloudHSM",
+                "Securing Data in Transit & At Rest"
+              ]
+            },
+            {
+              id: 16,
+              title: "Cost Management & Optimization",
+              description: "Control AWS costs and billing",
+              content: [
+                "AWS Pricing Calculator & Billing Dashboard",
+                "EC2 Reserved Instances & Savings Plans",
+                "Cost Optimization with S3 Lifecycle Policies"
+              ]
+            },
+            {
+              id: 17,
+              title: "Exam Preparation & Final Review",
+              description: "Prepare for the AWS Certified Solutions Architect - Associate exam",
+              content: [
+                "Exam Overview & Tips",
+                "Practice Tests and Mock Exams",
+                "Final Q&A and Review"
+              ]
+            }
+          
+          
     ],
 
     highlights: [
         {
-            number: "10",
+            number: "17",
             description: "Modules"
         },
         {
-            number: "40+",
+            number: "28+",
             description: "Hours of learning"
         },
         {
@@ -235,30 +298,40 @@ export const specialisationInAWSCSA: Course = {
         displayImage: "/assets/cources/tools/AWS.jpg",
         tools: [
             {
-                id: "compute",
+                id: "Compute:",
                 icon: "TrendingUp",
-                title: "Compute: EC2, Lambda, ECS"
+                title: " EC2, Lambda, Auto Scaling, Elastic Load Balancer"
             },
             {
-                id: "storage",
-                icon: "BarChart",
-                title: "Storage: S3, EBS, EFS"
-            },
-            {
-                id: "database",
+                id: "Networking",
                 icon: "Cpu",
-                title: "Database: RDS, DynamoDB, Aurora"
-            },
-            {
-                id: "networking",
+                title: "VPC, CloudFront, API Gateway, Route 53"
+              },
+              {
+                id: "Storage",
+                icon: "Database",
+                title: "S3, EBS, Glacier, EFS, Storage Gateway"
+              },
+              {
+                id: "Security & Access",
+                icon: "Shield",
+                title: "IAM, Role-Based Access Control (RBAC), Cognito, KMS"
+              },
+              {
+                id: "Serverless",
                 icon: "TrendingUp",
-                title: "Networking: VPC, Route 53, CloudFront"
-            },
-            {
-                id: "security",
+                title: "AWS Lambda, API Gateway, DynamoDB, Step Functions"
+              },
+              {
+                id: "Deployment & Automation",
+                icon: "Cpu",
+                title: "AWS CLI, CloudFormation, CodePipeline"
+              },
+              {
+                id: "Monitoring & Analytics",
                 icon: "BarChart",
-                title: "Security: IAM, KMS, Shield"
-            }
+                title: "CloudWatch, CloudTrail, AWS X-Ray, Kinesis"
+              }
         ]
     },
 
