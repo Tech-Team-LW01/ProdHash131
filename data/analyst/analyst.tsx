@@ -875,10 +875,7 @@ export const analystData: CourseAnalystData = {
     "values": [650000, 1100000, 1650000, 2500000]  // Entry → Junior → Mid-Level → Senior
   },
   companies: [
-    "Google",
-    "TCS",
-    "Flipkart",
-    "Amazon",
+    
     "Infosys",
     "Zomato",
     "Microsoft",
@@ -893,7 +890,6 @@ export const analystData: CourseAnalystData = {
     "Paytm",
     "Deloitte",
     "Ola Electric",
-    "Oracle",
     "HCL Technologies",
     "Meesho"
   ],
