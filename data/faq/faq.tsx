@@ -657,7 +657,7 @@ export const faqContent: FAQContent = {
     ]
   },
   
-  "gitops-with-argo ": {
+  "gitops-with-argo": {
     Program: [
       {
         question: "What is the Argo CD Training Program?",
@@ -741,6 +741,90 @@ export const faqContent: FAQContent = {
       }
     ]
   },
+"specialisation-in-nlp": {
+  Program: [
+    {
+      question: "What is the NLP Training Program?",
+      answer: "The NLP Training Program is an industry-focused course designed to teach Natural Language Processing using Python. It covers core topics like sentiment analysis, tokenization, lemmatization, text classification, TF-IDF, and deep learning-based NLP models using libraries like TextBlob, NLTK, and spaCy."
+    },
+    {
+      question: "Why should I learn NLP?",
+      answer: "NLP is one of the most in-demand skills in AI and Data Science. It powers applications like chatbots, recommendation engines, sentiment detection, voice assistants, and search engines. Learning NLP helps you build intelligent systems that understand and process human language effectively."
+    }
+  ],
+  eligibility: [
+    {
+      question: "Who can join this NLP course?",
+      answer: "Anyone interested in AI, Machine Learning, or language technology can join. It is ideal for Python developers, data scientists, ML engineers, AI researchers, and students with a basic programming background."
+    },
+    {
+      question: "Is prior programming knowledge required?",
+      answer: "Basic knowledge of Python is helpful but not mandatory. The course is structured to cover fundamentals and is beginner-friendly. Anyone with a passion for AI and interest in language understanding can learn and grow."
+    }
+  ],
+  curriculum: [
+    {
+      question: "What topics are covered in this NLP training?",
+      answer: "Key topics include: Sentiment Analysis with TextBlob, Tokenization, Lemmatization, Stemming, Named Entity Recognition (NER) using spaCy, Text Classification using TF-IDF, Feature Engineering and Confusion Matrix, Pipeline Customization, and Rule-Based Matching."
+    },
+    {
+      question: "Will there be practical sessions?",
+      answer: "Yes. Each session includes hands-on implementation using real-world datasets. You will also work on practice assignments and text classification use cases."
+    }
+  ],
+  timeCommitment: [
+    {
+      question: "How much time should I dedicate weekly to complete this course successfully?",
+      answer: "The recommended time commitment is 5-7 hours per week, but learners can adjust based on their pace."
+    },
+    {
+      question: "Is the program flexible for working professionals?",
+      answer: "Yes, the program is designed to accommodate working professionals with flexible schedules."
+    }
+  ],
+  Duration: [
+    {
+      question: "How long is the NLP training program?",
+      answer: "The program is structured into 10 core sessions, each ranging from 1 to 2 hours, covering both theoretical and practical aspects of NLP."
+    },
+    {
+      question: "Is the program online or offline?",
+      answer: "The training is delivered in live online mode with interactive sessions, hands-on practice, and mentor support."
+    }
+  ],
+  Certification: [
+    {
+      question: "Will I receive a certificate after the course?",
+      answer: "Yes. You will receive an industry-recognized certificate upon successful completion of the NLP program."
+    },
+    {
+      question: "Does the program offer placement assistance?",
+      answer: "Yes. Placement guidance, resume building, and interview preparation will be provided. Referrals to hiring companies may be extended to eligible learners."
+    }
+  ],
+  selectionCriteria: [
+    {
+      question: "What are the prerequisites for this course?",
+      answer: "Participants should have a basic understanding of programming and AI concepts. Familiarity with Python is recommended but not mandatory."
+    },
+    {
+      question: "How can I enroll in this program?",
+      answer: "You can enroll by visiting our website and completing the registration process. Early registrations may be eligible for discounts."
+    }
+  ],
+  accessAndFees: [
+    {
+      question: "What is the course fee?",
+      answer: "Fee details will be shared upon registration or inquiry. Discounts or scholarships may be available for early applicants or students."
+    },
+    {
+      question: "Will I get lifetime access to the course content?",
+      answer: "Yes. You will have access to all recorded sessions, datasets, notebooks, and code files after enrollment for a duration of 1 year."
+    }
+  ]
+},
+
+
 "generative-ai-with-aws-bedrock": {
   Program: [
     {

@@ -29,7 +29,7 @@ export default function Home() {
 <CoreFeature></CoreFeature>
 <CoursesComponent  />
 <Subscribe></Subscribe>
-{/* <PopularTopic></PopularTopic> */}
+<PopularTopic></PopularTopic>
 <Testimonials></Testimonials>
 {/* <BlogSection></BlogSection> */}
 <DiscordCommunity></DiscordCommunity>

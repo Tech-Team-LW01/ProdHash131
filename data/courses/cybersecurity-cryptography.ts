@@ -12,7 +12,7 @@ export const cybersecuritycryptography: Course = {
     price: 9999,
     originalPrice: 21999,
     enrolledStudents: 18200,
-    category: "Cloud & DevOps",
+    category: "Cybersecurity & Linux",
     shortDescription: "Industry Relevant & Recognized Training | Gain Hands-On Experience | Best-In-Class Content | Real-World Use Cases",
     paymentLink: "https://rzp.io/l/aws-devops-july2025",
     backgroundImage: "/assets/aws-devops-banner.jpg",

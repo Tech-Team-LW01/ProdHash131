@@ -37,6 +37,7 @@ import zoho from "../../public/assets/landingPage/companyLogo/zoho.png";
 import gcp from "../../public/assets/landingPage/companyLogo/gcp.png";
 import Paypal from "../../public/assets/landingPage/companyLogo/PayPal.png";
 import VMware from  "../../public/assets/landingPage/companyLogo/VMware.png"
+import nvidia from "../../public/assets/landingPage/NVIDIA.png";
 import {SalaryData, AnalystData, CourseAnalystData} from "../../types/analyst"
 import { specialisationInStreamlit } from '../courses/specialisation-in-streamlit';
 
@@ -74,6 +75,7 @@ export type CompanyName =
   | "gcp"
   | "PayPal"
   | "VMware"
+  | "nvidia"
 
 // Company logos mapping
 export const companyLogos: Record<CompanyName, string> = {
@@ -108,7 +110,8 @@ export const companyLogos: Record<CompanyName, string> = {
   zoho: zoho.src,
   gcp: gcp.src,
   PayPal: Paypal.src,
-  VMware: VMware.src
+  VMware: VMware.src,
+  nvidia: nvidia.src,
 };
 
 // Analyst data for all courses
@@ -911,39 +914,37 @@ export const analystData: CourseAnalystData = {
   title: "Linux System Administrators – 2025 Job Outlook & Salaries",
   subtitle: "Linux Administration & DevOps Expert Demand in Global Tech Industry",
   salary: {
-    "label": "India Salary Range (Annual INR)",
-    "values": [650000, 1100000, 1650000, 2250000] // Entry → Junior → Mid-Level → Senior
+    label: "India Salary Range (Annual INR)",
+    values: [650000, 1100000, 1650000, 2250000]
   },
-  companies: [
+companies: [
     "Google",
     "Amazon",
     "Meta",
     "Apple",
     "Microsoft",
-    "NVIDIA",
+    "nvidia",
     "Intel",
     "AMD",
-    "IBM Research",
-    "Accenture AI",
-    "Deloitte AI & Analytics",
-    "TCS Research & Innovation"
+    "IBM",
+    "Accenture",
+    "Deloitte",
+    "Tcs"
   ],
-  demand: 85, // Assumed based on AI/test automation research growth
+  demand: 85,
   jobCount: "100+",
-  description: "Selenium professionals in India are experiencing higher salaries due to rising demand for test automation in DevOps, CI/CD, and agile development pipelines. In 2024, entry-level roles start around ₹4.1 LPA, with experienced engineers earning ₹15 LPA and above. Strong Python and framework knowledge (e.g., PyTest, Jenkins) significantly boosts earning potential.",
+  description: "Mojo, a new language designed for high-performance computing (HPC) and AI workloads, is gaining rapid attention in the developer community. With its ability to combine the usability of Python with C-level speed, it's becoming a valuable skill for roles in AI, ML, and systems programming. Professionals skilled in Mojo are seeing growing demand in industries ranging from finance to scientific computing and autonomous systems.",
   yearLabel: "In 2025",
   salaryLabel: "Average Annual Salaries (INR)",
   companiesLabel: "Top Companies Hiring Linux System Administrators",
   jobsLabel: "Global Job Openings",
-  jobsDescription: "Active job listings on LinkedIn, Naukri, Indeed, and company career portals for Linux System Administrator and related DevOps roles",
-
-  
+  jobsDescription: "Active job listings on LinkedIn, Naukri, Indeed, and company career portals for Linux System Administrator and related DevOps roles"
 
  
 },
 
 
-"gitOpswithArgo": {
+"gitops-with-argo": {
   title: "Linux System Administrators – 2025 Job Outlook & Salaries",
   subtitle: "Linux Administration & DevOps Expert Demand in Global Tech Industry",
   salary: {
@@ -951,6 +952,10 @@ export const analystData: CourseAnalystData = {
     "values": [600000, 1000000, 1800000, 3000000,5000000] // Entry → Junior → Mid-Level → Senior
   },
   companies: [
+    "Microsoft",
+  
+    "gcp",
+    "Oracle",
     "Hitachi",
     "Fiserv",
     "ValueLabs",
@@ -962,19 +967,54 @@ export const analystData: CourseAnalystData = {
     "Wipro",
     "TCS",
     "Infosys",
-    "IBM",
     "Capgemini",
     "Cognizant",
     "Accenture",
-    "Deloitte",
-    "Microsoft",
-    "Amazon (AWS)",
-    "Google (Cloud DevOps teams)",
-    "Oracle"
+    
   ],
   demand: 85, // Assumed based on AI/test automation research growth
   jobCount: "1000+",
-  description: "Selenium professionals in India are experiencing higher salaries due to rising demand for test automation in DevOps, CI/CD, and agile development pipelines. In 2024, entry-level roles start around ₹4.1 LPA, with experienced engineers earning ₹15 LPA and above. Strong Python and framework knowledge (e.g., PyTest, Jenkins) significantly boosts earning potential.",
+  description: "GitOps with ArgoCD is revolutionizing Kubernetes deployment workflows by enabling fully automated, version-controlled, and declarative infrastructure delivery. As DevOps adoption grows, engineers skilled in GitOps practices, CI/CD pipelines, and tools like ArgoCD and Helm are in high demand. Companies seek professionals who can streamline deployment, ensure reliability, and scale infrastructure efficiently.",
+  yearLabel: "In 2025",
+  salaryLabel: "Average Annual Salaries (INR)",
+  companiesLabel: "Top Companies Hiring Linux System Administrators",
+  jobsLabel: "Global Job Openings",
+  jobsDescription: "Active job listings on LinkedIn, Naukri, Indeed, and company career portals for Linux System Administrator and related DevOps roles",
+
+  
+
+},
+"specialisation-in-nlp": {
+  title: "Linux System Administrators – 2025 Job Outlook & Salaries",
+  subtitle: "Linux Administration & DevOps Expert Demand in Global Tech Industry",
+  salary:  {
+    "label": "India Salary Range (Annual INR)",
+    "values": [650000, 1300000, 1800000, 3000000, 3000000] // Entry → Junior → Mid-Level → Senior
+  },
+  companies: [
+    "Microsoft",
+   "Google",
+    "gcp",
+    "Adobe",
+    "Paytm",
+    "Hitachi",
+    "Fiserv",
+    "ValueLabs",
+    "Calsoft",
+    "Dell",
+    "Cisco",
+    "Goldman Sachs",
+    "HCL Technologies",
+    "Tcs",
+    "Infosys",
+    "Capgemini",
+    "Cognizant",
+ 
+    
+  ],
+  demand: 85, // Assumed based on AI/test automation research growth
+  jobCount: "21288 +",
+  description: "GitOps with ArgoCD is revolutionizing Kubernetes deployment workflows by enabling fully automated, version-controlled, and declarative infrastructure delivery. As DevOps adoption grows, engineers skilled in GitOps practices, CI/CD pipelines, and tools like ArgoCD and Helm are in high demand. Companies seek professionals who can streamline deployment, ensure reliability, and scale infrastructure efficiently.",
   yearLabel: "In 2025",
   salaryLabel: "Average Annual Salaries (INR)",
   companiesLabel: "Top Companies Hiring Linux System Administrators",
@@ -1026,7 +1066,7 @@ export const analystData: CourseAnalystData = {
       "Google",  
       "Microsoft",  
       "Amazon",  
-      "NVIDIA",  
+      "nvidia",  
       "Qualcomm",  
       "IBM",  
       "McAfee",  

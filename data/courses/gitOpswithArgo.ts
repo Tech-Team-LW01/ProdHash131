@@ -12,7 +12,7 @@ export const gitOpswithArgo: Course = {
     price: 7999,
     originalPrice: 14999,
     enrolledStudents: 9500,
-    category: "Cloud & DevOps",
+    category: "DevOps",
     shortDescription: "Learn GitOps principles with ArgoCD to automate Kubernetes deployments, manage app configurations, and implement continuous delivery.",
     paymentLink: "https://rzp.io/l/gitops-argocd-july2025",
     backgroundImage: "/assets/gitops-argo-banner.jpg",

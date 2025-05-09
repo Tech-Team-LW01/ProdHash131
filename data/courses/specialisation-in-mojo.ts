@@ -13,7 +13,7 @@ export const specialisationInmojo:Course = {
     price: 20000,
     originalPrice: 45000,
     enrolledStudents: 12000,
-    category: "DevOps",
+    category: "Programming",
     shortDescription: "Industry Relevant & Recognized Training | Gain Hands-On Experience | Best-In-Class Content | Real-World Use Cases | 100% Practical Training",
    paymentLink:"https://rzp.io/rzp/2asghU9u",
     backgroundImage: "/assets/cources/courseDetails/Hero.jpeg",
