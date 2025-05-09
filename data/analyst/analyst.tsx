@@ -38,6 +38,8 @@ import gcp from "../../public/assets/landingPage/companyLogo/gcp.png";
 import Paypal from "../../public/assets/landingPage/companyLogo/PayPal.png";
 import VMware from  "../../public/assets/landingPage/companyLogo/VMware.png"
 import nvidia from "../../public/assets/landingPage/NVIDIA.png";
+import meesho from "../../public/assets/landingPage/Meesho_logo.png";
+import samsung from "../../public/assets/landingPage/samsung-logo.png";
 import {SalaryData, AnalystData, CourseAnalystData} from "../../types/analyst"
 import { specialisationInStreamlit } from '../courses/specialisation-in-streamlit';
 
@@ -76,6 +78,9 @@ export type CompanyName =
   | "PayPal"
   | "VMware"
   | "nvidia"
+  |"paytm"
+  |"meesho"
+  |"samsung"
 
 // Company logos mapping
 export const companyLogos: Record<CompanyName, string> = {
@@ -112,6 +117,9 @@ export const companyLogos: Record<CompanyName, string> = {
   PayPal: Paypal.src,
   VMware: VMware.src,
   nvidia: nvidia.src,
+  paytm: paytm.src,
+  meesho: meesho.src,
+  samsung: samsung.src
 };
 
 // Analyst data for all courses
@@ -884,16 +892,16 @@ export const analystData: CourseAnalystData = {
     "Microsoft",
     "Wipro",
     "Razorpay",
-    "Meta (Facebook)",
+    "Meta",
     "Accenture",
     "Cognizant",
     "Postman",
     "IBM",
     "Tech Mahindra",
-    "Paytm",
+    "paytm",
     "Deloitte",
     "Ola Electric",
-    "HCL Technologies",
+    "HCL",
     "Meesho"
   ],
   demand: 78,
@@ -1014,7 +1022,7 @@ companies: [
   ],
   demand: 85, // Assumed based on AI/test automation research growth
   jobCount: "21288 +",
-  description: "GitOps with ArgoCD is revolutionizing Kubernetes deployment workflows by enabling fully automated, version-controlled, and declarative infrastructure delivery. As DevOps adoption grows, engineers skilled in GitOps practices, CI/CD pipelines, and tools like ArgoCD and Helm are in high demand. Companies seek professionals who can streamline deployment, ensure reliability, and scale infrastructure efficiently.",
+  description:  "Natural Language Processing (NLP) is at the heart of modern AI applications, powering chatbots, voice assistants, recommendation systems, and intelligent search. As companies rapidly adopt AI-driven communication and automation, the demand for NLP experts is surging. Professionals skilled in text classification, sentiment analysis, and deep learning for language are highly valued across industries including tech, healthcare, fintech, and customer service.",
   yearLabel: "In 2025",
   salaryLabel: "Average Annual Salaries (INR)",
   companiesLabel: "Top Companies Hiring Linux System Administrators",
@@ -1025,15 +1033,16 @@ companies: [
 
 },
 "generative-ai-with-aws-bedrock": {
-    title: "Prompt Engineering Specialists – 2025 Job Outlook & Salaries",  
-    subtitle: "AI/LLM Prompt Engineering Demand in Enterprise AI Development",  
+    title:  "Generative AI Engineers – 2025 Job Outlook & Salaries", 
+    subtitle:"High Demand for Experts in Generative AI, Prompt Engineering & AWS Bedrock Solutions",
     salary: {
       label: "India Salary Range (Annual INR)",
       values: [1000000, 2000000, 3500000, 5000000] // Fresher → Senior → AI Architect
     },
     companies: [  
-      "Samsung ",  
-      "Google",  
+      "samsung",  
+      "Google", 
+      "meesho", 
       "Microsoft",  
       "Amazon",  
       "Apple",  
@@ -1041,11 +1050,11 @@ companies: [
       "IBM",  
       "Adobe",  
       "Intel" ,
-      "Paytm" 
+      "paytm" 
     ],  
     demand: 92, // Higher than average tech job growth  
     jobCount: "500+",  
-    description: "Prompt Engineering specialists are in high demand as AI adoption grows. With 80% of enterprises implementing AI/LLM solutions, professionals skilled in prompt design, LangChain, and AI optimization can target lucrative roles across tech giants and startups.",  
+    description:  "Generative AI is transforming industries by enabling machines to create content, automate workflows, and power intelligent assistants. With AWS Bedrock, professionals can easily build and scale generative AI applications using foundation models. Skills in prompt engineering, model orchestration, and real-world deployment with AWS services are highly valued across sectors, from tech and finance to healthcare and e-commerce.",
     yearLabel: "In 2025",  
     salaryLabel: "Average Annual Salaries (INR)",  
     companiesLabel: "Top Companies Hiring Prompt Engineers",  
@@ -1076,7 +1085,7 @@ companies: [
     ],  
     demand: 92, // Higher than average tech job growth  
     jobCount: "44524+",  
-    description: "Prompt Engineering specialists are in high demand as AI adoption grows. With 80% of enterprises implementing AI/LLM solutions, professionals skilled in prompt design, LangChain, and AI optimization can target lucrative roles across tech giants and startups.",  
+    description: "As cybersecurity threats evolve, the demand for specialists in cryptography and secure communication is rapidly increasing. Cryptography experts play a critical role in securing digital assets, networks, and data against breaches and cyberattacks. With growing adoption of encryption standards, zero-trust architectures, and regulatory compliance, professionals skilled in cryptographic algorithms, secure protocols, and penetration testing are highly sought after across industries including finance, defense, healthcare, and cloud services.",
     yearLabel: "In 2025",  
     salaryLabel: "Average Annual Salaries (INR)",  
     companiesLabel: "Top Companies Hiring Prompt Engineers",  
