@@ -1017,6 +1017,37 @@ export const analystData: CourseAnalystData = {
     jobsDescription: "Jobs listed on LinkedIn, Indeed, and specialized AI job boards for Prompt Engineering roles"  
 },
 
+"cybersecurity-cryptography": {
+  
+    title: "Cryptography Specialists – 2025 Job Outlook & Salaries",
+    subtitle: "Career Growth & Compensation in Cybersecurity and Encryption Roles",
+    salary: {
+      label: "India Salary Range (Annual INR)",
+      values: [900000, 1400000, 1800000, 2500000] // Entry-Level → Mid-Level → Senior-Level → Lead/Expert
+    },
+    companies: [  
+      "Tcs ",  
+      "Google",  
+      "Microsoft",  
+      "Amazon",  
+      "NVIDIA",  
+      "Qualcomm",  
+      "IBM",  
+      "McAfee",  
+      "Capgemini" ,
+      "PwC" ,
+      "Zscaler"
+    ],  
+    demand: 92, // Higher than average tech job growth  
+    jobCount: "44524+",  
+    description: "Prompt Engineering specialists are in high demand as AI adoption grows. With 80% of enterprises implementing AI/LLM solutions, professionals skilled in prompt design, LangChain, and AI optimization can target lucrative roles across tech giants and startups.",  
+    yearLabel: "In 2025",  
+    salaryLabel: "Average Annual Salaries (INR)",  
+    companiesLabel: "Top Companies Hiring Prompt Engineers",  
+    jobsLabel: "Global Job Openings",  
+    jobsDescription: "Jobs listed on LinkedIn, Indeed, and specialized AI job boards for Prompt Engineering roles"  
+},
+
  
 };
 

@@ -837,6 +837,100 @@ export const faqContent: FAQContent = {
     },
   ],
 },
+"cybersecurity-cryptography": {
+  curriculum: [
+    {
+      question: "What is the Cryptography Training Program?",
+      answer:
+        "The Cryptography Training Program offers in-depth knowledge about encryption techniques, SSL/TLS handshakes, cryptographic algorithms, data integrity, public and private key cryptography, digital signatures, and more. You'll gain hands-on experience with tools and algorithms widely used in securing systems and applications."
+    },
+    {
+      question: "Why should I learn Cryptography?",
+      answer:
+        "Cryptography is essential for securing sensitive data, communications, and systems in today’s digital world. With the rise in cyber-attacks and data breaches, cryptography professionals are in high demand. This course equips you with the skills to build secure systems and protect sensitive information."
+    }
+  ],
+  timeCommitment: [
+    {
+      question: "Who can join this Cryptography course?",
+      answer:
+        "This course is ideal for cybersecurity professionals, software engineers, cloud architects, and anyone interested in learning cryptographic methods for securing applications, systems, and networks."
+    },
+    {
+      question: "Is prior programming knowledge required?",
+      answer:
+        "Basic programming knowledge (preferably in Python) will be helpful. However, the course is designed to be beginner-friendly, and foundational concepts will be covered as needed."
+    }
+  ],
+  Program: [
+    {
+      question: "What topics are covered in this Cryptography training?",
+      answer: (
+        <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Cryptographic concepts and importance beyond encryption</li>
+          <li>Securing web pages with cryptography techniques</li>
+          <li>Understanding SSL, Cipher Modes of Operation, Symmetric Key Authentication</li>
+          <li>AES256, SHA256, GCM, and hashing techniques</li>
+          <li>HSM devices and asymmetric key cryptography</li>
+          <li>Digital signatures, public key systems, hybrid encryption, and more</li>
+        </ul>
+      )
+    },
+    {
+      question: "Will there be practical sessions?",
+      answer:
+        "Yes, you will engage in practical sessions involving real-world use cases, such as securing web applications, handling encryption, and managing keys."
+    }
+  ],
+  Duration: [
+    {
+      question: "How long is the Cryptography training program?",
+      answer:
+        "The program is structured into 10 core sessions, each ranging from 1 to 2 hours, covering both theoretical and practical aspects of cryptography."
+    },
+    {
+      question: "Is the program online or offline?",
+      answer:
+        "The training is delivered in live online mode with interactive sessions, hands-on practice, and mentor support."
+    }
+  ],
+  Certification: [
+    {
+      question: "Will I receive a certificate after the course?",
+      answer:
+        "Yes, upon successful completion of the course, you will receive a certification that demonstrates your knowledge and skills in cryptography."
+    },
+    {
+      question: "Does the program offer placement assistance?",
+      answer:
+        "Yes, placement guidance, resume building, and interview preparation support will be provided. We also offer referrals to top hiring companies in the field of cybersecurity and cryptography."
+    }
+  ],
+  selectionCriteria: [
+    {
+      question: "What are the prerequisites for this course?",
+      answer:
+        "Participants should have a basic understanding of programming and cybersecurity concepts. Familiarity with Python is recommended but not mandatory."
+    },
+    {
+      question: "How can I enroll in this program?",
+      answer:
+        "You can enroll by visiting our website and completing the registration process. Early registrations may be eligible for discounts."
+    }
+  ],
+  accessAndFees: [
+    {
+      question: "What is the course fee?",
+      answer:
+        "The course fee details will be shared upon registration. Discounts or scholarships may be available for early applicants."
+    },
+    {
+      question: "Will I get lifetime access to the course content?",
+      answer:
+        "Yes, you will have access to recorded sessions, code examples, and other resources for one year after enrollment."
+    }
+  ]
+},
 
 
 
