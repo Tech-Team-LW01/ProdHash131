@@ -169,9 +169,9 @@ features: [
     ],
 
     toolsData: {
-        sectionTitle: "hands-on with devops program",
+        sectionTitle: "AWS Bedrock Training",
         category: "",
-        toolsCount: " NLP Concepts & Language ",
+        toolsCount: " ",
         displayImage: "/assets/courses/tools/aws-devops-tools.jpg",
         tools: [
             

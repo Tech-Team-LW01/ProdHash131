@@ -191,7 +191,7 @@ features: [
   ],
   toolsData: {
     sectionTitle: "Most Hands-On Selenium Program",
-    category: "DevOps",
+    category: "",
     toolsCount: "15+",
     displayImage: "/assets/cources/tools.jpg",
     tools: [

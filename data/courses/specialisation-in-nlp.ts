@@ -206,9 +206,9 @@ features: [
     ],
 
     toolsData: {
-        sectionTitle: "hands-on with devops program",
+        sectionTitle: "Master NLP Concepts & Language Understanding",
         category: "",
-        toolsCount: " NLP Concepts & Language ",
+        toolsCount: "",
         displayImage: "/assets/courses/tools/aws-devops-tools.jpg",
         tools: [
                 {

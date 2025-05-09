@@ -205,8 +205,8 @@ export const specialisationInmojo:Course = {
       { src: "/assets/cources/programFor/programfor10.jpg", alt: "College Students", text: "Backend Developers" },
   ],
   toolsData: {
-    sectionTitle: "Most Hands-On DevOps Program",
-    category: "DevOps",
+    sectionTitle: "Master Mojo Programming",
+    category: "",
     toolsCount: "15+",
     displayImage: "/assets/cources/tools.jpg",
     tools: [
