@@ -18,6 +18,9 @@ const Footer = () => {
           <p className="text-gray-400 mb-6">
               Making India 🇮🇳 Future Ready
           </p>
+          <p className="text-gray-400 mb-6">
+          Powered By @LinuxWorld
+          </p>
           <div className="flex space-x-4">
             <a href="https://www.linkedin.com/company/83485021/admin/dashboard/" className="bg-gray-700 p-3 rounded">
               <FaLinkedinIn />
