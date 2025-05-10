@@ -141,7 +141,7 @@ const CoursePage: React.FC = () => {
       { name: "All Courses", highlight: false },
       // { name: "Popular Courses", highlight: true },
       { name: "DevOps", highlight: false },
-      { name: "Cloud", highlight: false },
+      { name: "Cloud & Cloud Computing", highlight: false },
       { name: "Programming", highlight: false },
       { name: "Databases", highlight: false },
       { name: "System Administration", highlight: false },
@@ -150,7 +150,7 @@ const CoursePage: React.FC = () => {
       { name: "Data Applications", highlight: false },
       { name: "Web Scraping & Data Extraction", highlight: false },
       { name: "Cybersecurity & Linux", highlight: false },
-      { name: "Cloud Computing", highlight: false },
+      // { name: "Cloud Computing", highlight: false },
       
       
       { name: "MLOPS", highlight: false },
