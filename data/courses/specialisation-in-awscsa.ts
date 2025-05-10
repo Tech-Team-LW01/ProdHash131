@@ -279,16 +279,16 @@ export const specialisationInAWSCSA: Course = {
     ],
 
     programFor: [
-        { src: "/assets/cources/courseDetails/aws/Solutions-Architects.jpg", alt: "Solutions Architects", text: "Solutions Architects" },
-        { src: "/assets/cources/courseDetails/aws/Cloud-Engineers.jpg", alt: "Cloud Engineers", text: "Cloud Engineers" },
-        { src: "/assets/cources/courseDetails/aws/DevOps-Engineers.jpg", alt: "DevOps Engineers", text: "DevOps Engineers" },
-        { src: "/assets/cources/courseDetails/aws/System-Administrators.jpg", alt: "System Administrators", text: "System Administrators" },
-        { src: "/assets/cources/courseDetails/aws/IT-Managers.jpg", alt: "IT Managers", text: "IT Managers" },
-        { src: "/assets/cources/courseDetails/aws/Software-Developers.jpg", alt: "Software Developers", text: "Software Developers" },
-        { src: "/assets/cources/courseDetails/aws/Technical-Consultants.jpg", alt: "Technical Consultants", text: "Technical Consultants" },
-        { src: "/assets/cources/courseDetails/aws/College-Students.jpg", alt: "College Students", text: "College Students" },
-        { src: "/assets/cources/courseDetails/aws/Cloud-Architects.jpg", alt: "Cloud Architects", text: "Cloud Architects" },
-        { src: "/assets/cources/courseDetails/aws/Infrastructure-Engineers.jpg", alt: "Infrastructure Engineers", text: "Infrastructure Engineers" }
+        { src: "/assets/cources/programFor/programfor1.jpg", alt: "Solutions Architects", text: "Solutions Architects" },
+        { src: "/assets/cources/programFor/programfor2.jpg", alt: "Cloud Engineers", text: "Cloud Engineers" },
+        { src: "/assets/cources/programFor/programfor3.jpg", alt: "DevOps Engineers", text: "DevOps Engineers" },
+        { src: "/assets/cources/programFor/programfor4.jpg", alt: "System Administrators", text: "System Administrators" },
+        { src: "/assets/cources/programFor/programfor5.jpg", alt: "IT Managers", text: "IT Managers" },
+        { src: "/assets/cources/programFor/programfor6.jpg", alt: "Software Developers", text: "Software Developers" },
+        { src: "/assets/cources/programFor/programfor7.jpg", alt: "Technical Consultants", text: "Technical Consultants" },
+        { src: "/assets/cources/programFor/programfor8.jpg", alt: "College Students", text: "College Students" },
+        { src: "/assets/cources/programFor/programfor9.jpg", alt: "Cloud Architects", text: "Cloud Architects" },
+        { src: "/assets/cources/programFor/programfor10.jpg", alt: "Infrastructure Engineers", text: "Infrastructure Engineers" }
     ],
 
     toolsData: {
