@@ -7,7 +7,7 @@ export const specialisationInHAproxyMasterclass: Course = {
     rating: 5,
     totalRatings: 10,
     duration: "Basic to Advance",
-    globalStatus: "GLOBALLY RECOGNISED PROGRAM",
+    globalStatus: "World's Most Trusted Open Source Load Balancer",
     programBy: "Vimal Daga",
     hours: "20+",
     price: 1990,

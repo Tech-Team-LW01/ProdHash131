@@ -7,7 +7,7 @@ export const specialisationInCKAD: Course = {
     rating: 4.9,
     totalRatings: 342,
     duration: "Intermediate to Advanced",
-    globalStatus: "AWS AUTHORIZED TRAINING PROGRAM",
+    globalStatus: "Globally Recognized Certification for Kubernetes Administrators",
     hours: "32+",
     price: 8999,
     originalPrice: 19999,
