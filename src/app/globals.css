@@ -103,3 +103,26 @@ body {
  
 }
 
+
+
+
+
+
+/* Mobile optimizations for navbar */
+@media screen and (max-width: 639px) {
+  /* Ensure scrolling categories work smoothly */
+  .horizontal-categories {
+    -webkit-overflow-scrolling: touch; /* For better iOS scrolling */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+  
+  .horizontal-categories::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome/Safari/Edge */
+  }
+  
+  /* Adjust sheet content for better mobile experience */
+  .sheet-content {
+    padding-bottom: env(safe-area-inset-bottom); /* Support for iOS devices with home indicator */
+  }
+}
+
