@@ -12,7 +12,7 @@ export const specialisationInCKAD: Course = {
     price: 8999,
     originalPrice: 19999,
     enrolledStudents: 15600,
-    category: "Cloud & DevOps",
+    category: "DevOps",
   shortDescription: "Master production-grade Kubernetes on AWS with hands-on labs, real-world projects, and expert-led training for DevOps professionals.",
     paymentLink: "https://rzp.io/l/aws-eks-june2025",
     backgroundImage: "/assets/aws-eks-banner.jpg",

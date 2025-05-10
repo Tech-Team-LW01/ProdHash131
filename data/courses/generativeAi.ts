@@ -20,7 +20,7 @@ export const generativeAi: Course = {
 learningOutcomes: [
 "AWS Bedrock Console: Master AWS Bedrock for AI workflows.",
 
-"Amazon Bedrock Architecture: Learn Bedrock’s scalable architecture.",
+"Amazon Bedrock Architecture: Learn Bedrocks scalable architecture.",
 
 "Enterprise Use Cases: Apply Bedrock to real-world business problems.",
 

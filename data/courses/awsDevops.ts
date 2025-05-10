@@ -12,7 +12,7 @@ export const awsDevOpsMastery: Course = {
     price: 9999,
     originalPrice: 21999,
     enrolledStudents: 18200,
-    category: "Cloud & DevOps",
+    category: "DevOps",
     shortDescription: "Master AWS DevOps tools like CodePipeline, Terraform, and ECS to build scalable, automated cloud infrastructure with real-world projects.",
     paymentLink: "https://rzp.io/l/aws-devops-july2025",
     backgroundImage: "/assets/aws-devops-banner.jpg",

@@ -13,7 +13,7 @@ export const advanceLinuxTraining: Course = {
     price: 1500,
     originalPrice: 7500,
     enrolledStudents: 200000,
-    category: "Linux",
+    category: "System Administrations",
     shortDescription: "Learn Tested & Proven Linux Skills | Gain HandsOn Experience | Best-In-Class Content | Industry Use-Cases",
     paymentLink: "your-payment-link-here",
     backgroundImage: "/assets/courses/courseDetails/Hero.jpeg",
