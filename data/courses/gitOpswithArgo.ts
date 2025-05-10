@@ -7,7 +7,7 @@ export const gitOpswithArgo: Course = {
     rating: 4.7,
     totalRatings: 315,
     duration: "Intermediate",
-    globalStatus: "KUBERNETES FOUNDATION CERTIFIED",
+    globalStatus: "GLOBALLY RECOGNISED PROGRAM",
     hours: "20+",
     price:  6500  ,
     originalPrice: 22000,
@@ -181,14 +181,14 @@ learningOutcomes: [
     ],
 
     programFor: [
-        { src: "/assets/courses/programFor/DevOps-Engineers.jpg", alt: "DevOps Engineers", text: "DevOps Engineers" },
-        { src: "/assets/courses/programFor/Platform-Engineers.jpg", alt: "Platform Engineers", text: "Platform Engineers" },
-        { src: "/assets/courses/programFor/SRE.jpg", alt: "Site Reliability Engineers", text: "Site Reliability Engineers" },
-        { src: "/assets/courses/programFor/Cloud-Architects.jpg", alt: "Cloud Architects", text: "Cloud Architects" },
-        { src: "/assets/courses/programFor/Kubernetes-Admins.jpg", alt: "Kubernetes Administrators", text: "Kubernetes Administrators" },
-        { src: "/assets/courses/programFor/Software-Developers.jpg", alt: "Software Developers", text: "Software Developers" },
-        { src: "/assets/courses/programFor/IT-Managers.jpg", alt: "IT Managers", text: "IT Managers" },
-        { src: "/assets/courses/programFor/Cloud-Engineers.jpg", alt: "Cloud Engineers", text: "Cloud Engineers" }
+        { src: "/assets/cources/programFor/programfor9.jpg", alt: "DevOps Engineers", text: "DevOps Engineers" },
+        { src: "/assets/cources/programFor/programfor8.jpg", alt: "Platform Engineers", text: "Platform Engineers" },
+        { src: "/assets/cources/programFor/programfor7.jpg", alt: "Site Reliability Engineers", text: "Site Reliability Engineers" },
+        { src: "/assets/cources/programFor/programfor1.jpg", alt: "Cloud Architects", text: "Cloud Architects" },
+        { src: "/assets/cources/programFor/programfor.jpg", alt: "Kubernetes Administrators", text: "Kubernetes Administrators" },
+        { src: "/assets/cources/programFor/programfor5.jpg", alt: "Software Developers", text: "Software Developers" },
+        { src: "/assets/cources/programFor/programfor4.jpg", alt: "IT Managers", text: "IT Managers" },
+        { src: "/assets/cources/programFor/programfor3.jpg", alt: "Cloud Engineers", text: "Cloud Engineers" }
     ],
 
     toolsData: {

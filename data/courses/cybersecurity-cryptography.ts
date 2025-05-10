@@ -7,7 +7,7 @@ export const cybersecuritycryptography: Course = {
     rating: 4.8,
     totalRatings: 420,
     duration: "Intermediate",
-    globalStatus: "AWS AUTHORIZED TRAINING PROGRAM",
+    globalStatus: "GLOBALLY RECOGNISED PROGRAM",
     hours: "14+",
     price: 2500,
     originalPrice: 9000,

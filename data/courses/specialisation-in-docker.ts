@@ -8,7 +8,7 @@ export const specialisationInDocker: Course = {
     rating: 5,
     totalRatings: 10,
     duration: "20 Hours",
-    globalStatus: "GLOBALLY RECOGNISED PROGRAM",
+    globalStatus: "Globally Recognized Docker Certification Program",
     programBy: "Vimal Daga",
     hours: "20+",
     price: 1650,

@@ -824,7 +824,7 @@ export const analystData: CourseAnalystData = {
         values: [800000, 1800000, 3500000, 6000000] // Junior → Mid → Senior → Principal Architect
     },
     companies: [
-        "Amazon Web Services",
+        "Amazon",
         "Accenture",
         "TCS",
         "Infosys",
@@ -833,7 +833,7 @@ export const analystData: CourseAnalystData = {
         "Cognizant",
         "Deloitte",
         "Microsoft",
-        "JPMorgan Chase"
+        "JPMorgan"
     ],
     demand: 85, // High growth in cloud adoption across industries
     jobCount: "50,000+",
@@ -981,7 +981,7 @@ companies: [
     
   ],
   demand: 85, // Assumed based on AI/test automation research growth
-  jobCount: "1000+",
+  jobCount: "1,000+",
   description: "GitOps with ArgoCD is revolutionizing Kubernetes deployment workflows by enabling fully automated, version-controlled, and declarative infrastructure delivery. As DevOps adoption grows, engineers skilled in GitOps practices, CI/CD pipelines, and tools like ArgoCD and Helm are in high demand. Companies seek professionals who can streamline deployment, ensure reliability, and scale infrastructure efficiently.",
   yearLabel: "In 2025",
   salaryLabel: "Average Annual Salaries (INR)",
@@ -1021,7 +1021,7 @@ companies: [
     
   ],
   demand: 85, // Assumed based on AI/test automation research growth
-  jobCount: "21288 +",
+  jobCount: "21,288+",
   description:  "Natural Language Processing (NLP) is at the heart of modern AI applications, powering chatbots, voice assistants, recommendation systems, and intelligent search. As companies rapidly adopt AI-driven communication and automation, the demand for NLP experts is surging. Professionals skilled in text classification, sentiment analysis, and deep learning for language are highly valued across industries including tech, healthcare, fintech, and customer service.",
   yearLabel: "In 2025",
   salaryLabel: "Average Annual Salaries (INR)",
@@ -1085,7 +1085,7 @@ companies: [
       "Zscaler"
     ],  
     demand: 92, // Higher than average tech job growth  
-    jobCount: "44524+",  
+    jobCount: "44,524+",  
     description: "As cybersecurity threats evolve, the demand for specialists in cryptography and secure communication is rapidly increasing. Cryptography experts play a critical role in securing digital assets, networks, and data against breaches and cyberattacks. With growing adoption of encryption standards, zero-trust architectures, and regulatory compliance, professionals skilled in cryptographic algorithms, secure protocols, and penetration testing are highly sought after across industries including finance, defense, healthcare, and cloud services.",
     yearLabel: "In 2025",  
     salaryLabel: "Average Annual Salaries (INR)",  

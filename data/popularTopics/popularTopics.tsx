@@ -1,7 +1,7 @@
 import { TopicCard } from "../../types/popularTopics";
 
 export const topics: TopicCard[] = [
-    { title: "Devops", courses: 11, icon: "⌛" },
+    { title: "Devops", courses: 12, icon: "⌛" },
     { title: " Cloud & Cloud Computing", courses: 4, icon: "📐" },
     { title: "Programming", courses: 3, icon: "🌐" },
     { title: " Database", courses: 1, icon: "☁️" },

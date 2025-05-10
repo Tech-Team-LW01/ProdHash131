@@ -7,7 +7,7 @@ export const specialisationInnlp: Course = {
     rating: 4.8,
     totalRatings: 420,
     duration: "Intermediate",
-    globalStatus: "AWS AUTHORIZED TRAINING PROGRAM",
+    globalStatus: "GLOBALLY RECOGNISED PROGRAM",
     hours: "16+",
     price: 9999,
     originalPrice: 21999,
