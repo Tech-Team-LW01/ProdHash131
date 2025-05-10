@@ -357,7 +357,7 @@ export const analystData: CourseAnalystData = {
     "Accenture",
     "TCS",
     "Infosys",
-    "Capgemini",
+    "Capgemini",   
     "Deloitte",
     "IBM",
     "Google"
@@ -816,7 +816,7 @@ export const analystData: CourseAnalystData = {
     jobsLabel: "Global Job Openings",  
     jobsDescription: "Jobs listed on LinkedIn, Indeed, and Naukri for LDAP and Directory Services roles"  
 },
-"aws-certified-solutions-architect-associate": {
+"aws-certified-solutions-architect": {
     title: "AWS Solutions Architects – 2025 Job Outlook & Salaries",
     subtitle: "Cloud Architecture & AWS Expert Demand in Global Tech Industry",
     salary: {

@@ -26,7 +26,7 @@ const PopularTopic = () => {
         {topics.map((topic, index) => (
           <Link 
             key={index} 
-            href={`/courses/${topic.title.toLowerCase().replace(/\s+/g, '-')}`} 
+            href={`/courses`} 
             className="block w-full cursor-pointer"
           >
             <Card 
