@@ -163,7 +163,7 @@ learningOutcomes: [
         { number: "3", description: "Capstone Projects" }
     ],
 
-    certificateImage: "/assets/certificates/gitops-argocd-certificate.jpg",
+    certificateImage: "/assets/certificate/GitOps with Argo CD Training.jpg",
 
     project: [
         {

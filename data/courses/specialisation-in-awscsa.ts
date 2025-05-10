@@ -249,7 +249,7 @@ export const specialisationInAWSCSA: Course = {
         }
     ],
 
-    certificateImage: "/assets/certificate/AWS-csa.jpg",
+    certificateImage: "/assets/certificate/AWS Certified Solutions Architect (CSA) - Associate Training (1).jpg",
 
     project: [
         {

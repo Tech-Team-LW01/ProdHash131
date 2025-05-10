@@ -157,7 +157,7 @@ features: [
         { number: "2", description: "Capstone Projects" }
     ],
 
-    certificateImage: "/assets/certificates/aws-devops-certificate.jpg",
+    certificateImage: "/assets/certificate/Cybersecurity and Cryptography Training.jpg",
 
     project: [
         {

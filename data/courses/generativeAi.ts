@@ -132,7 +132,7 @@ features: [
         { number: "2", description: "Capstone Projects" }
     ],
 
-    certificateImage: "/assets/certificates/aws-devops-certificate.jpg",
+    certificateImage: "/assets/certificate/Generative Al with AWS Bedrock Training.jpg",
 
     project: [
         {

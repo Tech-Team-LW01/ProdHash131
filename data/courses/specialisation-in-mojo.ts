@@ -157,7 +157,7 @@ export const specialisationInmojo:Course = {
 
     ],
     
-    certificateImage: "/assets/devops2.jpg",
+    certificateImage: "/assets/certificate/Mojo High-Performance Computing Training.jpg",
 
     project: [
        {

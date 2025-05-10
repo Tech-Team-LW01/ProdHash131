@@ -144,7 +144,7 @@ features: [
 
     ],
     
-    certificateImage: "/assets/devops2.jpg",
+    certificateImage: "/assets/certificate/Selenium & Python Training.jpg",
 
     project: [
        {
