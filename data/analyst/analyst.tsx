@@ -879,11 +879,11 @@ export const analystData: CourseAnalystData = {
    
 },
 "automation-with-selenium": {
-  title: "Linux System Administrators – 2025 Job Outlook & Salaries",
-  subtitle: "Linux Administration & DevOps Expert Demand in Global Tech Industry",
-  salary: {
+  "title": "Selenium Automation Engineers – 2025 Job Outlook & Salaries",
+  "subtitle": "Automation Testing & QA Careers in the Modern Software Industry",
+  "salary": {
     "label": "India Salary Range (Annual INR)",
-    "values": [650000, 1100000, 1650000, 2500000]  // Entry → Junior → Mid-Level → Senior
+    "values": [500000, 900000, 1400000, 2000000]  // Entry → Junior → Mid-Level → Senior
   },
   companies: [
     
@@ -919,11 +919,11 @@ export const analystData: CourseAnalystData = {
 },
 
 "specialisation-in-mojo": {
-  title: "Linux System Administrators – 2025 Job Outlook & Salaries",
-  subtitle: "Linux Administration & DevOps Expert Demand in Global Tech Industry",
-  salary: {
-    label: "India Salary Range (Annual INR)",
-    values: [650000, 1100000, 1650000, 2250000]
+  "title": "Mojo Programming Specialists – 2025 Job Outlook & Salaries",
+  "subtitle": "High-Performance AI & Systems Development Using Mojo",
+  "salary": {
+    "label": "India Salary Range (Annual INR)",
+    "values": [700000, 1200000, 1800000, 2500000] // Entry → Mid → Senior → Expert
   },
 companies: [
     "Google",
@@ -953,11 +953,11 @@ companies: [
 
 
 "gitops-with-argo": {
-  title: "Linux System Administrators – 2025 Job Outlook & Salaries",
-  subtitle: "Linux Administration & DevOps Expert Demand in Global Tech Industry",
-  salary: {
+  "title": "GitOps Engineers – 2025 Job Outlook & Salaries",
+  "subtitle": "Kubernetes Deployment Automation & GitOps Demand in DevOps Roles",
+  "salary": {
     "label": "India Salary Range (Annual INR)",
-    "values": [600000, 1000000, 1800000, 3000000,5000000] // Entry → Junior → Mid-Level → Senior
+    "values": [800000, 1300000, 2000000, 3500000] // Entry → Mid → Senior → Expert
   },
   companies: [
     "Microsoft",
@@ -993,11 +993,11 @@ companies: [
 
 },
 "specialisation-in-nlp": {
-  title: "Linux System Administrators – 2025 Job Outlook & Salaries",
-  subtitle: "Linux Administration & DevOps Expert Demand in Global Tech Industry",
-  salary:  {
+  "title": "NLP Engineers – 2025 Job Outlook & Salaries",
+  "subtitle": "Natural Language Processing & AI Roles in the Evolving Tech Landscape",
+  "salary": {
     "label": "India Salary Range (Annual INR)",
-    "values": [650000, 1300000, 1800000, 3000000, 3000000] // Entry → Junior → Mid-Level → Senior
+    "values": [700000, 1200000, 1800000, 2500000] // Entry → Junior → Mid-Level → Senior
   },
   companies: [
     "Microsoft",
