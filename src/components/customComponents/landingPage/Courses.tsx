@@ -1,4 +1,3 @@
-// components/customComponents/landingPage/Courses.tsx
 "use client";
 
 import Image from "next/image";
@@ -25,12 +24,12 @@ export default function CoursesComponent() {
   }));
 
   return (
-    <div className="container max-w-7xl mx-auto px-6 lg:px-14 py-8" id="courses">
-      <div className="text-center mb-10">
-        <h2 className="text-sm text-muted-foreground mb-2 text-teal-500 font-semibold">
+    <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-14 py-8" id="courses">
+      <div className="text-center mb-6 sm:mb-10">
+        <h2 className="text-xs sm:text-sm text-muted-foreground mb-2 text-teal-500 font-semibold">
           POPULAR COURSES
         </h2>
-        <h1 className="text-3xl font-bold">
+        <h1 className="text-2xl sm:text-3xl font-bold">
           Choose From Our Top{" "}
           <span className="text-[#ff0000] relative">
             Courses
@@ -48,7 +47,7 @@ export default function CoursesComponent() {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-4 p-2">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 mt-4 p-1 sm:p-2">
         {simplifiedCourses.slice(0, 5).map((course) => (
           <CourseCard 
             key={course._id} 
@@ -57,9 +56,9 @@ export default function CoursesComponent() {
         ))}
       </div>
 
-      <div className="text-center mt-10">
+      <div className="text-center mt-6 sm:mt-10">
         <Link 
-          className="bg-[#ff0000] px-6 py-3 cursor-pointer rounded-lg text-white hover:bg-red-600 transition-colors" 
+          className="bg-[#ff0000] px-4 py-2 sm:px-6 sm:py-3 cursor-pointer rounded-lg text-white text-sm sm:text-base hover:bg-red-600 transition-colors" 
           href="/courses" 
         >
           View All Courses
