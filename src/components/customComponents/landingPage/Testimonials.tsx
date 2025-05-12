@@ -6,8 +6,6 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/customComponen
 import { Linkedin } from 'lucide-react';
 import Image from 'next/image';
 import { landingPageTestimonialPosts } from "../../../../data/testimonials/posts";
-import yerrowArrow from "../../../../public/assets/landingPage/floatingCurveArrow.svg"
-// import Line from "../../../../public/assets/line.svg"
 import curveLine from "../../../../public/assets/CurlLine.svg"
 
 // Define interfaces
@@ -109,27 +107,30 @@ export default function Component() {
   };
 
   return (
-    <div className="bg-[#ffffff] p- mx-auto py-8 ">
-      <div className="mx-auto max-w-6xl" >
-        <h2 className="text-teal-500 text-md font-semibold text-center">
-          HERE IT FROM THEM
+    <div className="bg-[#ffffff] py-8">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <h2 className="text-teal-500 text-sm font-semibold text-center">
+          HEAR IT FROM THEM
         </h2>
-        <h2 className="text-black text-2xl md:text-3xl font-bold mb-10 mt-2 text-center">
-          Ambitious <span className ="text-[#ff0000]">Learner&apos;s <span className="text-[#ff0000] relative">
-                  <div className="absolute -bottom-0.5 left-0 w-full h-0.5 " >
-                     {/* eslint-disable-next-line react/jsx-no-undef */}
-                     
-                     <Image src={curveLine} alt="curve line" className='w-full mb-4' width={100} height={300}></Image>
-                      {/* <curveLine></curveLine>  */}
+        <h2 className="text-black text-2xl md:text-3xl font-bold mb-8 mt-2 text-center">
+          Ambitious <span className="text-[#ff0000]">Learner&apos;s <span className="text-[#ff0000] relative">
+                  <div className="absolute -bottom-0.5 left-0 w-full h-0.5">
+                     <Image 
+                       src={curveLine} 
+                       alt="curve line" 
+                       className='w-full mb-4' 
+                       width={100} 
+                       height={300}
+                     />
                     </div>
                   </span> </span> ❤️ #13
         </h2>
         
-        <div className="columns-1 md:columns-4 lg:columns-4 gap-4 space-y-4 max-w-5xl mx-auto ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
           {displayedTestimonials.map((post: Post) => (
             <Card
               key={post.id}
-              className={`relative overflow-hidden bg-[#ffffff] text-black border border-gray-500 mb-4 break-inside-avoid`}
+              className={`relative overflow-hidden bg-[#ffffff] text-black border border-gray-500 break-inside-avoid`}
             >
               {post.videoUrl && post.id === 5 ? (
                 <CardContent className="p-0">
@@ -165,22 +166,22 @@ export default function Component() {
                 </CardContent>
               ) : (
                 <>
-                  <CardHeader className="pb-2">
+                  <CardHeader className="pb-2 px-4">
                     <div className="flex items-center space-x-2">
-                      <Avatar className="h-12 w-12 flex-shrink-0">
+                      <Avatar className="h-10 w-10 flex-shrink-0">
                         <AvatarImage src={post.author.avatar} alt={post.author.name} />
                         <AvatarFallback>{post.author.name.charAt(0)}</AvatarFallback>
                       </Avatar>
                       <div className="flex-grow">
-                        <h3 className="text-sm font-semibold">{post.author.name}</h3>
-                        <p className="text-xs text-gray-400">{post.author.title}</p>
+                        <h3 className="text-xs sm:text-sm font-semibold">{post.author.name}</h3>
+                        <p className="text-[10px] sm:text-xs text-gray-400">{post.author.title}</p>
                       </div>
-                      <Linkedin className="h-5 w-5 text-gray-400" />
+                      <Linkedin className="h-4 w-4 sm:h-5 sm:w-5 text-gray-400" />
                     </div>
                   </CardHeader>
-                  <CardContent className="pt-2">
+                  <CardContent className="pt-2 px-4">
                     {renderContent(post.content, post.id)}
-                    <p className="mt-4 text-xs text-gray-400">{post.timestamp}</p>
+                    <p className="mt-4 text-[10px] sm:text-xs text-gray-400">{post.timestamp}</p>
                   </CardContent>
                 </>
               )}
@@ -189,9 +190,9 @@ export default function Component() {
         </div>  
 
         {hasMoreTestimonials && (
-          <div className="flex items-center mt-12">
+          <div className="flex items-center mt-8 sm:mt-12">
             <button 
-              className="mx-auto border bg-[#ff0000] text-white p-4 rounded hover:bg-[#ff0000] transition-colors"
+              className="mx-auto bg-[#ff0000] text-white px-4 py-2 sm:p-4 rounded hover:bg-[#ff0000]/90 transition-colors text-sm sm:text-base"
               onClick={handleToggleDisplay}
             >
               {showAll ? 'View Less' : 'See our Wall of Love'}
