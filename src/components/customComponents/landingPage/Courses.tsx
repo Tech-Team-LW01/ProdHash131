@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import CourseCard from "./CourseCard";
 import { courseInfo } from "../../../../data/courses/courses";
@@ -46,8 +45,7 @@ export default function CoursesComponent() {
           </span>
         </h1>
       </div>
-
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 mt-4 p-1 sm:p-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 mt-4 p-1 sm:p-2">
         {simplifiedCourses.slice(0, 5).map((course) => (
           <CourseCard 
             key={course._id} 
@@ -55,7 +53,6 @@ export default function CoursesComponent() {
           />
         ))}
       </div>
-
       <div className="text-center mt-6 sm:mt-10">
         <Link 
           className="bg-[#ff0000] px-4 py-2 sm:px-6 sm:py-3 cursor-pointer rounded-lg text-white text-sm sm:text-base hover:bg-red-600 transition-colors" 

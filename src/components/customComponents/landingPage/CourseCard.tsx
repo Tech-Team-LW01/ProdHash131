@@ -105,12 +105,12 @@ export default function CourseCard({ course }: CourseCardProps) {
     };
 
     return (
-      <div className="flex flex-col gap-0 space-y-0">
-        <div className="text-sm leading-tight space-y-[1px]">
+      <div className="flex flex-col text-left">
+        <div className="text-xs sm:text-sm leading-tight">
           {applyFormatting(mainTitle)}
         </div>
         {subtitle && (
-          <div className="text-xs text-gray-600">
+          <div className="text-[10px] sm:text-xs text-gray-600">
             {subtitle}
           </div>
         )}
@@ -121,7 +121,7 @@ export default function CourseCard({ course }: CourseCardProps) {
   return (
     <Card 
       onClick={handleClick} 
-      className="group relative overflow-hidden w-full cursor-pointer transition-transform hover:scale-105 flex flex-col h-full min-h-[300px] max-h-[340px]"
+      className="group relative overflow-hidden w-full cursor-pointer transition-transform hover:scale-105 flex flex-col h-full"
     >
       <div className="h-[200px] sm:h-[260px] overflow-hidden">
         <img 
@@ -132,19 +132,19 @@ export default function CourseCard({ course }: CourseCardProps) {
       </div>
 
       <CardFooter className="p-2 flex flex-col flex-1 bg-white">
-        <div className="h-[70px] mb-2 overflow-hidden">
-          <h3 className="line-clamp-3 text-sm sm:text-base">
+        <div className="mb-2 overflow-hidden">
+          <h3 className="line-clamp-3 text-xs sm:text-sm text-left">
             {formatTitle(course.title)}
           </h3>
         </div>
 
         <div className="flex items-center justify-between mt-auto w-full">
-          <span>
-            <Badge className="bg-gray-100 text-black text-xs hover:bg-gray-50">
+          <span className="text-left">
+            <Badge className="bg-gray-100 text-black text-[10px] sm:text-xs hover:bg-gray-50">
               {course.category}
             </Badge>
           </span>
-          <span className="text-xs text-gray-600">
+          <span className="text-[10px] sm:text-xs text-gray-600">
             {course.hours} hrs.
           </span>
         </div>
