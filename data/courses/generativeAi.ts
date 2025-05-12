@@ -7,7 +7,7 @@ export const generativeAi: Course = {
     rating: 4.8,
     totalRatings: 420,
     duration: "Intermediate",
-    globalStatus: "AWS AUTHORIZED TRAINING PROGRAM",
+    globalStatus: "GLOBALLY RECOGNISED PROGRAM",
     hours: "8+",
     price: 4500,
     originalPrice: 15000,
@@ -172,7 +172,7 @@ features: [
         sectionTitle: "AWS Bedrock Training",
         category: "",
         toolsCount: " ",
-        displayImage: "/assets/courses/tools/aws-devops-tools.jpg",
+        displayImage: "/assets/tools1/8.png",
         tools: [
             
                 {

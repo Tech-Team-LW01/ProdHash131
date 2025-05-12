@@ -195,7 +195,7 @@ learningOutcomes: [
         sectionTitle: "GitOps Toolchain",
         category: "Continuous Deployment",
         toolsCount: "8+",
-        displayImage: "/assets/courses/tools/gitops-tools.jpg",
+        displayImage: "/assets/tools1/2.png",
         tools: [
     
                 {

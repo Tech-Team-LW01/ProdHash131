@@ -197,7 +197,7 @@ highlights: [
         sectionTitle: "CKAD Developer Toolkit",
         category: "Core Tools for Kubernetes Mastery",
         toolsCount: "12+",
-        displayImage: "/assets/courses/tools/ckad-tools-banner.jpg",
+        displayImage: "/assets/tools1/1.png",
         tools: [
             {
                 id: "kubectl",

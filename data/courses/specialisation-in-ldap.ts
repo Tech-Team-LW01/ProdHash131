@@ -171,7 +171,7 @@ export const ldapMasterclass: Course = {
         sectionTitle: "Comprehensive LDAP Implementation Program",
         category: "System Administration",
         toolsCount: "5+",
-        displayImage: "/assets/courses/tools.jpg",
+        displayImage: "/assets/tools1/5.png",
         tools: [
             {
                 id: "directory",

@@ -325,7 +325,7 @@ export const advanceLinuxTraining: Course = {
         sectionTitle: "Comprehensive Linux Tools Coverage",
         category: "Linux",
         toolsCount: "10+",
-        displayImage: "/assets/courses/tools.jpg",
+        displayImage: "/assets/tools1/6.png",
         tools: [
             {
                 id: "system-tools",

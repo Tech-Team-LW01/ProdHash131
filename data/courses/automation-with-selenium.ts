@@ -193,7 +193,7 @@ features: [
     sectionTitle: "Most Hands-On Selenium Program",
     category: "",
     toolsCount: "15+",
-    displayImage: "/assets/cources/tools.jpg",
+    displayImage: "/assets/tools1/Selenium & Python Training (1).jpg",
     tools: [
       {
         id: "",

@@ -178,7 +178,7 @@ export const awsDevOpsMastery: Course = {
         sectionTitle: "AWS DevOps Toolbox",
         category: "End-to-End Automation",
         toolsCount: "12+",
-        displayImage: "/assets/courses/tools/aws-devops-tools.jpg",
+        displayImage: "/assets/tools1/7.png",
         tools: [
             {
                 id: "terraform",

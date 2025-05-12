@@ -295,7 +295,7 @@ export const specialisationInAWSCSA: Course = {
         sectionTitle: "Complete AWS Solutions Architect Associate Program",
         category: "Cloud Computing",
         toolsCount: "15+",
-        displayImage: "/assets/cources/tools/AWS.jpg",
+        displayImage: "/assets/tools1/9.png",
         tools: [
             {
                 id: "Compute:",

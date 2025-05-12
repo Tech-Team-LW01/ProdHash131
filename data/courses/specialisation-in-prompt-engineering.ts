@@ -183,7 +183,7 @@ export const promptEngineeringMasterclass: Course = {
         sectionTitle: "Comprehensive Prompt Engineering Program",
         category: "AI & Machine Learning",
         toolsCount: "5+",
-        displayImage: "/assets/courses/tools.jpg",
+        displayImage: "public/assets/tools1/3.png",
         tools: [
             {
                 id: "llm",

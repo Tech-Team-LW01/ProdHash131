@@ -181,7 +181,7 @@ export const specialisationInHAproxyMasterclass: Course = {
         sectionTitle: "Comprehensive HAProxy Program",
         category: "DevOps",
         toolsCount: "5+",
-        displayImage: "/assets/courses/tools.jpg",
+        displayImage: "/assets/tools1/4.png",
         tools: [
             {
                 id: "loadbalancer",
