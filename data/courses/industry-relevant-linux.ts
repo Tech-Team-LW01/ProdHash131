@@ -16,8 +16,8 @@ export const advanceLinuxTraining: Course = {
     category: "System Administrations",
     shortDescription: "Learn Tested & Proven Linux Skills | Gain HandsOn Experience | Best-In-Class Content | Industry Use-Cases",
     paymentLink: "your-payment-link-here",
-    backgroundImage: "/assets/courses/courseDetails/Hero.jpeg",
-    certificateImage: "/assets/cources/courseDetails/6course/linux-mascot-sitting-on-a-chip-with-blurred-code-in-the-background.jpg",
+    backgroundImage: "/assets/cources/courseDetails/6course/linux-mascot-sitting-on-a-chip-with-blurred-code-in-the-background.jpg",
+    certificateImage:  "/assets/tools1/advancelinux1.jpg",
 
     learningOutcomes: [
         "Master Linux OS Administration",

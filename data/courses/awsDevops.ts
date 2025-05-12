@@ -15,7 +15,7 @@ export const awsDevOpsMastery: Course = {
     category: "DevOps",
     shortDescription: "Master AWS DevOps tools like CodePipeline, Terraform, and ECS to build scalable, automated cloud infrastructure with real-world projects.",
     paymentLink: "https://rzp.io/l/aws-devops-july2025",
-    backgroundImage: "/assets/aws-devops-banner.jpg",
+    backgroundImage: "/assets/tools1/Devops pro.jpg",
 
     learningOutcomes: [
         "Design end-to-end CI/CD pipelines on AWS",
@@ -138,7 +138,7 @@ export const awsDevOpsMastery: Course = {
         { number: "3", description: "Capstone Projects" }
     ],
 
-    certificateImage: "/assets/certificates/aws-devops-certificate.jpg",
+    certificateImage: "/assets/tools1/Devopro2.jpg",
 
     project: [
         {

@@ -15,7 +15,7 @@ export const specialisationInCKAD: Course = {
     category: "DevOps",
   shortDescription: "Master production-grade Kubernetes on AWS with hands-on labs, real-world projects, and expert-led training for DevOps professionals.",
     paymentLink: "https://rzp.io/l/aws-eks-june2025",
-    backgroundImage: "/assets/aws-eks-banner.jpg",
+    backgroundImage: "/assets/tools1/Kubernestes.png",
 
 learningOutcomes: [
     "Introduction to Kubernetes",
@@ -155,7 +155,7 @@ highlights: [
     { number: "3", description: "Real-World Projects" }
 ],
 
-    certificateImage: "/assets/certificates/aws-eks-certificate.jpg",
+    certificateImage: "/assets/tools1/CKAD1.jpeg",
 
    
     project: [

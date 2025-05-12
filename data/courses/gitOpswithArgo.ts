@@ -15,7 +15,7 @@ export const gitOpswithArgo: Course = {
     category: "DevOps",
     shortDescription: "Learn GitOps principles with ArgoCD to automate Kubernetes deployments, manage app configurations, and implement continuous delivery.",
     paymentLink: "https://rzp.io/rzp/h3mCGsv",
-    backgroundImage: "/assets/gitops-argo-banner.jpg",
+    backgroundImage: "/assets/tools1/Argocd.png",
 
 learningOutcomes: [
     "GitOps Fundamentals & Hands-On with Argo CD",

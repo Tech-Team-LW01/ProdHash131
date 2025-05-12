@@ -169,7 +169,7 @@ features: [
         { number: "3", description: "Capstone Projects" }
     ],
 
-    certificateImage: "/assets/certificates/aws-devops-certificate.jpg",
+    certificateImage: "/assets/tools1/NLP1.jpg",
 
     project: [
         {

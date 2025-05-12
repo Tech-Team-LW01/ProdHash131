@@ -15,7 +15,7 @@ export const awsEksMastery: Course = {
     category: "Cloud & Cloud Computing",
   shortDescription: "Master production-grade Kubernetes on AWS with hands-on labs, real-world projects, and expert-led training for DevOps professionals.",
     paymentLink: "https://rzp.io/l/aws-eks-june2025",
-    backgroundImage: "/assets/aws-eks-banner.jpg",
+    backgroundImage: "/assets/tools1/EKS.jpg",
 
     learningOutcomes: [
         "Design production-grade EKS clusters",
@@ -138,7 +138,7 @@ export const awsEksMastery: Course = {
         { number: "4", description: "Real-World Projects" }
     ],
 
-    certificateImage: "/assets/certificates/aws-eks-certificate.jpg",
+    certificateImage: "/assets/tools1/AWSEKS.jpg",
 
     project: [
         {
@@ -178,7 +178,7 @@ export const awsEksMastery: Course = {
         sectionTitle: "AWS EKS Professional Program",
         category: "Production-Grade Kubernetes on AWS",
         toolsCount: "15+",
-        displayImage: "/assets/courses/tools/eks-architecture.jpg",
+        displayImage: "/assets/tools1/AWS EKS Professional Program.png",
         tools: [
             {
                 id: "eksctl",
