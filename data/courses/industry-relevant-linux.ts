@@ -314,11 +314,11 @@ export const advanceLinuxTraining: Course = {
     ],
 
     programFor: [
-        { src: "/assets/courses/programFor/programfor1.jpg", alt: "System Administrators", text: "System Administrators" },
-        { src: "/assets/courses/programFor/programfor2.jpg", alt: "IT Professionals", text: "IT Professionals" },
-        { src: "/assets/courses/programFor/programfor3.jpg", alt: "College Students", text: "College Students" },
-        { src: "/assets/courses/programFor/programfor4.jpg", alt: "Team Leaders", text: "Team Leaders" },
-        { src: "/assets/courses/programFor/programfor5.jpg", alt: "Technical Co-Founders", text: "Technical Co-Founders" }
+        { src: "/assets/cources/programFor/programfor1.jpg", alt: "System Administrators", text: "System Administrators" },
+        { src: "/assets/cources/programFor/programfor3.jpg", alt: "IT Professionals", text: "IT Professionals" },
+        { src: "/assets/cources/programFor/programfor8.jpg", alt: "College Students", text: "College Students" },
+        { src: "/assets/cources/programFor/programfor4.jpg", alt: "Team Leaders", text: "Team Leaders" },
+        { src: "/assets/cources/programFor/programfor10.jpg", alt: "Technical Co-Founders", text: "Technical Co-Founders" }
     ],
 
     toolsData: {
