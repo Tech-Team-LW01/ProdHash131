@@ -854,16 +854,16 @@ export const analystData: CourseAnalystData = {
         values: [500000, 1200000, 2500000, 4500000] // Junior → Mid → Senior → Principal Linux Admin
     },
     companies: [
-        "Red Hat",
+        "RedHat",
         "IBM",
         "Oracle",
         "Google",
         "Amazon",
-        "TCS",
+        "Tcs",
         "Infosys",
         "Wipro",
-        "HCL Technologies",
-        "Tech Mahindra"
+        "HCL",
+        "Cognizant",
     ],
     demand: 78, // High growth in Linux adoption across industries
     jobCount: "45,000+",
