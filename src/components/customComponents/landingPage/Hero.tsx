@@ -114,7 +114,7 @@ export default function Hero() {
 
 
       {/* Main content */}
-      <main className="max-w-7xl mx-auto px-6 lg:px-14 pt-4 md:pt-8 pb-8 flex flex-col md:flex-row items-center relative z-10">
+      <main className="max-w-7xl mx-auto px-6 lg:px-14 pt-4 md:pt-8 pb-2 flex flex-col md:flex-row items-center relative z-10">
 
 {/* Left content - Div 1 */}
 <div className="md:w-1/2 order-2 md:order-1 mb-8 md:mb-0">

@@ -13,7 +13,7 @@ export const specialisationInAWSCSA: Course = {
     price: 4500 ,
     originalPrice: 16000,
     enrolledStudents: 15000,
-    category: "Cloud & Cloud Computing",
+    category: "Cloud Computing",
     shortDescription: "End-to-End, Hands-On AWS Training Designed for Real-World Cloud Architects Covers 25+ Core AWS Services Including EC2, VPC, Lambda, CloudFormation, and RDS With Production-Grade Deployments, Security, and Cost Optimization Strategies",
     paymentLink: "https://rzp.io/rzp/rb2ViI5f",
     backgroundImage: "/assets/cources/courseDetails/6course/aws-csa1 (1).jpg",

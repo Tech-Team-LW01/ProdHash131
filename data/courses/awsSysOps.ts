@@ -12,7 +12,7 @@ export const specialisationInawssysops: Course = {
   price: 2500,
   originalPrice: 7500,
   enrolledStudents: 12000,
-  category: "Cloud & Cloud Computing",
+  category: "Cloud Computing",
   shortDescription: "Next Batch: 19th - 20th April, 2025 (Sat - Sun)",
   paymentLink: "https://rzp.io/rzp/JLv8cEhD",
   backgroundImage: "/assets/cources/courseDetails/6course/aws-sysops3 (1).jpg",

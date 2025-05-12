@@ -12,7 +12,7 @@ export const awsEksMastery: Course = {
     price: 8999,
     originalPrice: 19999,
     enrolledStudents: 15600,
-    category: "Cloud & Cloud Computing",
+    category: " Cloud Computing",
   shortDescription: "Master production-grade Kubernetes on AWS with hands-on labs, real-world projects, and expert-led training for DevOps professionals.",
     paymentLink: "https://rzp.io/l/aws-eks-june2025",
     backgroundImage: "/assets/tools1/EKS.jpg",
