@@ -7,9 +7,9 @@ import { topics } from '../../../../data/popularTopics/popularTopics';
 
 const PopularTopic = () => {
   return (
-    <div className="container mx-auto py-12 max-w-7xl px-6 lg:px-14">
+    <div className="container mx-auto py-8 max-w-7xl px-6 lg:px-8">
       {/* Header Section */}
-      <div className="text-center mb-12">
+      <div className="text-center mb-8">
         <p className="text-sm text-teal-500 mb-2">Start Learning From Today</p>
         <h1 className="text-3xl font-bold">
           Popular <span className="text-[#ff0000] relative">
@@ -22,7 +22,7 @@ const PopularTopic = () => {
       </div>
 
       {/* Topics Grid - Now each card is wrapped in a Link */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-8">
         {topics.map((topic, index) => (
           <Link 
             key={index} 
