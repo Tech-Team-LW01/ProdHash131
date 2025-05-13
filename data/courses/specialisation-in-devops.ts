@@ -15,7 +15,7 @@ export const  specialisationInDevops:Course = {
     enrolledStudents: 12000,
     category: "DevOps",
     shortDescription: "Industry Relevant & Recognized Training | Gain HandsOn Experience | Best-In-Class Content | Industry Use-Cases",
-   paymentLink:"https://rzp.io/rzp/2asghU9u",
+   paymentLink:"https://rzp.io/rzp/8nXh0w8",
     backgroundImage: "/assets/cources/courseDetails/Hero.jpeg",
  
     learningOutcomes: [
