@@ -55,7 +55,7 @@ export default function FactsAndFigure() {
                   {feature.title}
                 </h4>
                 <p
-                  className="text-xs md:text-sm text-gray-600 pb-2 md:pb-2"
+                  className="text-xs md:text-sm text-gray-600 pb-2 md:pb-4"
                   dangerouslySetInnerHTML={{ __html: feature.description }}
                 ></p>
               </div>

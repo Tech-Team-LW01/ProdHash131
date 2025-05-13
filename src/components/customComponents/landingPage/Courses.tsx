@@ -30,7 +30,8 @@ export default function CoursesComponent() {
         </h2>
         <h1 className="text-2xl sm:text-3xl font-bold">
           Choose From Our Top{" "}
-          <span className="text-[#ff0000] relative">
+          <span className="text-[
+#ff0000] relative">
             Courses
             <span className="absolute bottom-0 left-0 w-full h-1">
               <Image 
@@ -55,7 +56,8 @@ export default function CoursesComponent() {
       </div>
       <div className="text-center mt-6 sm:mt-10">
         <Link 
-          className="bg-[#ff0000] px-4 py-2 sm:px-6 sm:py-3 cursor-pointer rounded-lg text-white text-sm sm:text-base hover:bg-red-600 transition-colors" 
+          className="bg-[
+#ff0000] px-4 py-2 sm:px-6 sm:py-3 cursor-pointer rounded-lg text-white text-sm sm:text-base hover:bg-red-600 transition-colors" 
           href="/courses" 
         >
           View All Courses

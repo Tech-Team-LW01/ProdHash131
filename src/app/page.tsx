@@ -30,7 +30,7 @@ export default function Home() {
 <CoursesComponent  />
 <Subscribe></Subscribe>
 <PopularTopic></PopularTopic>
-<Testimonials></Testimonials>
+<Testimonials></Testimonials> 
 {/* <BlogSection></BlogSection> */}
 <DiscordCommunity></DiscordCommunity>
 <QueryForm />
