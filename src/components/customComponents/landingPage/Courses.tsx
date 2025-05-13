@@ -348,8 +348,7 @@ export default function CoursesComponent() {
       </div>
       <div className="text-center mt-6 sm:mt-10">
         <Link 
-          className="bg-[
-#ff0000] px-4 py-2 sm:px-6 sm:py-3 cursor-pointer rounded-lg text-white text-sm sm:text-base hover:bg-red-600 transition-colors" 
+          className="bg-[#ff0000] px-4 py-2 sm:px-6 sm:py-3 cursor-pointer rounded-lg text-white text-sm sm:text-base hover:bg-red-500 transition-colors" 
           href="/courses" 
         >
           View All Courses
