@@ -43,13 +43,13 @@ export const courseInfo: Course[] = [
   specialisationInAWSCSA,
   specialisationInDocker,
   specialisationInJava,
-  specialisationInCKAD,
   specialisationInJenkins,
   specialisationInAnsible,
   specialisationInAI,
   gitOpswithArgo,
   specialisationInPrometheusGrafana,
   awsDevOpsMastery,
+  specialisationInCKAD,
   
 
 
