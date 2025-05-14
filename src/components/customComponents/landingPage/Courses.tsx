@@ -69,7 +69,6 @@
 
 
 
-
 "use client";
 import Image from "next/image";
 import { Card, CardFooter } from "@/components/ui/card";
@@ -322,8 +321,7 @@ export default function CoursesComponent() {
         </h2>
         <h1 className="text-2xl sm:text-3xl font-bold">
           Choose From Our Top{" "}
-          <span className="text-[
-#ff0000] relative">
+          <span className="text-[#ff0000] relative">
             Courses
             <span className="absolute bottom-0 left-0 w-full h-1">
               <Image 
@@ -338,6 +336,8 @@ export default function CoursesComponent() {
           </span>
         </h1>
       </div>
+      
+      {/* First row of courses (5 cards) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 mt-4 p-1 sm:p-2">
         {simplifiedCourses.slice(0, 5).map((course) => (
           <CourseCard 
@@ -346,6 +346,19 @@ export default function CoursesComponent() {
           />
         ))}
       </div>
+      
+      {/* Second row of courses (5 more cards) - Only visible on sm screens and up */}
+      <div className="hidden sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 mt-4 p-1 sm:p-2">
+        {simplifiedCourses.slice(5, 10).map((course) => (
+          <CourseCard 
+            key={course._id} 
+            course={course} 
+          />
+        ))}
+      </div>
+      
+      {/* Mobile view will still only show 5 courses as per your request */}
+      
       <div className="text-center mt-6 sm:mt-10">
         <Link 
           className="bg-[#ff0000] px-4 py-2 sm:px-6 sm:py-3 cursor-pointer rounded-lg text-white text-sm sm:text-base hover:bg-red-500 transition-colors" 
