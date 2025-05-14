@@ -15,7 +15,7 @@ export const generativeAi: Course = {
     category: "Artificial Intelligence",
     shortDescription: "Industry Relevant & Recognized Training | Gain Hands-On Experience | Best-In-Class Content | Real-World Use Cases",
     paymentLink: "https://rzp.io/rzp/1vdzrsR",
-    backgroundImage: "/assets/cources/courseDetails/6course/Generative-AI-with-AWS-Bedrock.jpg",
+    backgroundImage: "/assets/FactsAndFigure/gen-ai.png",
 
 learningOutcomes: [
 "AWS Bedrock Console: Master AWS Bedrock for AI workflows.",
