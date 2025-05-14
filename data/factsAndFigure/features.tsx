@@ -5,7 +5,7 @@ export const features: Features[] = [
       number: "100+",
       title: "Technical Programs",
       description: "Industry relevant courses with real world use case",
-      image: "/assets/FactsAndFigure/100+.png"
+      image: "/assets/FactsAndFigure/technical.jpeg"
     },
     {
       number: "1M+",
