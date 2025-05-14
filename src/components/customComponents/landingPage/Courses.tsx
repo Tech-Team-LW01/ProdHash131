@@ -268,7 +268,7 @@ const MobileCourseCard = ({ course }: { course: SimplifiedCourse }) => {
             </div>
             <div className="flex items-center text-gray-600">
               <Clock className="w-3 h-3 mr-1" />
-              <span className="text-xs">{course.hours}h</span>
+              <span className="text-xs">{course.hours} hrs</span>
             </div>
           </div>
           
