@@ -77,7 +77,7 @@ export const courseInfo: Course[] = [
   // specialisationInAWSCSACourse,
   promptEngineeringMasterclass,
   specialisationInHAproxyMasterclass,
-  ldapMasterclass,
+  // ldapMasterclass,
   
   specialisationInselinux,
   specialisationInawssysops,
