@@ -3,12 +3,14 @@ import { courseInfo } from "../../../../data/courses/courses"
 import { Course } from "../../../../types/courses";
 import { useRouter } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
+import { FontRomanIcon } from "@radix-ui/react-icons";
 
 type SimplifiedCourse = Pick<Course, '_id' | 'title' | 'category' | 'backgroundImage' | 'rating' | 'hours' | 'slug' | 'shortDescription'>;
 
 interface CourseCardProps {
   course: SimplifiedCourse;
 }
+
 
 export default function CourseCard({ course }: CourseCardProps) {
   const router = useRouter();
@@ -105,12 +107,12 @@ export default function CourseCard({ course }: CourseCardProps) {
     };
 
     return (
-      <div className="flex flex-col text-left">
-        <div className="text-xs sm:text-sm leading-tight">
-          {applyFormatting(mainTitle)}
-        </div>
+      <div className="flex flex-col gap-0 space-y-0">
+      <div className="text-md leading-[1.2] space-y-[1px]">
+  {applyFormatting(mainTitle)}
+</div>
         {subtitle && (
-          <div className="text-[10px] sm:text-xs text-gray-600">
+          <div className="text-xs">
             {subtitle}
           </div>
         )}
@@ -121,9 +123,9 @@ export default function CourseCard({ course }: CourseCardProps) {
   return (
     <Card 
       onClick={handleClick} 
-      className="group relative overflow-hidden w-full cursor-pointer transition-transform hover:scale-105 flex flex-col h-full"
+      className="group relative overflow-hidden w-full cursor-pointer transition-transform hover:scale-105 flex flex-col h-[340px]"
     >
-      <div className="h-[200px] sm:h-[260px] overflow-hidden">
+      <div className="h-[260px] overflow-hidden">
         <img 
           src={course.backgroundImage}
           alt={course.title}
@@ -132,22 +134,24 @@ export default function CourseCard({ course }: CourseCardProps) {
       </div>
 
       <CardFooter className="p-2 flex flex-col flex-1 bg-white">
-        <div className="mb-2 overflow-hidden">
-          <h3 className="line-clamp-3 text-xs sm:text-sm text-left">
+        <div className="h-[80px] mb-2 overflow-hidden">
+          <h3 className="line-clamp-3">
             {formatTitle(course.title)}
           </h3>
         </div>
 
         <div className="flex items-center justify-between mt-auto w-full">
-          <span className="text-left">
-            <Badge className="bg-gray-100 text-black text-[10px] sm:text-xs hover:bg-gray-50">
-              {course.category}
-            </Badge>
-          </span>
-          <span className="text-[10px] sm:text-xs text-gray-600">
-            {course.hours} hrs.
-          </span>
-        </div>
+  <div className="flex items-center justify-between w-full">
+    <span>
+      <Badge className="bg-gray-100 text-black text-xs hover:bg-gray-50">
+        {course.category}
+      </Badge>
+    </span>
+    <span className="text-xs text-gray-600">
+      {course.hours} hrs.
+    </span>
+  </div>
+</div>
       </CardFooter>
     </Card>
   );

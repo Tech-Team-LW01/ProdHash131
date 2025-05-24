@@ -6,7 +6,7 @@ export const  specialisationInDevops:Course = {
     slug: "specialisation-in-devops",
     rating: 5,
     totalRatings: 10,
-    duration: "2 Months",
+    duration: "3 Months",
     globalStatus: "GLOBALLY RECOGNISED PROGRAM",
     programBy: "Vimal Daga",
     hours: "310+",
@@ -15,7 +15,7 @@ export const  specialisationInDevops:Course = {
     enrolledStudents: 12000,
     category: "DevOps",
     shortDescription: "Industry Relevant & Recognized Training | Gain HandsOn Experience | Best-In-Class Content | Industry Use-Cases",
-   paymentLink:"https://rzp.io/rzp/2asghU9u",
+    paymentLink:"https://rzp.io/rzp/8nXh0w8",
     backgroundImage: "/assets/cources/courseDetails/Hero.jpeg",
  
     learningOutcomes: [

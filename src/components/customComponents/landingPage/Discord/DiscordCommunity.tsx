@@ -129,9 +129,9 @@ export default function DiscordCommunity() {
                   loop
                   playsInline
                   className="rounded-lg cursor-pointer w-full h-auto"
-                  onClick={() => handleVideoClick("/assets/video.mp4")}
+                  onClick={() => handleVideoClick("/assets/learners/discord video.mp4")}
                 >
-                  <source src="/assets/video.mp4" type="video/mp4" />
+                  <source src="/assets/learners/discord video.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>

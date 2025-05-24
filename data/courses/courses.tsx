@@ -40,17 +40,34 @@ import { cybersecuritycryptography } from "./cybersecurity-cryptography";
 export const courseInfo: Course[] = [
  
   specialisationInDevops,
-  specialisationInPrometheusGrafana,
-  specialisationInSplunk,
-  specialisationInShellScripting,
-  specialisationInJava,
-  specialisationInTerraform,
+  specialisationInAWSCSA,
   specialisationInDocker,
-  specialisationInMongoDB,
+  specialisationInJava,
   specialisationInJenkins,
   specialisationInAnsible,
-  specialisationInKubernetes,
   specialisationInAI,
+  gitOpswithArgo,
+  specialisationInPrometheusGrafana,
+  awsDevOpsMastery,
+  specialisationInCKAD,
+  
+
+
+
+
+
+
+ 
+  specialisationInSplunk,
+  specialisationInShellScripting,
+  
+  specialisationInTerraform,
+ 
+  specialisationInMongoDB,
+ 
+ 
+  specialisationInKubernetes,
+ 
   specialisationInStreamlit,
   specialisationInn8n,
   specialisationInnBeautifullsoup,
@@ -60,22 +77,21 @@ export const courseInfo: Course[] = [
   // specialisationInAWSCSACourse,
   promptEngineeringMasterclass,
   specialisationInHAproxyMasterclass,
-  ldapMasterclass,
+  // ldapMasterclass,
   
   specialisationInselinux,
   specialisationInawssysops,
   advanceLinuxTraining,
   awsEksMastery,
-  awsDevOpsMastery,
+ 
   
-  specialisationInCKAD,
   AutomationWithSelenium,
   specialisationInmojo,
-  gitOpswithArgo,
+  
   specialisationInnlp,
   generativeAi,
   cybersecuritycryptography,
-  specialisationInAWSCSA,
+ 
   
  
 

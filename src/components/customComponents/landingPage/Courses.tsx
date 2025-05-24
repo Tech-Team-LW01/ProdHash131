@@ -69,7 +69,6 @@
 
 
 
-
 "use client";
 import Image from "next/image";
 import { Card, CardFooter } from "@/components/ui/card";
@@ -268,7 +267,7 @@ const MobileCourseCard = ({ course }: { course: SimplifiedCourse }) => {
             </div>
             <div className="flex items-center text-gray-600">
               <Clock className="w-3 h-3 mr-1" />
-              <span className="text-xs">{course.hours}h</span>
+              <span className="text-xs">{course.hours} hrs</span>
             </div>
           </div>
           
@@ -337,6 +336,8 @@ export default function CoursesComponent() {
           </span>
         </h1>
       </div>
+      
+      {/* First row of courses (5 cards) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 mt-4 p-1 sm:p-2">
         {simplifiedCourses.slice(0, 5).map((course) => (
           <CourseCard 
@@ -345,9 +346,22 @@ export default function CoursesComponent() {
           />
         ))}
       </div>
+      
+      {/* Second row of courses (5 more cards) - Only visible on sm screens and up */}
+      <div className="hidden sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 mt-4 p-1 sm:p-2">
+        {simplifiedCourses.slice(5, 10).map((course) => (
+          <CourseCard 
+            key={course._id} 
+            course={course} 
+          />
+        ))}
+      </div>
+      
+      {/* Mobile view will still only show 5 courses as per your request */}
+      
       <div className="text-center mt-6 sm:mt-10">
         <Link 
-          className="bg-[#ff0000] px-4 py-2 sm:px-6 sm:py-3 cursor-pointer rounded-lg text-white text-sm sm:text-base hover:bg-red-600 transition-colors" 
+          className="bg-[#ff0000] px-4 py-2 sm:px-6 sm:py-3 cursor-pointer rounded-lg text-white text-sm sm:text-base hover:bg-red-500 transition-colors" 
           href="/courses" 
         >
           View All Courses
