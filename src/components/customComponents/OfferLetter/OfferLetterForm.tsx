@@ -1,3 +1,4 @@
+// components/OfferLetterForm.tsx
 "use client";
 
 import React from 'react';
@@ -67,6 +68,17 @@ export default function OfferLetterForm({ onSubmit }: OfferLetterFormProps) {
                 className={errors.courseTitle ? 'border-red-500' : ''}
               />
               {errors.courseTitle && <span className="text-red-500 text-sm">{errors.courseTitle.message}</span>}
+            </div>
+            
+            <div className="space-y-2">
+              <label htmlFor="instituteName" className="font-medium">Institute Name</label>
+              <Input 
+                id="instituteName"
+                placeholder="Enter institute name"
+                {...register('instituteName', { required: 'Institute name is required' })}
+                className={errors.instituteName ? 'border-red-500' : ''}
+              />
+              {errors.instituteName && <span className="text-red-500 text-sm">{errors.instituteName.message}</span>}
             </div>
             
             <div className="space-y-2">
