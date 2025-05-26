@@ -616,7 +616,7 @@ const handleSendEmail = async () => {
     setIsSendingEmail(true);
     setError(null);
     
-    const letterResult = await prepareLetter(); // Changed variable name here
+    const letterResult = await prepareLetter();
     
     if (!letterResult) {
       return;
@@ -624,8 +624,19 @@ const handleSendEmail = async () => {
     
     const { canvas } = letterResult;
     
-    // Convert canvas to base64 data URL
-    const pdfBase64 = canvas.toDataURL('image/jpeg', 1.0);
+    // Create a proper PDF using jsPDF
+    const imgData = canvas.toDataURL('image/jpeg', 1.0);
+    const pdf = new jsPDF({
+      orientation: 'portrait',
+      unit: 'mm',
+      format: 'a4'
+    });
+    
+    // Add image to PDF with exact A4 dimensions
+    pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297);
+    
+    // Get the PDF as a base64 string with proper PDF data URI format
+    const pdfBase64 = pdf.output('datauristring');
     
     // Send the email with PDF attachment
     const response = await fetch('/api/send-offer-letter', {
@@ -642,15 +653,14 @@ const handleSendEmail = async () => {
       }),
     });
     
-    const responseData = await response.json(); // Changed variable name here
+    const responseData = await response.json();
     
     if (!response.ok) {
       throw new Error(responseData.error || 'Failed to send email');
     }
     
     // Show success message
-  toast.success(`Confirmation letter has been sent to ${formData.email}`);
-
+    toast.success(`Confirmation letter has been sent to ${formData.email}`);
     
   } catch (err) {
     console.error('Error sending email:', err);
@@ -658,13 +668,14 @@ const handleSendEmail = async () => {
       ? (err as Error).message 
       : 'Failed to send email. Please try again.');
       
-  toast.error("There was a problem sending the email. Please try again.");
-
+    toast.error("There was a problem sending the email. Please try again.");
   } finally {
     setIsSendingEmail(false);
   }
 };
-  
+
+
+
   // Filter data based on search term
   const filteredData = sheetData.filter(person => 
     (person.fullName && person.fullName.toLowerCase().includes(searchTerm.toLowerCase())) ||

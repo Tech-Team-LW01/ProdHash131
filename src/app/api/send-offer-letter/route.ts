@@ -14,10 +14,19 @@ export async function POST(request: Request) {
       );
     }
 
-    // Convert base64 to buffer for attachment
-    const pdfBuffer = Buffer.from(pdfBase64.split(',')[1], 'base64');
+    // Extract the base64 PDF data correctly from the data URI
+    // The data URI from jsPDF will be like: data:application/pdf;base64,JVBERi0xLjcKJ...
+    const base64Data = pdfBase64.split(';base64,').pop();
+    if (!base64Data) {
+      return NextResponse.json(
+        { error: 'Invalid PDF data' },
+        { status: 400 }
+      );
+    }
+    
+    const pdfBuffer = Buffer.from(base64Data, 'base64');
 
-    // Configure email transporter (replace with your SMTP settings)
+    // Configure email transporter
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
       port: Number(process.env.SMTP_PORT),
