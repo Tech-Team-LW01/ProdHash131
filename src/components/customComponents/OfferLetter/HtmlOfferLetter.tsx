@@ -37,13 +37,13 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
   const generateRefNumber = () => {
     const projectCodeMap: {[key: string]: string} = {
       "DevOps End to End": "JPR",
-      "Cloud Computing": "CLD",
-      "Data Science": "DS",
-      "Machine Learning": "ML",
-      "Artificial Intelligence": "AI",
+      "Cloud Computing": "JPR",
+      "Data Science": "JPR",
+      "Machine Learning": "JPR",
+      "Artificial Intelligence": "JPR",
     };
     
-    const projectCode = projectCodeMap[data.courseTitle] || "GEN";
+    const projectCode = projectCodeMap[data.courseTitle] || "JPR";
     const year = new Date().getFullYear();
     
     return `LWIPL-${projectCode}-${year}-101`;
