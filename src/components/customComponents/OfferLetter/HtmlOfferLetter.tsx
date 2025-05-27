@@ -84,7 +84,7 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
         {/* Letter Body */}
         <div className="text-sm leading-relaxed text-justify mb-6">
           <p className="mb-4">
-            This is to certify that <span className="font-bold"> {data.fullName}</span> Student of <span className="font-bold">{data.instituteName}</span> will be undergoing the Summer Internship Program on <span className="font-bold">&ldquo;Develop High-End Next Generation End to End {data.courseTitle} Pipeline Managed Service in High Performance Cloud Computing Platform.&rdquo;</span> at LinuxWorld Informatics Pvt. Ltd. under the mentorship of The World Record Holder & CTO- <span className="font-bold">Mr. Vimal Daga</span>, for a period of <span className="font-bold">6 Month</span> as per the official college Curriculum.
+            This is to certify that <span className="font-bold"> {data.fullName}</span> Student of <span className="font-bold">{data.instituteName}</span> will be undergoing the Summer Internship Program on <span className="font-bold">&ldquo;{data.courseTitle}&rdquo;</span> at LinuxWorld Informatics Pvt. Ltd. under the mentorship of The World Record Holder & CTO- <span className="font-bold">Mr. Vimal Daga</span>, for a period of <span className="font-bold">45 days</span> as per the official college Curriculum.
           </p>
           
           <p className="mb-2">
