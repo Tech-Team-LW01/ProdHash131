@@ -53,26 +53,26 @@ function mapSheetDataToFormData(item: any): OfferLetterFormData {
       normalizedItem["fullname"] || 
       '',
     email: 
-      item["Email"] || 
+      item["E-mail Id"] || 
       normalizedItem["email"] || 
       '',
     phoneNumber: 
-      item["Phone Number"] || 
+      item["WhatsApp Number"] || 
       normalizedItem["phone number"] || 
       normalizedItem["phonenumber"] || 
       '',
     courseTitle: 
-      item["Course Title"] || 
+      item["Domain"] || 
       normalizedItem["course title"] || 
       normalizedItem["coursetitle"] || 
       '',
     instituteName: 
-      item["Institute Name"] || 
+      item["College Name"] || 
       normalizedItem["institute name"] || 
       normalizedItem["institutename"] || 
       '',
     startDate: formatDate(
-      item["Start Date"] || 
+      item["Time & Date"] || 
       normalizedItem["start date"] || 
       normalizedItem["startdate"] || 
       ''

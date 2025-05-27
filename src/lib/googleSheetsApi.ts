@@ -1,7 +1,7 @@
 import { OfferLetterFormData } from "../../types/offerLetter";
 
 // Your Google Apps Script web app URL
-const APPS_SCRIPT_URL = process.env.NEXT_PUBLIC_APPS_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbzy5weTcDxjgBBhy-Ct8zuEc7Cym76O6N1ytcU2etVZYIuzWxfIRafgLLh6tgwtp2eo9g/exec';
+const APPS_SCRIPT_URL = process.env.NEXT_PUBLIC_APPS_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbzTN8zsmZB51ZIV9Zw7sZkd0FTEv_F9rKReVAZdM0agzu_0fbqON6apemkKKl71HoudSw/exec';
 
 // Function to fetch data from the Google Apps Script web app
 export async function fetchOfferLetterData(): Promise<OfferLetterFormData[]> {
