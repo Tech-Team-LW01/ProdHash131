@@ -2,16 +2,16 @@
 export interface OfferLetterFormData {
   fullName: string;
   email: string;
-  phoneNumber: string;
+  // phoneNumber: string;
+  serialNumber?: number;
+  refNumber?: string;
   courseTitle: string;
   instituteName: string;
-  startDate: string;
-  endDate: string;
-  address: string;
-  serialNumber?: number;
-  refNumber?: string; // Add this for manual reference number input
+  // startDate: string;
+  // endDate: string;
+  // address: string;
+  preferredBatch: string; // Add this new field
 }
-
 
 export interface OfferLetterPDFProps {
   data: OfferLetterFormData;
