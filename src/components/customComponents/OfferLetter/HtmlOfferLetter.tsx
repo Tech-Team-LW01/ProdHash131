@@ -93,7 +93,7 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
           </p>
           
           <p className="mb-2">
-            The management will continuously monitor his performance during the summer period of research and development.
+            The management will continuously monitor his/her performance during the summer period of research and development.
           </p>
         </div>
 
