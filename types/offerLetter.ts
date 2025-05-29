@@ -4,12 +4,14 @@ export interface OfferLetterFormData {
   email: string;
   phoneNumber: string;
   courseTitle: string;
-  instituteName: string; // Added institute name field
+  instituteName: string;
   startDate: string;
   endDate: string;
   address: string;
-  gender?: 'male' | 'female' | 'other';
+  serialNumber?: number;
+  refNumber?: string; // Add this for manual reference number input
 }
+
 
 export interface OfferLetterPDFProps {
   data: OfferLetterFormData;
