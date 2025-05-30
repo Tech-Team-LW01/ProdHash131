@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 // Your Google Apps Script web app URL
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzTN8zsmZB51ZIV9Zw7sZkd0FTEv_F9rKReVAZdM0agzu_0fbqON6apemkKKl71HoudSw/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyUuElW_I8R0DMZaunSZTeGOU8MYDkCBjuEj5ShzKpSlGd7-waA5tt4-_SpCer4Rh4IPQ/exec';
 
 export async function GET(request: NextRequest) {
   try {
