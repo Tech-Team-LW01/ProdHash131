@@ -16,7 +16,7 @@ export const promptEngineering : Course = {
     category: "Artificial Intelligence",
     shortDescription: "Industry-Relevant & Recognized Training | Gain Hands-On Experience | Best-In-Class Content | Real-World AI Use-Cases  ",
     paymentLink: " https://rzp.io/rzp/at46f6D",
-    backgroundImage: "/assets/cources/courseDetails/mongodb/mongodb.jpg",
+    backgroundImage: "/assets/prompt/Prompt-Blog.jpg",
 learningOutcomes: [
     "Understand the fundamentals of Prompt Engineering & Generative AI",
     "Learn OpenAI’s ChatGPT architecture and system roles",
@@ -166,7 +166,7 @@ requirements: [
         }
     ],
 
-    certificateImage: "/assets/certificate/MongoDB_Certificate.jpg",
+    certificateImage: "/assets/prompt/certificate.jpg",
 
     project: [
         {
@@ -204,7 +204,7 @@ requirements: [
         sectionTitle: "Most Hands-On Prompt Engineering Program",
         category: "AI/LLM/Prompt Engineering",
         toolsCount: "12+",
-        displayImage: "/assets/cources/tools/MongoDB (1).jpg",
+        displayImage: "/assets/prompt/prompt.jpg",
         tools: [
            {
     id: "openai",
