@@ -14,7 +14,7 @@ export const promptEngineering : Course = {
     originalPrice: 7000,
     enrolledStudents: 12000,
     category: "Artificial Intelligence",
-    shortDescription: "Industry-Relevant & Recognized Training | Gain Hands-On Experience | Best-In-Class Content | Real-World AI Use-Cases  ",
+    shortDescription: "7th - 8th june,2025 | 11:00 AM - 5:00 PM IST",
     paymentLink: "https://rzp.io/rzp/2Vbxu0B",
     backgroundImage: "/assets/prompt/Prompt-Blog (1).jpg",
 learningOutcomes: [
