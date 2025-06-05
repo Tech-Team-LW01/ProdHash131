@@ -15,8 +15,8 @@ export const promptEngineering : Course = {
     enrolledStudents: 12000,
     category: "Artificial Intelligence",
     shortDescription: "Industry-Relevant & Recognized Training | Gain Hands-On Experience | Best-In-Class Content | Real-World AI Use-Cases  ",
-    paymentLink: " https://rzp.io/rzp/at46f6D",
-    backgroundImage: "/assets/prompt/Prompt-Blog.jpg",
+    paymentLink: "https://rzp.io/rzp/2Vbxu0B",
+    backgroundImage: "/assets/prompt/Prompt-Blog (1).jpg",
 learningOutcomes: [
     "Understand the fundamentals of Prompt Engineering & Generative AI",
     "Learn OpenAI’s ChatGPT architecture and system roles",

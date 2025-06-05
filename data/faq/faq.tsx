@@ -1078,5 +1078,10 @@ export const faqContent: FAQContent = {
  },
  "aws-devops-pro":{
   ...sharedSpecializationContent
- }
+ },
+  
+  "prompt-engineering": {
+    ...sharedSpecializationContent
+  },
+ 
 };

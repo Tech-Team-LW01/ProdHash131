@@ -1094,6 +1094,36 @@ companies: [
     jobsDescription: "Jobs listed on LinkedIn, Indeed, and specialized AI job boards for Prompt Engineering roles"  
 },
 
+"prompt-engineering": {
+  title: "Prompt Engineers – 2025 Job Outlook & Salaries",
+  subtitle: "Rising Demand for Prompt Engineers Since the LLM Boom of 2023",
+  salary: {
+    label: "India Salary Range (Annual INR)",
+    values: [700000, 1200000, 1800000, 3000000, 4500000] // Entry → Mid → Senior → Lead
+  },
+  companies: [
+    "Google",
+    "OpenAI",
+    "Microsoft",
+    "Amazon",
+    "Infosys",
+    "Flipkart",
+    "TCS",
+    "Razorpay",
+    "Meta",
+    "Cognizant"
+  ],
+  demand: 89, // Relative demand index
+  jobCount: "10,000+",
+  description: "Prompt Engineers are now in high demand as businesses increasingly rely on LLMs like GPT-4 to power intelligent applications. Since the LLM surge in 2023, skills in prompt optimization, output control, and API-based tool development have become essential. Roles range from fine-tuning AI assistants to designing complex conversational flows.",
+  yearLabel: "In 2025",
+  salaryLabel: "Average Annual Salaries (INR)",
+  companiesLabel: "Top Companies Hiring Prompt Engineers",
+  jobsLabel: "Global Job Openings",
+  jobsDescription: "10,000+ roles posted across LinkedIn, Indeed, and AI-specialized platforms in 2024"
+}
+
+
  
 };
 
