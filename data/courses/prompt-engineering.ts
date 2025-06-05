@@ -2,7 +2,7 @@ import { Course } from "../../types/courses";
 
 export const promptEngineering : Course = {
     _id: "prompt-engineering",
-    title: "[B][R]Prompt Engineering[/R]  [/B] | with Generative AI",
+    title: "[B][R]Specialisation in Prompt Engineering[/R]  [/B] |Become a Prompt Engineering Expert in just 12 hrs ",
     slug: "prompt-engineering",
     rating: 5,
     totalRatings: 10,
@@ -13,43 +13,42 @@ export const promptEngineering : Course = {
     price: 2733,
     originalPrice: 7000,
     enrolledStudents: 12000,
-    category: "Databases",
-    shortDescription: "Industry-Recognized Curriculum | Live Projects | Expert-Led Training | Advanced NoSQL Techniques | High-Performance Data Handling",
+    category: "Artificial Intelligence",
+    shortDescription: "Industry-Relevant & Recognized Training | Gain Hands-On Experience | Best-In-Class Content | Real-World AI Use-Cases  ",
     paymentLink: " https://rzp.io/rzp/at46f6D",
     backgroundImage: "/assets/cources/courseDetails/mongodb/mongodb.jpg",
+learningOutcomes: [
+    "Understand the fundamentals of Prompt Engineering & Generative AI",
+    "Learn OpenAI’s ChatGPT architecture and system roles",
+    "Design effective prompts using Zero-shot, Few-shot & Chain-of-Thought",
+    "Optimize outputs using structured prompting techniques",
+    "Utilize OpenAI Playground, API, and Python SDK",
+    "Build real-world LLM tools with LangChain, Streamlit & Gradio"
+],
 
-    learningOutcomes: [
-        "MongoDB Fundamentals & NoSQL concepts",
-        "CRUD Operations & Document Management",
-        "Schema Design & Data Modeling",
-        "Indexing & Aggregation Pipelines",
-        "Replication & Sharding Architecture",
-        "Backup & Recovery Strategies"
-    ],
+features: [
+    "Industry-Relevant Prompt Engineering Curriculum",
+    "Hands-On with OpenAI API and Real Projects",
+    "Technical Support for 90 Days",
+    "Premium #13 Prompt Engineering Community"
+],
 
-    features: [
-        "Industry-Relevant MongoDB Training",
-        "Technical Support for 90 days",
-        "Real-World Database Projects",
-        "Premium #13 MongoDB Community"
-    ],
+skills: [
+    "Prompt Engineering Techniques",
+    "Generative AI Fundamentals",
+    "OpenAI API & Playground Usage",
+    "LangChain & LLMChain Integration",
+    "Tokenizer & Context Window Management",
+    "RAG (Retrieval-Augmented Generation)",
+    "LLM Output Optimization",
+    "Bias, Safety & Hallucination Mitigation"
+],
 
-    skills: [
-        "NoSQL Database Management",
-        "Document Database Design",
-        "CRUD Operations",
-        "Aggregation Framework",
-        "Indexing Strategies",
-        "Replication",
-        "Sharding",
-        "Performance Optimization"
-    ],
-
-    requirements: [
-        "Basic understanding of databases",
-        "Familiarity with JSON",
-        "Basic programming knowledge"
-    ],
+requirements: [
+    "Basic understanding of how AI or chatbots work",
+    "Familiarity with Python is a plus",
+    "Basic knowledge of APIs and JSON"
+],
 
     level: "Beginner to Advanced",
     language: "English",
@@ -57,94 +56,112 @@ export const promptEngineering : Course = {
     
 
     module: [
-        {
-            id: 1,
-            title: "What is NoSQL DB, Why MongoDB & CRUD Operation in MongoDB",
-            description: "Understanding NoSQL databases, MongoDB architecture, and CRUD operations.",
-            content: [
-                "MongoDB Development Architecture",
-                "MongoDB Production Architecture",
-                "MongoDB CRUD Introduction, MongoDB CRUD Concepts",
-                "MongoDB CRUD Concerns (Read & Write Operations)",
-                "Concern Levels, Journaling, etc.",
-                "Cursor Query Optimizations, Query Behavior in MongoDB",
-                "Distributed Read & Write Queries",
-                "MongoDB Datatypes",
-                "MongoDB CRUD Syntax & Queries (Live Hands-on)"
-            ]
-        },
-        {
-            id: 2,
-            title: "Model Data & Create Schema",
-            description: "Understanding data modeling in MongoDB and schema design patterns.",
-            content: [
-                "Data Modelling Concepts",
-                "Why Data Modelling? Data Modelling Approach",
-                "Analogy between RDBMS & MongoDB Data Model",
-                "MongoDB Data Model (Embedding & Linking)",
-                "Challenges for Data Modelling in MongoDB",
-                "Data Model Examples and Patterns",
-                "Model Relationships between Documents",
-                "Model Tree Structures",
-                "Model Specific Application Contexts",
-                "Use Case Discussion of Data Modeling"
-            ]
-        },
-        {
-            id: 3,
-            title: "Indexing and Aggregation Framework",
-            description: "Understanding indexing strategies and aggregation framework in MongoDB.",
-            content: [
-                "Index Introduction, Index Concepts, Index Types, Index Properties",
-                "Index Creation and Indexing Reference",
-                "Introduction to Aggregation",
-                "Approach to Aggregation",
-                "Types of Aggregation (Pipeline, MapReduce & Single Purpose)",
-                "Performance Tuning",
-                "Atlas Scaling & Deployment",
-                "Atlas Search",
-                "Atlas Data Lake"
-            ]
-        },
-        {
-            id: 4,
-            title: "MongoDB Security",
-            description: "Security principles and best practices in MongoDB.",
-            content: [
-                "Security Introduction",
-                "Security Concepts"
-            ]
-        },
-        {
-            id: 5,
-            title: "MongoDB on Cloud",
-            description: "Exploring MongoDB Cloud products and services.",
-            content: [
-                "Overview of MongoDB Cloud products",
-                "Using Cloud Manager to monitor MongoDB deployments",
-                "Introduction to MongoDB Stitch",
-                "MongoDB Cloud Atlas",
-                "MongoDB Cloud Manager",
-                "Working with MongoDB Ops Manager",
-                "Realm - Application Development Service",
-                "Charts - Visualization of MongoDB Data",
-                "MongoDB - Industry Use Cases"
-            ]
-        }
-    ],
+      {
+  id: 1,
+  title: "Introduction to Prompt Engineering & Generative AI",
+  description: "Fundamentals of prompt design, LLMs, and Generative AI concepts.",
+  content: [
+    "What is Prompt Engineering?",
+    "What is Generative AI?",
+    "Understanding Context in Conversations",
+    "Importance of Long-Term Memory",
+    "Introduction to LSTM",
+    "Context Keywords",
+    "AI Models: Generative vs Discriminative",
+    "What is an LLM?",
+    "Role of OpenAI",
+    "Hallucination Problem in LLMs",
+    "What is Fine-Tuning?",
+    "OpenAI Playground Overview",
+    "Basic Prompt Examples",
+    "Assigning Roles to ChatGPT",
+    "What is a System Role?"
+  ]
+},
+{
+  id: 2,
+  title: "System Architecture & API Handling",
+  description: "Deep dive into how LLMs process prompts, OpenAI API structure, and token usage.",
+  content: [
+    "Roles: System, User, Assistant",
+    "How LLM Modules Process Prompts",
+    "OpenAI API Structure",
+    "ChatGPT Internal Workflow",
+    "Prompt Parameters: Temperature, Top-P",
+    "Playground vs Chat Interface",
+    "Using openai Python Library",
+    "Chat Completion Models",
+    "Context Window Understanding",
+    "Tokens and Token IDs",
+    "Embedding Models",
+    "Tokenizer Usage",
+    "Prompt Length Management"
+  ]
+},
+{
+  id: 3,
+  title: "Advanced Prompting Techniques",
+  description: "Learn strategic prompting methods like zero-shot, chain-of-thought, and prompt debugging.",
+  content: [
+    "Zero-Shot Prompting",
+    "Few-Shot Prompting",
+    "Q&A Based Prompting",
+    "Chain-of-Thought Prompting",
+    "Think Step-by-Step Method",
+    "Self-Consistency Strategy",
+    "Keyword Engineering",
+    "Prompt Template Creation",
+    "Structured Prompt Design",
+    "Model Output Comparison",
+    "Debugging Prompt Failures"
+  ]
+},
+{
+  id: 4,
+  title: "LLM Capabilities & Prompt Optimization",
+  description: "Optimize prompt structure, reduce hallucinations, and build productivity templates.",
+  content: [
+    "GPT-3.5 vs GPT-4",
+    "Generated Knowledge Prompting",
+    "Prompt Hacks",
+    "Business Use-Cases",
+    "Reducing Hallucination via Prompt Structure",
+    "Prompt Templates for Productivity",
+    "Human-in-the-loop Prompts",
+    "Bias & Safety Handling"
+  ]
+},
+{
+  id: 5,
+  title: "Ecosystem Integration & Tooling",
+  description: "Integrating prompts with LangChain, Streamlit, Vector DBs, and building full apps.",
+  content: [
+    "LangChain Workflow",
+    "PromptTemplate & LLMChain Usage",
+    "Vector DB Integration: FAISS, Chroma",
+    "Retrieval-Augmented Generation (RAG)",
+    "Using Streamlit & Gradio for Apps",
+    "Real Use-Cases: Chatbots, PDF QnA",
+    "Calling ChatGPT from Python",
+    "Prompt Testing Frameworks",
+    "Building Custom Prompt-Based Tools"
+  ]
+}
+
+ ],
     
 
     highlights: [
         {
-            number: "10",
+            number: "5+",
             description: "Modules"
         },
         {
-            number: "16+",
+            number: "12+",
             description: "Hours of learning"
         },
         {
-            number: "3+",
+            number: "1",
             description: "Capstone Projects"
         }
     ],
@@ -173,47 +190,82 @@ export const promptEngineering : Course = {
     ],
 
     programFor: [
-        { src: "/assets/cources/courseDetails/terraform/Software Developers.jpg", alt:"" , text: "Software Developers" },
-        { src: "/assets/cources/courseDetails/mongodb/Database Administrators.jpg", alt: "", text: "Database Administrators" },
-        { src: "/assets/cources/courseDetails/mongodb/System Administrators.jpg", alt: "", text: "System Administrators" },
+        { src: "/assets/cources/courseDetails/terraform/Software Developers.jpg", alt:"" , text: "Python Developers" },
+        { src: "/assets/cources/courseDetails/mongodb/Database Administrators.jpg", alt: "", text: "AI/ML Enthusiasts" },
+        { src: "/assets/cources/courseDetails/mongodb/System Administrators.jpg", alt: "", text: "Software Engineers" },
         { src: "/assets/cources/courseDetails/terraform/Cloud Engineers.jpg", alt: "", text: "Cloud Engineers" },
-        { src: "/assets/cources/courseDetails/shell-scripting/DevOps Engineers.jpg", alt: "", text: "DevOps Engineers" },
-        { src: "/assets/cources/courseDetails/mongodb/Data Engineers.jpg", alt: "", text: "Data Engineers" },
+        { src: "/assets/cources/courseDetails/shell-scripting/DevOps Engineers.jpg", alt: "", text: "Technical Managers" },
+        { src: "/assets/cources/courseDetails/mongodb/Data Engineers.jpg", alt: "", text: "Product Developers" },
         { src: "/assets/cources/courseDetails/mongodb/IT Professionals.jpg", alt: "", text: "Working IT Professionals" },
         { src: "/assets/cources/courseDetails/mongodb/Students.jpg", alt: "", text: "Enthusiast Students" }
     ],
 
     toolsData: {
-        sectionTitle: "Complete MongoDB Program",
-        category: "Database Management",
-        toolsCount: "10+",
+        sectionTitle: "Most Hands-On Prompt Engineering Program",
+        category: "AI/LLM/Prompt Engineering",
+        toolsCount: "12+",
         displayImage: "/assets/cources/tools/MongoDB (1).jpg",
         tools: [
-            {
-                id: "basics",
-                icon: "TrendingUp",
-                title: "MongoDB Basics: NoSQL, Documents, Collections"
-            },
-            {
-                id: "crud",
-                icon: "BarChart",
-                title: "CRUD Operations: Create, Read, Update, Delete"
-            },
-            {
-                id: "schema",
-                icon: "Cpu",
-                title: "Schema Design: Data Modeling, Relationships"
-            },
-            {
-                id: "performance",
-                icon: "TrendingUp",
-                title: "Performance: Indexing, Aggregation Pipeline"
-            },
-            {
-                id: "scaling",
-                icon: "Cpu",
-                title: "Scaling: Replication, Sharding, Clustering"
-            }
+           {
+    id: "openai",
+        icon: "Cpu",
+    title: "OpenAI Playground & API"
+  },
+  {
+    id: "langchain",
+      icon: "BarChart",
+    title: "LangChain"
+  },
+  {
+    id: "streamlit",
+   icon: "TrendingUp",
+    title: "Streamlit"
+  },
+  {
+    id: "gradio",
+     icon: "Cpu",
+    title: "Gradio"
+  },
+  {
+    id: "vector-db",
+    icon: "Database",
+    title: "FAISS & Chroma (Vector Databases)"
+  },
+  {
+    id: "python-openai",
+     icon: "BarChart",
+    title: "Python (openai library)"
+  },
+  {
+    id: "github",
+        icon: "TrendingUp",
+    title: "Git & GitHub"
+  },
+  {
+    id: "gpt-models",
+    icon: "BarChart",
+    title: "GPT-3.5 Turbo, GPT-4"
+  },
+  {
+    id: "prompt-template",
+      icon: "Terminal",
+    title: "PromptTemplate, LLMChain"
+  },
+  {
+    id: "tokenizer",
+     icon: "TrendingUp",
+    title: "Tokenizer Tools"
+  },
+  {
+    id: "postman",
+    icon: "Cpu",
+    title: "Postman (for API testing)"
+  },
+  {
+    id: "vscode",
+    icon: "Terminal",
+    title: "VS Code IDE"
+  }
         ]
     },
 }
