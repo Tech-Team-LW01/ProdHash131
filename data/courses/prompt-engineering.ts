@@ -2,7 +2,7 @@ import { Course } from "../../types/courses";
 
 export const promptEngineering : Course = {
     _id: "prompt-engineering",
-    title: "[B][R]Specialisation in Prompt Engineering[/R]  [/B] |Become a Prompt Engineering Expert ",
+    title: "[B][R]Prompt Engineering with GenAI[/R]  [/B] | ",
     slug: "prompt-engineering",
     rating: 5,
     totalRatings: 10,
@@ -10,7 +10,7 @@ export const promptEngineering : Course = {
     globalStatus: "GLOBALLY RECOGNISED PROGRAM",
     programBy: "Vimal Daga",
     hours: "12+",
-    price: 2733,
+    price: 2825,
     originalPrice: 7000,
     enrolledStudents: 12000,
     category: "Artificial Intelligence",
