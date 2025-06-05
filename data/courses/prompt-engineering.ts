@@ -2,7 +2,7 @@ import { Course } from "../../types/courses";
 
 export const promptEngineering : Course = {
     _id: "prompt-engineering",
-    title: "[B][R]Specialisation in Prompt Engineering[/R]  [/B] |Become a Prompt Engineering Expert in just 12 hrs ",
+    title: "[B][R]Specialisation in Prompt Engineering[/R]  [/B] |Become a Prompt Engineering Expert ",
     slug: "prompt-engineering",
     rating: 5,
     totalRatings: 10,
