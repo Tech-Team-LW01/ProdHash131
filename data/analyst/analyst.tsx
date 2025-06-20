@@ -1111,7 +1111,9 @@ companies: [
     "TCS",
     "Razorpay",
     "Meta",
-    "Cognizant"
+    "Cognizant",
+    "IBM",
+    "samsung",
   ],
   demand: 89, // Relative demand index
   jobCount: "10,000+",
