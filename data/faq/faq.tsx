@@ -1083,5 +1083,7 @@ export const faqContent: FAQContent = {
   "prompt-engineering": {
     ...sharedSpecializationContent
   },
- 
+  "full-stack-mern": {
+    ...sharedSpecializationContent
+  },
 };
