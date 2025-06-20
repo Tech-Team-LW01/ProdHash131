@@ -1123,6 +1123,37 @@ companies: [
   companiesLabel: "Top Companies Hiring Prompt Engineers",
   jobsLabel: "Global Job Openings",
   jobsDescription: "10,000+ roles posted across LinkedIn, Indeed, and AI-specialized platforms in 2024"
+},
+
+"full-stack-mern": {
+  title: "Full Stack MERN Developers – 2025 Job Outlook & Salaries",
+  subtitle: "Skyrocketing Demand for Full Stack Developers with React, Node, and MongoDB Expertise",
+  salary: {
+    label: "India Salary Range (Annual INR)",
+    values: [600000, 1000000, 1600000, 2500000, 4000000] // Entry → Mid → Senior → Lead
+  },
+  companies: [
+    "TCS",
+    "Infosys",
+    "Wipro",
+    "Cognizant",
+    "Amazon",
+    "Flipkart",
+    "Accenture",
+    "Capgemini",
+    "Zoho",
+    "Paytm",
+    "Freshworks",
+    "Razorpay"
+  ],
+  demand: 94, // Relative demand index
+  jobCount: "50,000+",
+  description: "Full Stack Developers with MERN stack skills (MongoDB, Express, React, Node.js) are among the most sought-after tech professionals in 2025. As startups and enterprises shift to modern web apps, the ability to build scalable, responsive, and secure applications using JavaScript end-to-end is in extremely high demand.",
+  yearLabel: "In 2025",
+  salaryLabel: "Average Annual Salaries (INR)",
+  companiesLabel: "Top Companies Hiring Full Stack Developers",
+  jobsLabel: "Global Job Openings",
+  jobsDescription: "50,000+ openings on LinkedIn, Naukri, Indeed, and developer-focused platforms in 2024"
 }
 
 
