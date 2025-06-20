@@ -38,6 +38,7 @@ import { generativeAi } from "./generativeAi";
 import { cybersecuritycryptography } from "./cybersecurity-cryptography";
 // import { promptengineering } from "./prompt-engineering";
 import { promptEngineering } from "./prompt-engineering";
+import { fullStackMERN } from "./fullStackMERN";
 
 export const courseInfo: Course[] = [
  
@@ -93,6 +94,7 @@ export const courseInfo: Course[] = [
   specialisationInnlp,
   cybersecuritycryptography,
   promptEngineering,
+  fullStackMERN
  
   
  
