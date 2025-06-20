@@ -24,8 +24,9 @@ export const useAuth = (): AuthContextType => {
     checkAuthStatus();
   }, []);
 
-  const signIn = (): void => {
+  const signIn = (email: string, password: string): void => {
     try {
+      // You can add logic to check email/password if needed
       localStorage.setItem('isAuthenticated', 'true');
       setIsAuthenticated(true);
     } catch (error) {

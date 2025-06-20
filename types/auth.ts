@@ -6,10 +6,10 @@ export interface Credentials {
 export interface AuthContextType {
   isAuthenticated: boolean;
   isLoading: boolean;
-  signIn: () => void;
+  signIn: (email: string, password: string) => void;
   signOut: () => void;
 }
 
 export interface SignInProps {
-  onSignIn: () => void;
+  onSignIn: (email: string, password: string) => void;
 }
