@@ -6,7 +6,7 @@ export const fullStackMERN:Course = {
     slug: "full-stack-mern",
     rating: 5,
     totalRatings: 10,
-    duration: "2 Months",
+    duration: "50+ Hours",
     globalStatus: "GLOBALLY RECOGNISED PROGRAM",
     programBy: "Vimal Daga",
     hours: "10+",
@@ -69,7 +69,7 @@ features: [
 {
   id: 2,
   title: "MongoDB Architecture Overview",
-  description: "Explore MongoDB’s internal architecture and understand how it handles data and deployment.",
+  description: "Explore MongoDB internal architecture and understand how it handles data and deployment.",
   content: [
     "MongoDB Deployment Types: Standalone, Replica Set, Sharded Cluster",
     "Documents, Collections, and Databases",
