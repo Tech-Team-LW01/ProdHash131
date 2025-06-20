@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/card";
 import ChartComponent from "./courseDetails/ChartComponent";
 import { Search, User } from "lucide-react";
 import { analystData, companyLogos, CompanyName } from "../../../../data/analyst/analyst";
+import Image from "next/image";
 
 interface AnalystProps {
   courseId: string;
@@ -72,7 +73,7 @@ const Analyst: React.FC<AnalystProps> = ({ courseId }) => {
               {companies.map((company) => {
                 if (!isValidCompany(company)) return null;
                 return (
-                  <img
+                  <Image
                     key={company}
                     src={companyLogos[company]}
                     alt={company}

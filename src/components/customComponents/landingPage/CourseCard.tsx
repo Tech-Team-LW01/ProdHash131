@@ -4,6 +4,7 @@ import { Course } from "../../../../types/courses";
 import { useRouter } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
 import { FontRomanIcon } from "@radix-ui/react-icons";
+import Image from "next/image";
 
 type SimplifiedCourse = Pick<Course, '_id' | 'title' | 'category' | 'backgroundImage' | 'rating' | 'hours' | 'slug' | 'shortDescription'>;
 
@@ -126,9 +127,10 @@ export default function CourseCard({ course }: CourseCardProps) {
       className="group relative overflow-hidden w-full cursor-pointer transition-transform hover:scale-105 flex flex-col h-[340px]"
     >
       <div className="h-[260px] overflow-hidden">
-        <img 
+        <Image 
           src={course.backgroundImage}
           alt={course.title}
+          fill
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
       </div>

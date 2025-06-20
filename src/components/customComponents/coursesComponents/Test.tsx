@@ -1,5 +1,6 @@
 "use client"
 import { Button } from "@/components/ui/button"
+import Image from 'next/image'
 
 export default function Component() {
   return (
@@ -13,9 +14,11 @@ export default function Component() {
         <div className="relative bg-blue-50 rounded-2xl p-8 mb-8 overflow-hidden">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative">
-              <img
+              <Image
                 src="/placeholder.svg?height=300&width=400"
                 alt="Educational illustration"
+                width={400}
+                height={300}
                 className="w-full h-auto"
               />
             </div>
@@ -51,9 +54,11 @@ export default function Component() {
               </Button>
             </div>
             <div className="relative order-first md:order-last">
-              <img
+              <Image
                 src="/placeholder.svg?height=300&width=400"
                 alt="Person working illustration"
+                width={400}
+                height={300}
                 className="w-full h-auto"
               />
             </div>
@@ -64,9 +69,11 @@ export default function Component() {
         <div className="relative bg-blue-50 rounded-2xl p-8 overflow-hidden">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative">
-              <img
+              <Image
                 src="/placeholder.svg?height=300&width=400"
                 alt="Video case studies illustration"
+                width={400}
+                height={300}
                 className="w-full h-auto"
               />
             </div>

@@ -25,7 +25,7 @@ const SignIn: React.FC<SignInProps> = ({ onSignIn }) => {
         credentials.password === VALID_CREDENTIALS.password) {
       // Store authentication in localStorage
       localStorage.setItem('isAuthenticated', 'true');
-      onSignIn();
+      onSignIn(credentials.username, credentials.password);
       setError('');
     } else {
       setError('Invalid username or password');

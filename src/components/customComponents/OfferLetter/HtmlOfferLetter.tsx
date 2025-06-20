@@ -1,21 +1,9 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React from 'react';
 import { OfferLetterFormData } from '../../../../types/offerLetter';
 import lwlogo from "../../../../public/assets/OfferLetter/LW JAZBAA.png";
 import seal from "../../../../public/assets/OfferLetter/seal.png";
 import sign from "../../../../public/assets/OfferLetter/sign.png";
+import Image from 'next/image';
 
 interface HtmlOfferLetterProps {
   data: OfferLetterFormData;
@@ -67,9 +55,10 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
       className="w-[210mm] h-[297mm] mx-auto bg-white relative font-sans hidden overflow-hidden"
     >
       {/* Background image */}
-      <img 
+      <Image 
         src={lwlogo.src}
         alt="Background"
+        fill
         className="absolute top-0 left-0 w-full h-full object-cover opacity-100 z-0"
       />
 
@@ -105,16 +94,20 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
           {/* Signature and Seal Container */}
           <div className="relative mt-2 h-[100px] w-[200px]">
             {/* Seal Image */}
-            <img 
+            <Image 
               src={seal.src}
               alt="Official Seal"
+              width={80}
+              height={80}
               className="absolute bottom-0 left-0 w-[80px] h-[80px] object-contain z-10"
             />
             
             {/* Signature Image */}
-            <img 
+            <Image 
               src={sign.src}
               alt="Signature"
+              width={120}
+              height={60}
               className="absolute top-0 left-[20px] w-[120px] object-contain z-20"
             />
           </div>

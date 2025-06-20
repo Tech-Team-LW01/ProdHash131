@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import dockerLogo from "../../../../../public/assets/Projects/Azure-&-GCP-Cloud.png"
+import Image from "next/image";
 
 
 const projectData = [
@@ -128,7 +129,12 @@ export default function Projects() {
                   >
                     <CardHeader>
                       <div className="w-36 h-16 bg-white rounded-lg flex items-center justify-center mb-2">
-                        <img alt="icon" src={project.icon.toString()}></img>
+                        <Image 
+                          alt="icon" 
+                          src={project.icon.toString()}
+                          width={144}
+                          height={64}
+                        />
                       </div>
                       <h3 className="text-xl font-bold">{project.title}</h3>
                       <p className="text-muted-foreground">{project.description}</p>

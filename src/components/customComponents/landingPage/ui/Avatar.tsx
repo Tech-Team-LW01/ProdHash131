@@ -1,5 +1,6 @@
 // Avatar.tsx
 import { ReactNode } from "react";
+import Image from "next/image";
 
 interface AvatarProps {
   children: ReactNode;
@@ -24,7 +25,7 @@ export function Avatar({ children, className = "" }: AvatarProps) {
 }
 
 export function AvatarImage({ src, alt }: AvatarImageProps) {
-  return <img src={src} alt={alt} className="h-full w-full object-cover" />;
+  return <Image src={src} alt={alt} fill className="h-full w-full object-cover" />;
 }
 
 export function AvatarFallback({ children }: AvatarFallbackProps) {

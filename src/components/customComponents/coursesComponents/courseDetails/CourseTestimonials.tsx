@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Linkedin } from 'lucide-react';
 import {posts} from '../../../../../data/testimonials/posts'
+import Image from 'next/image';
 
 export default function Component() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -60,7 +61,13 @@ const PostCard: React.FC<{ post: any }> = ({ post }) => {
       <div className="pb-2">
         <div className="flex items-center space-x-3 sm:space-x-4">
           <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-full bg-gray-300">
-            <img className="h-full w-full object-cover rounded-full" src={post.author.avatar || '/default-avatar.png'} alt={post.author.name} />
+            <Image 
+              className="h-full w-full object-cover rounded-full" 
+              src={post.author.avatar || '/default-avatar.png'} 
+              alt={post.author.name}
+              width={48}
+              height={48}
+            />
           </div>
           <div className="flex-grow">
             <h3 className="text-sm font-semibold">{post.author.name}</h3>

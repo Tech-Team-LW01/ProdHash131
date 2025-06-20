@@ -1,6 +1,8 @@
 "use client"
 import React from 'react';
 import { logos } from '../../../../../data/mentorFeatured/mentorFeatured';
+import Image from 'next/image';
+
 const MentorFeatured = () => {
 
   return (
@@ -16,9 +18,11 @@ const MentorFeatured = () => {
                 className="mx-2 w-32 flex-shrink-0"
               >
                 <div className="w-28 h-16 flex items-center justify-center">
-                  <img
+                  <Image
                     src={logo.src}
                     alt={logo.alt}
+                    width={112}
+                    height={64}
                     className="max-h-16 w-auto object-contain"
                   />
                 </div>
@@ -34,9 +38,11 @@ const MentorFeatured = () => {
                 className="mx-2 w-32 flex-shrink-0"
               >
                 <div className="w-28 h-16 flex items-center justify-center">
-                  <img
+                  <Image
                     src={logo.src}
                     alt={logo.alt}
+                    width={112}
+                    height={64}
                     className="max-h-16 w-auto object-contain"
                   />
                 </div>

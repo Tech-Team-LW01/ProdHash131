@@ -108,7 +108,12 @@ const MentorProfile = () => {
               >
                 {mentorImages.map((image, index) => (
                   <SwiperSlide key={index}>
-                    <img src={image} alt={`Mentor Image ${index + 1}`} className="w-full h-full object-cover" />
+                    <Image 
+                      src={image} 
+                      alt={`Mentor Image ${index + 1}`} 
+                      fill
+                      className="w-full h-full object-cover" 
+                    />
                   </SwiperSlide>
                 ))}
               </Swiper>

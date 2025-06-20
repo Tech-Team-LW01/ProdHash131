@@ -1,10 +1,9 @@
-
-
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import { Users, ArrowUpRight, Globe } from "lucide-react";
 import { usePathname } from 'next/navigation';
+import Image from "next/image";
 
 interface FormData {
   fullName: string;
@@ -175,9 +174,11 @@ export default function QueryForm() {
             <div>
               <div className="flex">
                 <div className="flex items-center px-3 border rounded-l-md border-r-0 bg-muted">
-                  <img
+                  <Image
                     src="/assets/flag.png"
                     alt="IN"
+                    width={28}
+                    height={20}
                     className="w-7 h-5 object-cover"
                   />
                   <span className="ml-2 text-sm">+91</span>

@@ -3,7 +3,7 @@
 
 import { motion, useAnimationControls } from 'framer-motion';
 import Image from 'next/image';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import { images, learners } from '../../../../../../data/keyOutComes/keyOutComes';
 
 interface CarouselItemProps {
@@ -42,7 +42,7 @@ const LearnersCarousel = () => {
   const carouselRef = useRef<HTMLDivElement>(null);
   const controls = useAnimationControls();
 
-  const startAnimation = () => {
+  const startAnimation = useCallback(() => {
     if (width) {
       controls.start({
         x: -width,
@@ -54,7 +54,7 @@ const LearnersCarousel = () => {
         },
       });
     }
-  };
+  }, [width, controls]);
 
   const updateWidth = () => {
     if (carouselRef.current) {
@@ -72,7 +72,7 @@ const LearnersCarousel = () => {
       controls.set({ x: 0 });
       startAnimation();
     }
-  }, [controls]);
+  }, [controls, startAnimation]);
 
   // Handle resize
   useEffect(() => {
@@ -94,7 +94,7 @@ const LearnersCarousel = () => {
       window.removeEventListener('resize', handleResize);
       clearTimeout(resizeTimer);
     };
-  }, [controls, isPaused]);
+  }, [controls, isPaused, startAnimation]);
 
   // Triple the items to ensure smooth infinite loop
   const tripleItems = [...learners, ...learners, ...learners];

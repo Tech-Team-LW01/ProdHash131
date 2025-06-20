@@ -3,6 +3,7 @@ import { OfferLetterFormData } from '../../../../types/offerLetter';
 import lwlogo from "../../../../public/assets/OfferLetter/LW JAZBAA.png";
 import seal from "../../../../public/assets/OfferLetter/seal.png";
 import sign from "../../../../public/assets/OfferLetter/sign.png";
+import Image from 'next/image';
 
 interface HtmlOfferLetterProps {
   data: OfferLetterFormData;
@@ -54,9 +55,10 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
       className="w-[210mm] h-[297mm] mx-auto bg-white relative font-sans hidden overflow-hidden"
     >
       {/* Background image */}
-      <img 
+      <Image 
         src={lwlogo.src}
         alt="Background"
+        fill
         className="absolute top-0 left-0 w-full h-full object-cover opacity-100 z-0"
       />
 
@@ -78,7 +80,7 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
         {/* Letter Body */}
         <div className="text-sm leading-relaxed text-justify mb-6">
           <p className="mb-4">
-            This is to certify that <span className="font-bold">{data.fullName}</span> Student of <span className="font-bold">{data.instituteName}</span> will be undergoing the Summer Internship Program on <span className="font-bold">"{data.courseTitle}"</span> at LinuxWorld Informatics Pvt. Ltd. under the mentorship of The World Record Holder & CTO- <span className="font-bold">Mr. Vimal Daga</span>, for a period of 2 month as per the official college Curriculum.
+            This is to certify that <span className="font-bold">{data.fullName}</span> Student of <span className="font-bold">{data.instituteName}</span> will be undergoing the Summer Internship Program on <span className="font-bold">&ldquo;{data.courseTitle}&rdquo;</span> at LinuxWorld Informatics Pvt. Ltd. under the mentorship of The World Record Holder & CTO- <span className="font-bold">Mr. Vimal Daga</span>, for a period of 2 month as per the official college Curriculum.
           </p>
           <p className="mb-2">
             The management will continuously monitor his performance during the summer period of research and development.
@@ -92,15 +94,19 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
           {/* Signature and Seal Container */}
           <div className="relative mt-2 h-[100px] w-[200px]">
             {/* Seal Image */}
-            <img 
+            <Image 
               src={seal.src}
               alt="Official Seal"
+              width={80}
+              height={80}
               className="absolute bottom-0 left-0 w-[80px] h-[80px] object-contain z-10"
             />
             {/* Signature Image */}
-            <img 
+            <Image 
               src={sign.src}
               alt="Signature"
+              width={120}
+              height={60}
               className="absolute top-0 left-[20px] w-[120px] object-contain z-20"
             />
           </div>

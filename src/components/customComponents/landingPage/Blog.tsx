@@ -38,9 +38,11 @@ const BlogSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogs.map((blog) => (
           <Card key={blog.id} className="overflow-hidden">
-            <img 
+            <Image 
               src={blog.image} 
               alt={blog.title}
+              width={400}
+              height={192}
               className="w-full h-48 object-cover"
             />
             <CardContent className="p-4">

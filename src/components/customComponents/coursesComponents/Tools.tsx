@@ -1,9 +1,9 @@
-
 // components/customComponents/coursesComponents/Tools.tsx
 
 import React from "react";
 import { TrendingUp, BarChart, Cpu,Server,Database   } from "lucide-react";
 import { courseInfo } from "../../../../data/courses/courses";
+import Image from "next/image";
 
 // Icon mapping
 const IconMap = {
@@ -98,9 +98,11 @@ const Tools: React.FC<ToolsProps> = ({ courseId }) => {
         {/* Right Image Section */}
         <div className="lg:w-1/2 flex items-center justify-center mt-8 lg:mt-0 md:p-6">
           <div className="relative bg-white md:p-4 sm:p-8 rounded-lg shadow-lg">
-            <img
+            <Image
               src={toolsData.displayImage}
               alt={`${toolsData.category} Tools and Technologies`}
+              width={400}
+              height={300}
               className="w-full h-auto"
             />
           </div>

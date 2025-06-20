@@ -1,10 +1,8 @@
-
-
-
 "use client"
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Course } from '../../../../../types/courses';
+import Image from 'next/image';
 
 interface WhoIsThisProgramForProps {
     course: Course;
@@ -29,9 +27,10 @@ const WhoIsThisProgramFor: React.FC<WhoIsThisProgramForProps> = ({ course }) => 
                                 <Card className="max-w-[280px] h-[150px] rounded-2xl border-4 border-black-900 shadow-black shadow-md hover:shadow-lg transition-all duration-300 flex-shrink-0">
                                     <CardContent className="p-1 space-y-4 flex flex-col justify-between h-full">
                                         <div className="w-full aspect-video relative rounded-lg overflow-hidden flex-shrink-0">
-                                            <img
+                                            <Image
                                                 src={data.src}
                                                 alt={data.alt}
+                                                fill
                                                 className="w-full h-full object-cover" // Changed to object-cover for better fit
                                             />
                                         </div>
@@ -56,9 +55,10 @@ const WhoIsThisProgramFor: React.FC<WhoIsThisProgramForProps> = ({ course }) => 
                                 <Card className="max-w-[280px] h-[150px] rounded-2xl border-4 border-black-900 shadow-black shadow-md hover:shadow-lg transition-all duration-300">
                                     <CardContent className="p-1 space-y-4 flex flex-col justify-between h-full">
                                         <div className="w-full aspect-video relative rounded-lg overflow-hidden flex-shrink-0">
-                                            <img
+                                            <Image
                                                 src={data.src}
                                                 alt={data.alt}
+                                                fill
                                                 className="w-full h-full object-cover" // Changed to object-cover for better fit
                                             />
                                         </div>

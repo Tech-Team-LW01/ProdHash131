@@ -1,9 +1,9 @@
-
 // src/components/ui/Card.tsx
 
 import React from 'react';
 import { Badge } from './Badge'; // Adjust the path if necessary
 import { Star, Clock4, BookOpen } from 'lucide-react';
+import Image from 'next/image';
 
 interface CardProps {
   category: string;
@@ -28,9 +28,11 @@ const Card: React.FC<CardProps> = ({
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
       {imageUrl && (
         <div className="relative">
-          <img
+          <Image
             src={imageUrl}
-            // alt={title}
+            alt={title}
+            width={400}
+            height={192}
             className="object-cover h-48 w-full"
           />
           <Badge className="absolute top-2 left-2 bg-teal-500">{category}</Badge>

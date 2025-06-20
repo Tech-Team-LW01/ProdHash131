@@ -1,6 +1,7 @@
 import { Star } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { courseInfo1 } from "../../../../../data/exampleCard/ExampleCard";
+import Image from "next/image";
 
 
 export default function ExampleCard() {
@@ -12,9 +13,10 @@ export default function ExampleCard() {
           className="group relative overflow-hidden w-full h-[300px] cursor-pointer transition-transform hover:scale-105"
         >
           {/* Background Image */}
-          <img
+          <Image
             src={course.backgroundImage}
             alt={course.title}
+            fill
             className="absolute inset-0 w-full h-full object-cover"
           />
 

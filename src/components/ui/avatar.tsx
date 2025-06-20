@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 interface AvatarProps {
   src: string
@@ -13,9 +14,10 @@ export const Avatar: React.FC<AvatarProps> = ({ src, alt, fallback, className = 
   return (
     <div className={`relative inline-block ${className}`}>
       {!imageError ? (
-        <img
+        <Image
           src={src}
           alt={alt}
+          fill
           className="rounded-full object-cover w-full h-full"
           onError={() => setImageError(true)}
         />
