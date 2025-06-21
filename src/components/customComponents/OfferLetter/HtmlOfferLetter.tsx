@@ -1,7 +1,7 @@
 import React from 'react';
 import { OfferLetterFormData } from '../../../../types/offerLetter';
 import lwlogo from "../../../../public/assets/OfferLetter/LW JAZBAA.png";
-import seal from "../../../../public/assets/OfferLetter/Asset 2.png";
+import seal from "../../../../public/assets/OfferLetter/seal.png";
 // import sign from "../../../../public/assets/OfferLetter/sign.png";
 import Image from 'next/image';
 
