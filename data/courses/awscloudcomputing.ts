@@ -15,7 +15,7 @@ export const awscloudcomputing :Course = {
     enrolledStudents: 12000,
     category: "Web Scraping & Data Extraction",
     shortDescription: "Become a Fullstack Web Developer with MongoDB, Express.js, React.js, and Node.js ",
-   paymentLink:"https://rzp.io/rzp/BjI5h12",
+   paymentLink:"https://rzp.io/rzp/ZQbIl8C3",
     backgroundImage: "/assets/cources/fullstackmern/devops-and-cloud-computing.jpg",
  
 learningOutcomes: [
@@ -212,7 +212,7 @@ features: [
   sectionTitle: "Tools & Technologies Covered in DevOps & AWS Cloud Computing",
   category: "DevOps & Cloud",
   toolsCount: "20+",
-  displayImage: "/assets/cources/tools-devops.jpg", // You can replace the image path as needed
+  displayImage: "/assets/cources/fullstackmern/DevOps-AWS-technologies.jpg", // You can replace the image path as needed
   tools: [
     {
       id: "",

@@ -1,8 +1,8 @@
 import React from 'react';
 import { OfferLetterFormData } from '../../../../types/offerLetter';
 import lwlogo from "../../../../public/assets/OfferLetter/LW JAZBAA.png";
-import seal from "../../../../public/assets/OfferLetter/seal.png";
-import sign from "../../../../public/assets/OfferLetter/sign.png";
+import seal from "../../../../public/assets/OfferLetter/Asset 2.png";
+// import sign from "../../../../public/assets/OfferLetter/sign.png";
 import Image from 'next/image';
 
 interface HtmlOfferLetterProps {
@@ -100,16 +100,16 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
             />
 
             {/* Signature Image */}
-            <Image
+            {/* <Image
               src={sign.src}
               alt="Signature"
               width={120}
               height={60}
               className="w-[120px] h-[60px] object-contain"
-            />
+            /> */}
           </div>
 
-          <p className="font-bold">Ms. Preeti Daga</p>
+          {/* <p className="font-bold">Ms. Preeti Daga</p> */}
         </div>
       </div>
     </div>
