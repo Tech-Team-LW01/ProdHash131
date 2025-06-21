@@ -84,32 +84,21 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
         </div>
 
         {/* Signature Section */}
-        <div className="mt-6">
-          <p className="mb-1">Regards,</p>
-          <p className="mb-2">LinuxWorld Informatics Pvt Ltd</p>
+       <div className="mt-6">
+            <p className="mb-1">Regards,</p>
+            <p className="mb-2">LinuxWorld Informatics Pvt Ltd</p>
 
-          {/* Signature and Seal */}
-          <div className="flex items-end gap-6 mt-6 mb-2">
-            {/* Seal Image */}
-            <Image
-              src={seal.src}
-              alt="Official Seal"
-              width={80}
-              height={80}
-              className="w-[80px] h-[80px] object-contain"
-            />
-
-            {/* Signature Image */}
-            {/* <Image
-              src={sign.src}
-              alt="Signature"
-              width={120}
-              height={60}
-              className="w-[120px] h-[60px] object-contain"
-            /> */}
-          </div>
-
-          {/* <p className="font-bold">Ms. Preeti Daga</p> */}
+            {/* Signature and Seal */}
+            <div className="flex items-end gap-6 mt-6 mb-2">
+                {/* Seal Image */}
+                <Image
+                  src={seal.src}
+                  alt="Official Seal"
+                  width={80}
+                  height={80}
+                  className="w-[90px] h-[90px] object-contain"
+                />
+            </div>
         </div>
       </div>
     </div>
