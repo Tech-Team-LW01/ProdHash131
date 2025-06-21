@@ -75,15 +75,10 @@ body {
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
   body {
     @apply bg-background text-foreground;
   }
 }
-
-
 
 @keyframes alumni-scroll {
   from {
@@ -102,11 +97,6 @@ body {
 .alumni-scroller:hover .alumni-scroll-animation {
  
 }
-
-
-
-
-
 
 /* Mobile optimizations for navbar */
 @media screen and (max-width: 639px) {
