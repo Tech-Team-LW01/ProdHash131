@@ -18,7 +18,6 @@ import { OfferLetterFormData } from '../../../../types/offerLetter';
 import { Input } from '@/components/ui/input';
 import HtmlOfferLetter from './HtmlOfferLetter';
 import toast, { Toaster } from 'react-hot-toast'; 
-import LetterPreview from './LetterPreview';
 
 // Helper function to format dates
 function formatDate(dateString: string): string {
@@ -431,14 +430,14 @@ export default function OfferLetterGenerator(): JSX.Element {
           )}
           
           <div className="flex flex-wrap justify-center gap-4">
-            <Button 
+            <Button
               onClick={handleDownloadPdf}
               disabled={isGeneratingPdf || isSendingEmail}
               className="bg-blue-600 hover:bg-blue-700"
             >
               {isGeneratingPdf ? 'Generating PDF...' : 'Download Confirmation Letter'}
             </Button>
-            
+
             <Button 
               onClick={handleSendEmail}
               disabled={isGeneratingPdf || isSendingEmail}
@@ -446,25 +445,11 @@ export default function OfferLetterGenerator(): JSX.Element {
             >
               {isSendingEmail ? 'Sending Email...' : 'Send via Email'}
             </Button>
-                        <Button variant="outline" onClick={() => setFormData(null)}>
+            <Button variant="outline" onClick={() => setFormData(null)}>
               Create Another Letter
             </Button>
           </div>
         </div>
-      )}
-      
-      {/* Live Preview using the new, simplified component */}
-      {formData && (
-        <Card className="mb-6">
-          <CardHeader>
-            <CardTitle>Live Preview</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="border rounded-lg p-4 bg-white overflow-auto h-[400px]">
-              <LetterPreview data={formData} />
-            </div>
-          </CardContent>
-        </Card>
       )}
       
       {/* Hidden container with the full-sized letter for PDF generation */}
