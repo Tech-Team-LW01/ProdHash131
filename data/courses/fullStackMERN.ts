@@ -15,8 +15,8 @@ export const fullStackMERN:Course = {
     enrolledStudents: 12000,
     category: "Web Scraping & Data Extraction",
     shortDescription: "Become a Fullstack Web Developer with MongoDB, Express.js, React.js, and Node.js ",
-   paymentLink:"https://rzp.io/rzp/BjI5h12",
-    backgroundImage: "",
+   paymentLink:"https://rzp.io/rzp/RYrw3cRk",
+    backgroundImage: "/assets/cources/fullstackmern/MERN-stack-banner.jpg",
  
 learningOutcomes: [
   "Test Automation",
@@ -240,7 +240,7 @@ features: [
 
     ],
     
-    certificateImage: "/assets/certificate/Selenium & Python Training.jpg",
+    certificateImage: "/assets/cources/fullstackmern/MERN-certificate.jpg",
 
     project: [
        {
@@ -289,7 +289,7 @@ features: [
     sectionTitle: "Tools & Technologies Covered in MERN Stack",
     category: "Full Stack Web Development",
     toolsCount: "20+",
-    displayImage: "/assets/cources/tools-mern.jpg",
+    displayImage: "/assets/cources/fullstackmern/MERN-stack-banner.jpg",
     tools: [
       {
         id: "",
