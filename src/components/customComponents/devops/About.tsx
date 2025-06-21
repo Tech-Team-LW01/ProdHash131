@@ -35,8 +35,8 @@ const About: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-slide-up">
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-              This isn't your typical DevOps course. We believe in learning by doing. 
-              Through 6 comprehensive projects, you'll build production-ready applications 
+              This isn`&apos;`t your typical DevOps course. We believe in learning by doing. 
+              Through 6 comprehensive projects, you`&apos;`ll build production-ready applications 
               and infrastructure that mirror real-world scenarios. Each project is designed 
               to challenge you and build upon previous knowledge, creating a complete 
               DevOps and Cloud ecosystem.
@@ -55,7 +55,7 @@ const About: React.FC = () => {
           </div>
 
           <div className="animate-slide-up delay-200">
-            <h3 className="text-2xl font-semibold mb-6 text-primary-red">Technologies You'll Master</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-primary-red">Technologies You`&apos;`ll Master</h3>
             <div className="grid grid-cols-2 gap-4">
               {technologies.map((tech, index) => (
                 <div 

@@ -18,6 +18,7 @@ import { OfferLetterFormData } from '../../../../types/offerLetter';
 import { Input } from '@/components/ui/input';
 import HtmlOfferLetter from './HtmlOfferLetter';
 import toast, { Toaster } from 'react-hot-toast'; 
+import LetterPreview from './LetterPreview';
 
 // Helper function to format dates
 function formatDate(dateString: string): string {
@@ -240,168 +241,141 @@ export default function OfferLetterGenerator(): JSX.Element {
     setError(null);
   };
   
-  // Helper function to prepare the letter for PDF generation or email
-  const prepareLetter = async (): Promise<{ canvas: HTMLCanvasElement } | null> => {
-    if (!formData || !letterRef.current) {
-      setError('Please wait for resources to load before processing.');
-      return null;
-    }
-    
-    try {
-      letterRef.current.style.display = 'block';
-      
-      // Wait longer for all images to load properly
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      const canvas = await html2canvas(letterRef.current, {
-        scale: 3,
-        useCORS: true,
-        allowTaint: true,
-        backgroundColor: '#ffffff',
-        logging: false,
-        imageTimeout: 15000,
-        onclone: (clonedDoc) => {
-          // Wait for all images to load in the cloned document
-          const imgElements = clonedDoc.querySelectorAll('img');
-          if (imgElements.length > 0) {
-            const imagePromises = Array.from(imgElements).map((imgElement) => {
-              return new Promise<void>((resolve) => {
-                if (imgElement.complete && imgElement.naturalWidth > 0) {
-                  resolve();
-                } else {
-                  imgElement.onload = () => resolve();
-                  imgElement.onerror = () => resolve(); // Continue even if some images fail
-                }
-              });
-            });
-            return Promise.all(imagePromises);
-          }
-          return Promise.resolve();
-        }
-      });
-      
-      letterRef.current.style.display = 'none';
-      
-      return { canvas };
-    } catch (err) {
-      console.error('Error preparing letter:', err);
-      setError('Failed to prepare the letter. Please try again.');
-      return null;
-    }
-  };
-  
-  // PDF download function
   const handleDownloadPdf = async (): Promise<void> => {
+    if (!formData || !letterRef.current) {
+      toast.error('Please generate a letter first.');
+      return;
+    }
+
     setIsGeneratingPdf(true);
-    setError(null);
-    
+    toast.loading('Generating PDF...');
+
     try {
-      const result = await prepareLetter();
+      const letterElement = letterRef.current;
       
-      if (!result) {
-        return;
-      }
-      
-      const { canvas } = result;
-      
-      const imgData = canvas.toDataURL('image/png', 1.0);
+      // Temporarily make the hidden element visible for capturing
+      letterElement.classList.remove('hidden');
+      letterElement.style.display = 'block';
+
+      const canvas = await html2canvas(letterElement, {
+        scale: 3, // Higher scale for better quality
+        useCORS: true,
+        logging: true,
+        allowTaint: true,
+        width: letterElement.offsetWidth,
+        height: letterElement.offsetHeight,
+        windowWidth: letterElement.scrollWidth,
+        windowHeight: letterElement.scrollHeight,
+      });
+
+      // Hide the element again
+      letterElement.style.display = 'none';
+      letterElement.classList.add('hidden');
+
+      const imgData = canvas.toDataURL('image/png');
       const pdf = new jsPDF({
         orientation: 'portrait',
         unit: 'mm',
-        format: 'a4'
+        format: 'a4',
       });
+
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const pdfHeight = pdf.internal.pageSize.getHeight();
       
-      pdf.addImage(imgData, 'PNG', 0, 0, 210, 297);
+      pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
       
-      const cleanName = formData!.fullName.replace(/\s+/g, '-').toLowerCase();
-      pdf.save(`confirmation-letter-${cleanName}.pdf`);
+      const fileName = `confirmation-letter-${formData.fullName.replace(/\s+/g, '-')}.pdf`;
+      pdf.save(fileName);
+
+      toast.dismiss();
+      toast.success('PDF downloaded successfully');
       
-      toast.success("Your confirmation letter has been downloaded");
-      
-      // Update status to "Sent" after successful PDF generation
-      if (formData) {
-        console.log('Attempting to update status after PDF download'); // Debug log
-        const statusUpdated = await updateStatusInSheet(formData.email, formData.fullName, 'Sent');
-        if (!statusUpdated) {
-          console.error('Failed to update status after PDF download');
-        }
-      }
-      
-    } catch (err) {
-      console.error('Error generating PDF:', err);
-      setError('Failed to generate PDF. Please try again.');
+      // Update status in Google Sheets
+      await updateStatusInSheet(formData.email, formData.fullName, 'Downloaded');
+
+    } catch (error) {
+      console.error('Error generating PDF:', error);
+      toast.dismiss();
       toast.error('Failed to generate PDF');
     } finally {
       setIsGeneratingPdf(false);
     }
   };
   
-  // Handle sending email with PDF attachment
+  // This function is now the source of truth for sending emails
   const handleSendEmail = async (): Promise<void> => {
-    if (!formData) {
-      setError('Please wait for resources to load before sending email.');
+    if (!formData || !letterRef.current) {
+      toast.error('Please select a person and generate a letter first.');
       return;
     }
-    
+
+    setIsSendingEmail(true);
+    toast.loading('Sending email...');
+
     try {
-      setIsSendingEmail(true);
-      setError(null);
+      const letterElement = letterRef.current;
+
+      // Temporarily make it visible to capture
+      letterElement.classList.remove('hidden');
+      letterElement.style.display = 'block';
       
-      const letterResult = await prepareLetter();
-      
-      if (!letterResult) {
-        return;
-      }
-      
-      const { canvas } = letterResult;
-      
-      const imgData = canvas.toDataURL('image/png', 1.0);
-      const pdf = new jsPDF({
-        orientation: 'portrait',
-        unit: 'mm',
-        format: 'a4'
+      const canvas = await html2canvas(letterElement, {
+        scale: 3,
+        useCORS: true,
       });
+
+      // Hide it back
+      letterElement.style.display = 'none';
+      letterElement.classList.add('hidden');
       
-      pdf.addImage(imgData, 'PNG', 0, 0, 210, 297);
-      
-      const pdfBase64 = pdf.output('datauristring');
-      
+      const pdfBlob = await new Promise<Blob | null>((resolve) => {
+        const tempPdf = new jsPDF({
+          orientation: 'portrait',
+          unit: 'mm',
+          format: 'a4',
+        });
+        
+        tempPdf.addImage(
+          canvas.toDataURL('image/png'), 
+          'PNG', 
+          0, 
+          0, 
+          tempPdf.internal.pageSize.getWidth(), 
+          tempPdf.internal.pageSize.getHeight()
+        );
+        
+        resolve(tempPdf.output('blob'));
+      });
+
+      if (!pdfBlob) {
+        throw new Error('Failed to generate PDF blob.');
+      }
+
+      const emailFormData = new FormData();
+      emailFormData.append('email', formData.email);
+      emailFormData.append('fullName', formData.fullName);
+      emailFormData.append('pdf', pdfBlob, `Internship-Confirmation-Letter.pdf`);
+
       const response = await fetch('/api/send-offer-letter', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email: formData.email,
-          fullName: formData.fullName,
-          pdfBase64: pdfBase64,
-          instituteName: formData.instituteName,
-          courseTitle: formData.courseTitle
-        }),
+        body: emailFormData,
       });
+
+      const result = await response.json();
       
-      const responseData = await response.json();
-      
-      if (!response.ok) {
-        throw new Error(responseData.error || 'Failed to send email');
-      }
-      
-      toast.success(`Confirmation letter has been sent to ${formData.email}`);
-      
-      // Update status to "Sent" after successful email sending
-      console.log('Attempting to update status after email send'); // Debug log
-      const statusUpdated = await updateStatusInSheet(formData.email, formData.fullName, 'Sent');
-      if (!statusUpdated) {
-        console.error('Failed to update status after email send');
-      }
-      
-    } catch (err) {
-      console.error('Error sending email:', err);
-      setError(typeof err === 'object' && err !== null && 'message' in err 
-        ? (err as Error).message 
-        : 'Failed to send email. Please try again.');
+      if (response.ok && result.success) {
+        toast.dismiss();
+        toast.success('Email sent successfully!');
         
-      toast.error("There was a problem sending the email. Please try again.");
+        // Update status in Google Sheets
+        await updateStatusInSheet(formData.email, formData.fullName, 'Sent');
+      } else {
+        throw new Error(result.error || 'Failed to send email.');
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+      toast.dismiss();
+      toast.error(`Failed to send email: ${error instanceof Error ? error.message : 'Unknown error'}`);
     } finally {
       setIsSendingEmail(false);
     }
@@ -479,8 +453,26 @@ export default function OfferLetterGenerator(): JSX.Element {
         </div>
       )}
       
-      {/* Hidden Letter Template for PDF generation */}
-      {formData && <HtmlOfferLetter data={formData} innerRef={letterRef} />}
+      {/* Live Preview using the new, simplified component */}
+      {formData && (
+        <Card className="mb-6">
+          <CardHeader>
+            <CardTitle>Live Preview</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="border rounded-lg p-4 bg-white overflow-auto h-[400px]">
+              <LetterPreview data={formData} />
+            </div>
+          </CardContent>
+        </Card>
+      )}
+      
+      {/* Hidden container with the full-sized letter for PDF generation */}
+      {formData && (
+        <div className="absolute left-[-9999px] top-[-9999px]">
+          <HtmlOfferLetter ref={letterRef} data={formData} />
+        </div>
+      )}
       
       {/* Google Sheets Data Table */}
       <Card className="mt-8">
