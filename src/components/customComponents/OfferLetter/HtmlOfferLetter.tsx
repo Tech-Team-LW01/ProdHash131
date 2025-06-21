@@ -17,8 +17,7 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
     const day = today.getDate();
     const month = today.toLocaleDateString('en-US', { month: 'long' });
     const year = today.getFullYear();
-    
-    // Add ordinal suffix
+
     const getOrdinalSuffix = (d: number) => {
       if (d > 3 && d < 21) return 'th';
       switch (d % 10) {
@@ -28,34 +27,33 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
         default: return 'th';
       }
     };
-    
+
     return `${day}${getOrdinalSuffix(day)} ${month}, ${year}`;
   };
 
-  // Generate reference number based on course - NOW USING SERIAL NUMBER
   const generateRefNumber = () => {
-    const projectCodeMap: {[key: string]: string} = {
+    const projectCodeMap: { [key: string]: string } = {
       "DevOps End to End": "JPR",
       "Cloud Computing": "JPR",
       "Data Science": "JPR",
       "Machine Learning": "JPR",
       "Artificial Intelligence": "JPR",
     };
-    
+
     const projectCode = projectCodeMap[data.courseTitle] || "JPR";
     const year = new Date().getFullYear();
-    const serialNumber = data.serialNumber || 100; // Use the serial number from data
-    
+    const serialNumber = data.serialNumber || 100;
+
     return `LWIPL-${projectCode}-${year}-${serialNumber}`;
   };
 
   return (
-    <div 
-      ref={innerRef} 
+    <div
+      ref={innerRef}
       className="w-[210mm] h-[297mm] mx-auto bg-white relative font-sans hidden overflow-hidden"
     >
       {/* Background image */}
-      <Image 
+      <Image
         src={lwlogo.src}
         alt="Background"
         fill
@@ -64,55 +62,54 @@ const HtmlOfferLetter: React.FC<HtmlOfferLetterProps> = ({ data, innerRef }) => 
 
       {/* Content container */}
       <div className="relative z-10 pt-[240px] pl-[100px] pr-[60px] h-full box-border">
-        {/* Reference and Date - formatted to match image */}
+        {/* Reference and Date */}
         <div className="flex justify-between mb-8 text-sm font-medium">
           <div><span className="font-bold">Ref:</span> {generateRefNumber()}</div>
           <div><span className="font-bold">Date:</span> {formatDate()}</div>
         </div>
 
-        {/* Addressee - Updated to "TO WHOMSOEVER IT MAY CONCERN" centered */}
+        {/* Header */}
         <div className="mb-6 text-sm leading-relaxed text-center">
           <p className="mb-4 font-bold text-base">TO WHOMSOEVER IT MAY CONCERN</p>
         </div>
 
-        {/* Letter Body - Updated to use preferredBatch */}
+        {/* Letter Body */}
         <div className="text-sm leading-relaxed text-justify mb-6">
           <p className="mb-4">
-            This is to certify that <span className="font-bold"> {data.fullName}</span> Student of <span className="font-bold">{data.instituteName}</span> will be undergoing the Summer Internship Program on <span className="font-bold">&ldquo;{data.courseTitle}&rdquo;</span> at LinuxWorld Informatics Pvt. Ltd. under the mentorship of The World Record Holder & CTO- <span className="font-bold">Mr. Vimal Daga</span>, starting from <span className="font-bold">{data.preferredBatch } 2025</span> as per the official college Curriculum.
+            This is to certify that <span className="font-bold">{data.fullName}</span> Student of <span className="font-bold">{data.instituteName}</span> will be undergoing the Summer Internship Program on <span className="font-bold">&ldquo;{data.courseTitle}&rdquo;</span> at LinuxWorld Informatics Pvt. Ltd. under the mentorship of The World Record Holder & CTO - <span className="font-bold">Mr. Vimal Daga</span>, starting from <span className="font-bold">{data.preferredBatch} 2025</span> as per the official college curriculum.
           </p>
-          
           <p className="mb-2">
             The management will continuously monitor his/her performance during the summer period of research and development.
           </p>
         </div>
 
-        {/* Signature Area */}
-        <div className="mt-">
+        {/* Signature Section */}
+        <div className="mt-6">
           <p className="mb-1">Regards,</p>
           <p className="mb-2">LinuxWorld Informatics Pvt Ltd</p>
-          
-          {/* Signature and Seal Container */}
-          <div className="relative mt-2 h-[100px] w-[200px]">
+
+          {/* Signature and Seal */}
+          <div className="flex items-end gap-6 mt-6 mb-2">
             {/* Seal Image */}
-            <Image 
+            <Image
               src={seal.src}
               alt="Official Seal"
               width={80}
               height={80}
-              className="absolute bottom-0 left-0 w-[80px] h-[80px] object-contain z-10"
+              className="w-[80px] h-[80px] object-contain"
             />
-            
+
             {/* Signature Image */}
-            <Image 
+            <Image
               src={sign.src}
               alt="Signature"
               width={120}
               height={60}
-              className="absolute top-0 left-[20px] w-[120px] object-contain z-20"
+              className="w-[120px] h-[60px] object-contain"
             />
           </div>
-          
-          <p className="font-bold mt-">Ms. Preeti Daga</p>
+
+          <p className="font-bold">Ms. Preeti Daga</p>
         </div>
       </div>
     </div>
