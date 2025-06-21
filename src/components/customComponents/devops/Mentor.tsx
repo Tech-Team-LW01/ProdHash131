@@ -7,7 +7,7 @@ const Mentor: React.FC = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Mentorship by India's Most Loved{' '}
+            Mentorship by India`&apos;`s Most Loved{' '}
             <span className="gradient-text">Tech Mentor</span>
           </h2>
           <div className="w-24 h-1 bg-primary-red mx-auto"></div>
@@ -71,8 +71,8 @@ const Mentor: React.FC = () => {
 
             <div className="bg-gradient-to-r from-primary-red/10 to-primary-red-light/10 p-6 rounded-lg border-l-4 border-primary-red">
               <p className="text-gray-300 italic text-lg">
-                "Technology should serve humanity, not the other way around. My mission is to 
-                create tech leaders who build solutions that make the world a better place."
+                Technology should serve humanity, not the other way around. My mission is to 
+                create tech leaders who build solutions that make the world a better place.
               </p>
               <p className="text-primary-red font-semibold mt-3">- Mr. Vimal Daga</p>
             </div>

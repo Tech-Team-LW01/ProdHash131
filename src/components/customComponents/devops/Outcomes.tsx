@@ -40,7 +40,7 @@ const Outcomes: React.FC = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            What You'll <span className="gradient-text">Achieve</span>
+            What You`&apos;`ll <span className="gradient-text">Achieve</span>
           </h2>
           <div className="w-24 h-1 bg-primary-red mx-auto mb-8"></div>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
